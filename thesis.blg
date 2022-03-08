@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: pages/chapters/01_intro.aux
+Reallocating 'name_of_file' (item size: 1) to 60 items.
+A level-1 auxiliary file: pages/chapters/02_success_factors/02_00_success_factors.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: pages/chapters/03_crawler.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: natger.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Database file #1: thesis.bib
+Warning--to sort, need author or key in W3Techs_WebServer
+Warning--to sort, need author or key in StackOverflowSurvey2021
+Warning--to sort, need author or key in OpenSourceDefinition
+Warning--to sort, need author or key in TopGitHubProjects
+You've used 8 entries,
+            2811 wiz_defined-function locations,
+            652 strings with 6549 characters,
+and the built_in function-call counts, 3004 in all, are:
+= -- 243
+> -- 57
+< -- 4
++ -- 20
+- -- 18
+* -- 203
+:= -- 360
+add.period$ -- 21
+call.type$ -- 8
+change.case$ -- 34
+chr.to.int$ -- 8
+cite$ -- 16
+duplicate$ -- 246
+empty$ -- 280
+format.name$ -- 30
+if$ -- 615
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 58
+newline$ -- 40
+num.names$ -- 8
+pop$ -- 116
+preamble$ -- 1
+purify$ -- 49
+quote$ -- 0
+skip$ -- 94
+stack$ -- 0
+substring$ -- 148
+swap$ -- 149
+text.length$ -- 4
+text.prefix$ -- 4
+top$ -- 0
+type$ -- 64
+warning$ -- 4
+while$ -- 15
+width$ -- 9
+write$ -- 77
+(There were 4 warnings)

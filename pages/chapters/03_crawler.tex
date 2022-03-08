@@ -1,0 +1,127 @@
+\chapter{Crawler}
+
+% Beispiel wie Datenanalyse aussehen könnte: 
+% https://fossa.com/blog/which-open-source-license-is-the-best-for-commercialization/
+% https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph#supported-package-ecosystems
+
+% TODO: Formulierungen + Erklären Warum GitHub
+
+% Introduction für den Crawler
+
+Mithilfe des Crawlers kann sowohl der Markterfolg als auch der technische Erfolg gemessen werden.
+Über Metriken wie GitHub Sterne, Forks oder Downloads lässt sich der Markterfolg quantifizieren.
+Der technische Erfolg findet sich wieder in Daten wie Anzahl an Commits, Frequenz von Commits oder Mitwirkende.
+
+Bei der ersten Recherche wurde festgestellt, dass die Repositories mit den meisten Github Sternen
+keine Software direkt sind, sondern Repositories mit Lerninhalten.
+Zum Zeitpunkt des Schreibens (13. Februar 2022) werden Platz eins, drei und vier von
+\begin{itemize}
+    \item freeCodeCamp \textit{(340k Sterne)},
+    \item free-programming-books \textit{(222k Sterne)} und
+    \item coding-interview-university \textit{(209k Sterne)}
+\end{itemize}
+belegt.
+
+\bigskip
+
+\noindent
+Insgesamt sind unter den Top 10 Repositories auf GitHub nur drei IT Projekte im eigentlichen
+Sinne dabei \cite{TopGitHubProjects}.
+\begin{itemize}
+    \item Vue \textit{(193k Sterne)},
+    \item React \textit{(182k Sterne)} und
+    \item TensorFlow \textit{(163k Sterne)}.
+\end{itemize}
+
+
+\bigskip
+\noindent
+Es wird daher nicht möglich sein die Top 100 Projekte für die Datensammlung zu verwenden.
+Stattdessen werden Projekte von Hand ausgewählt, um zu garantieren, dass es sich nur um IT Projekte handelt.
+
+
+% TODO: Jones. 1986 finden und Zitieren, andernfalls muss man schon wieder MID12 Zitieren...
+%Zudem wird der Fokus auf JavaScript Projekte liegen. Der Grund hierfür liegt darin, dass
+%unterschiedliche Programmiersprachen sich schwerer miteinander vergleichen lassen \todoo{(Jones, 1986)}
+
+% -----------------------------------------------------------------------------------------------------------------
+
+
+\subsection{Der Crawler}
+
+Hilfreiche Ressourcen:
+
+\begin{itemize}
+    \item Welche Daten könnte man erfassen und wie? Sieh \link{https://npms.io/about}{npms.io}.
+    \item Hilfreiches Tool: \link{https://www.npmtrends.com/}{npmtrends.com}
+    \item API um an NPM Downloads ran zu kommen:
+          \link{https://github.com/npm/registry/blob/master/docs/download-counts.md}{GitHub registry}
+          bzw.
+          \link{https://github.com/npm/download-counts}{Deprecated registry}
+\end{itemize}
+
+
+
+\subsection{Disclaimer}
+
+npm downloadzahlen sind manipulierbar, ich geh zwar davon aus, dass es allgemein nicht häufig gemacht wird
+und da ja sowieso vielmehr in die rechnung rein geht als nur npm downloads. Werden diese daten trotzdem mit erfasst.
+\link{https://dev.to/andyrichardsonn/how-i-exploited-npm-downloads-and-why-you-shouldn-t-trust-them-4bme}{How to exploit NPM}.
+
+In einem 
+\link{https://blog.npmjs.org/post/92574016600/numeric-precision-matters-how-npm-download-counts-work.html}{Blogpost}
+erklärt NPM wie es zu den Download zahlen zustande kommt.
+
+
+% TODO: Frage
+% \frage{
+%     Soll ich einzelne Projekte unter die Lupen nehmen, wenn Ja
+%     1. Bei der Analyse würde ich auf folgende Punkte eingehen...(*) "reicht das?"
+%     2. Wie viele solcher Analysen sollte ich durchführen
+% }
+
+% ? Beschränkung auf JS
+% \todoo{Ggf. könnte man sich nur auf JavaScript beschränken... Warum?
+%     Sieh \cite{midhaFactorsAffectingSuccess2012} Kapitel 4.1 => Verschiedene Sprachen
+%     lassen sich schwer miteinander vergleichen.
+%     Warum JavaScript? Weil NPM die Anzahl an Downloads anzeigt (Markterfolg) und ich persönlich mich am
+%     besten damit auskenne.
+%     Java zum Beispiel hat Maven und Gradle. Was das Sammeln von Daten um einiges schwerer machen würde
+%     zudem zeigt, Maven keine Downloads zahlen an
+%     Market Success vs Technical Success == Download zahlen vs Anzahl an commits in einem Zeitraum.
+%     Hierbei lohnt sich ein Blick in \cite{midhaFactorsAffectingSuccess2012} Kapitel 4.2}
+
+% ? What data to collect?
+% \begin{itemize}
+%     \item Welche Daten werden erhoben
+%           \begin{itemize}
+%               \item Anzahl an GitHub Stars
+%               \item Anzahl an Mitwirkenden
+%               \item Anzahl an Commits nach Mitglied => Main Contributor
+%               \item Anzahl der Nutzer
+%               \item Lizenzen
+%               \item Welche Programmiersprache wurde verwendet
+%               \item Anzahl an Zeilen commented
+%               \item Anzahl an gesamten Commits / Regelmäßigkeit der Commits
+%               \item Anzahl der Tickets => Regelmäßigkeit in der Tickets abgearbeitet werden
+%               \item Was für ein Projekt ist das? Library/ Framework / Modul / Applikation ... (*)
+%               \item Wem gehört das Projekt? Einer Einzelnen Person, einem unabhängigen Team oder einem Unternehmen? (*)
+%           \end{itemize}
+%     \item evtl. wie wurde der Crawler entwickelt\dots
+%     \item Analyse der Daten (Graphen etc.)
+%     \item ggf. genauere Analyse von Projekten. Entweder von
+%           \begin{itemize}
+%               \item den Top Projekte
+%               \item Top Projekten aufgeteilt nach Branchen
+%           \end{itemize}
+%     \item *Diese Punkte müssen ggf. von Hand erhoben werden, das passt dann zum Punkt "Genauere Analyse"
+% \end{itemize}
+
+% ? Link zu Top GitHub Projekten
+% \href{https://github.com/search?l=&o=desc&q=stars%3A%3E100+stars%3A%3E1&s=stars&type=Repositories}{Link zu Github Top Repos}
+
+
+
+
+
+

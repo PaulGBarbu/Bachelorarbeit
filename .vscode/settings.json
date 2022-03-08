@@ -1,0 +1,104 @@
+{
+    "files.exclude": {
+        "**/*.aux": true,
+        "**/thesis.ist": true,
+        "**/*.bbl": true,
+        "**/*.blg": true,
+        "**/*.dbj": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.idx": true,
+        "**/*.ilg": true,
+        "**/*.ind": true,
+        "**/*.lof": true,
+        "**/*.log": true,
+        "**/*.lot": true,
+        "**/*.out": true,
+        "**/*.synctex.gz": true,
+        "**/*.toc": true,
+        "**/*fls": true,
+        "**/natger.bst": true,
+        "**/thesis.synctex(busy)": true
+    },
+    "cSpell.words": [
+        "Bangerth",
+        "Commits",
+        "Heister",
+        "Likert",
+        "mathpazo",
+        "Midha",
+        "Palatino",
+        "Palvia",
+        "plaintop",
+        "Repositories",
+        "Statista",
+        "Subramaniam",
+        "Webcrawler",
+        "Webcrawlers"
+    ],
+    "ltex.language": "de-DE",
+    "latex-workshop.latex.toolss": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-shell-escape",
+                "-file-line-error",
+                "%DOC_EXT%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-shell-escape",
+                "-file-line-error",
+                "%DOC_EXT%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCfile%"
+            ],
+            "env": {}
+        },
+    ],
+    "latex-workshop.latex.recipess": [
+        {
+            "name": "PDFLaTeX",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "PDF ➞ Bib ➞ PDF",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "XeLaTeX",
+            "tools": [
+                "xelatex"
+            ]
+        },
+        {
+            "name": "Xe ➞ Bib ➞ Xe",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex"
+            ]
+        },
+    ],
+    "latex-workshop.latex.recipe.default": "first",
+}

@@ -1,0 +1,1 @@
+{"rule":"DE_COMPOUNDS","sentence":"^\\QUm Erfolg in Open Source Software (OSS) messen zu können muss Erfolg zunächst definiert werden.\\E$"}
