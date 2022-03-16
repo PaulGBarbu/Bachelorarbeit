@@ -1,77 +1,124 @@
 \chapter{Erfolgsfaktoren}
 
-% ---------------------
-\textcolor{red}{\rule{\textwidth}{3pt}}
+% ------------------------------------------------------------------------------------------------------------------------------
+% \textcolor{red}{\rule{\textwidth}{3pt}}
 
 
+% \bigskip
+% \noindent
+% \textbf{\todoo{Wie soll man jetzt in diesem Kapitel die Faktoren unterteilen?}}
+
+% \noindent
+% Aus den ganzen Erfolgsfaktoren sollen folgende Punkte spezifisch bearbeitet werden. Weitere Punkte können zusätzlich auf Basis von
+% Literatur angesprochen werden. Sieh Liste weiter unten
+
+% \begin{enumerate}
+%     \item Lizenzen haben einen Einfluss auf den Erfolg der Projekte
+%     \item Hohe Qualität der Software  => positiver Einfluss aufs Projekt
+%     \item Gute Dokumentation => positiver Einfluss aufs Projekt
+%     \item Wer sich um die Community kümmert (devs / userbase) => positiver Einfluss aufs Projekt
+% \end{enumerate}
+
+% \noindent
+% Diese Punkte können angesprochen werden, sind aber etwas schwer zu erfassen mit einer Umfrage oder Crawler.
+
+% \begin{itemize}
+%     \item Network Effekt, an der Community kann man zwar arbeiten den Network Effekt aber nicht so richtig triggern (I guess)
+%     \item Responsibility Assignment (Bezug auf Community / Qualität)
+%     \item Timing
+%     \item Modularität
+%     \item Komplexität
+% \end{itemize}
+
+
+% \todoo{BTW}
+% Wenn es aussieht als ob die Arbeit zu kurz wird, kann man noch einzelne Projekte ganz genau unter die Lupe nehmen I guess
+% z.B. Linux, oder React for that matter weil JavaScript etc.
+
+% React gegenüberstellen zu Vue. Das eine ist ja aus dem Hause Facebook, das andere völlig Open Source...
+% Weitere mögliche Kapitel also \textit{Case Study: React vs. Vue} oder so ähnlich
+
+
+% \noindent
+% \textcolor{red}{\rule{\textwidth}{3pt}}
+
+% ------------------------------------------------------------------------------------------------------------------------------
+
+% TODO: deloneDeLoneMcLeanModel2003 einbauen!
+% \todo{\cite{deloneDeLoneMcLeanModel2003} hab ich was gelesen und markiert, aber bisher als Quelle noch
+%     nicht eingebaut}
+
+\todo{ggf. besseren Namen finden als \textit{Haupterfolgsfaktoren} und \textit{weitere Faktoren} }
 \bigskip
-\noindent
-\textbf{\todoo{Wie soll man jetzt in diesem Kapitel die Faktoren unterteilen?}}
 
 \noindent
-Aus den ganzen Erfolgsfaktoren sollen folgende Punkte spezifisch bearbeitet werden. Weitere Punkte können zusätzlich auf Basis von
-Literatur angesprochen werden. Sieh Liste weiter unten
+Es gibt viele Faktoren, die Einfluss auf den Erfolg eines Projektes haben. In diesem Kapitel 
+werden diese Faktoren näher erklärt. Dabei werden die Faktoren in zwei Klassen aufgeteilt, 
+in \textit{Haupterfolgsfaktoren} und \textit{weitere Faktoren}.
 
-\begin{enumerate}
-    \item Lizenzen haben einen Einfluss auf den Erfolg der Projekte
-    \item Hohe Qualität der Software  => positiver Einfluss aufs Projekt
-    \item Gute Dokumentation => positiver Einfluss aufs Projekt
-    \item Wer sich um die Community kümmert (devs / userbase) => positiver Einfluss aufs Projekt
-\end{enumerate}
-
-\noindent
-Diese Punkte können angesprochen werden, sind aber etwas schwer zu erfassen mit einer Umfrage oder Crawler.
-
-\begin{itemize}
-    \item Network Effekt, an der Community kann man zwar arbeiten den Network Effekt aber nicht so richtig triggern (I guess)
-    \item Responsibility Assignment (Bezug auf Community / Qualität)
-    \item Timing
-    \item Modularität
-    \item Komplexität
-\end{itemize}
+% Hauptfaktoren Erkläuterung
+Die Haupterfolgsfaktoren sind diese, die in dieser Arbeit mittels Umfrage und Datenerhebung analysiert
+werden. Darunter gehören \textit{Lizenzen, Qualität, Dokumentation, Community} und
+\textit{Network Effekt} \todoo{(ggf. noch anpassen)}.
 
 
-\todoo{BTW}
-Wenn es aussieht als ob die Arbeit zu kurz wird, kann man noch einzelne Projekte ganz genau unter die Lupe nehmen I guess
-z.B. Linux, oder React for that matter weil JavaScript etc.
-
-React gegenüberstellen zu Vue. Das eine ist ja aus dem Hause Facebook, das andere völlig Open Source...
-Weitere mögliche Kapitel also \textit{Case Study: React vs. Vue} oder so ähnlich
-
-
-\noindent
-\textcolor{red}{\rule{\textwidth}{3pt}}
-
-\todo{Infos ergänzen nachdem, die Unterkapitel geschrieben sind}
-
-\noindent
-Im Artikel von Wolfgang Bangerth und Timo Heister werden die Erfolgsfaktoren in zwei Klassen unterteilt.
-Eine Klasse mit beeinflussbaren Faktoren und eine für nicht beeinflussbare Faktoren
-\cite{bangerthWhatMakesComputational2013}.
-Im Folgenden sollen diese Faktoren erklärt werden und wie sie in diese Arbeit eingebunden werden.
+% Weitere Faktoren
+Diese Faktoren alleine schaffen allerdings kein Gesamtbild des Erfolgs, deshalb wird im Kapitel 
+\textit{\ref{sec:Weitere Faktoren}} auf weitere Faktoren eingegangen.
+Diese werden allerdings nicht mittels Datenerhebung oder Umfrage analysiert, da der Aufwand
+diese empirisch zu erfassen um einiges Aufwendiger ist. 
+Hierzu gehören Faktoren wie \textit{Timing, Modularität und Komplexität, Responsibility
+Assignment} \todoo{(ggf. noch anpassen)}
 
 
+\section{Haupterfolgsfaktoren} \label{sec:Haupterfolgsfaktoren}
 
-% --------------------------------------------------------------------------------------------------------
+\todo{Einleitender Satz für Kapitel \ref{sec:Haupterfolgsfaktoren}}
 
-\section{Beeinflussbare Faktoren}
 
-% TODO: Braucht es überhaupt die Unterteilung in Beinflussbar vs nicht beeinflussbar?
-% I Guess höchstens wenn man so etwas sagen will wie "Wir fokussieren uns auf das was die Entwickler in der Hand haben..."  + mehr Text
+\todoBox{
+    Man könnte einen weiteren Punkt aufnehmen: \textit{Community Standards}
 
-Beeinflussbare Faktoren sind die, die OSS Entwickler selbst in der Hand haben. Zu diesen Faktoren gehört
-die Lizenz, Qualität der Software sowie der Dokumentation und der \todoo{Aufbau} einer Community.
+    Sieh hierfür \link{ein Beispiel}{https://github.com/facebook/react/community}
+    die Werte können sowohl von der API erfasst werden, sieh Kapitel Crawler, als auch in der Umfrage.
+    Ich schätze den User ist es egal ob sowas wie ein \textit{Code of Conduct} oder ein \textit{Pull request template}
+    dabei ist.
+
+    % ABER meine Hypothese wäre:
+
+    % \textbf{
+    %     mehr Entwickler mitarbeiten => mehr Features => Höhere Qualität =>
+    %     besseres Produkt => mehr Erfolg
+    % }
+
+    Aber das kann man nur dann aufnehmen, wenn man von der API auch rausbekommt, was jeweils von den \textit{Community Standards}
+    eingehalten werden. Nur mit den Prozentzahlen kann man wohl leider nicht viel Anfangen.
+}
+
+
+
+
 
 \input{pages/chapters/02_success_factors/02_01_licenses.tex}
 \input{pages/chapters/02_success_factors/02_02_nutzlichkeit_quality.tex}
 \input{pages/chapters/02_success_factors/02_03_documentation.tex}
 \input{pages/chapters/02_success_factors/02_04_community.tex}
 
-
-\section{Nicht beeinflussbare Faktoren}
-
-Nicht beeinflussbare Faktoren sind Faktoren über die OSS Entwickler wenig bis gar kein Einfluss haben.
+\subsection{Sponsoren}
 
 \input{pages/chapters/02_success_factors/02_xx_networkEffekt.tex}
+
+\section{Weitere Faktoren} \label{sec:Weitere Faktoren}
+
+\todo{Einleitender Satz für Kapitel \ref{sec:Haupterfolgsfaktoren}}
+
+
 \input{pages/chapters/02_success_factors/02_xx_timing.tex}
+\subsection{Modularität und Komplexität}
+
+Bezüglich Modularität gibt es hier etwas mehr \cite{marganSuccessOpenSource2015} sieh Kapitel IV. A)
+beziehungsweise die Quellen [42,43,49] in \cite{marganSuccessOpenSource2015}
+
+\subsection{Responsibility Assigment}
+\subsection{More ?}
 

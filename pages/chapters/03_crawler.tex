@@ -52,12 +52,12 @@ Stattdessen werden Projekte von Hand ausgewählt, um zu garantieren, dass es sic
 Hilfreiche Ressourcen:
 
 \begin{itemize}
-    \item Welche Daten könnte man erfassen und wie? Sieh \link{https://npms.io/about}{npms.io}.
-    \item Hilfreiches Tool: \link{https://www.npmtrends.com/}{npmtrends.com}
+    \item Welche Daten könnte man erfassen und wie? Sieh \link{npms.io}{https://npms.io/about}.
+    \item Hilfreiches Tool: \link{npmtrends.com}{https://www.npmtrends.com/}
     \item API um an NPM Downloads ran zu kommen:
-          \link{https://github.com/npm/registry/blob/master/docs/download-counts.md}{GitHub registry}
+          \link{GitHub registry}{https://github.com/npm/registry/blob/master/docs/download-counts.md}
           bzw.
-          \link{https://github.com/npm/download-counts}{Deprecated registry}
+          \link{Deprecated registry}{https://github.com/npm/download-counts}
 \end{itemize}
 
 
@@ -66,12 +66,53 @@ Hilfreiche Ressourcen:
 
 npm downloadzahlen sind manipulierbar, ich geh zwar davon aus, dass es allgemein nicht häufig gemacht wird
 und da ja sowieso vielmehr in die rechnung rein geht als nur npm downloads. Werden diese daten trotzdem mit erfasst.
-\link{https://dev.to/andyrichardsonn/how-i-exploited-npm-downloads-and-why-you-shouldn-t-trust-them-4bme}{How to exploit NPM}.
+\link{How to exploit NPM}{https://dev.to/andyrichardsonn/how-i-exploited-npm-downloads-and-why-you-shouldn-t-trust-them-4bme}.
 
 In einem 
-\link{https://blog.npmjs.org/post/92574016600/numeric-precision-matters-how-npm-download-counts-work.html}{Blogpost}
+\link{Blogpost}{https://blog.npmjs.org/post/92574016600/numeric-precision-matters-how-npm-download-counts-work.html}
 erklärt NPM wie es zu den Download zahlen zustande kommt.
 
+
+\section{GitHub API}
+GitHub stellt eine API bereit welche man zum Analysieren von Daten verwenden kann, dies wird auch um
+einiges stabiler funktionieren als ein Web Crawler. Hier sind einige Endpoints die sehr Praktisch sein könnten.
+Mehr gibt es \link{hier}{https://docs.github.com/en/rest/reference}. Es wäre wahrscheinlich, sich
+einen \link{Access Token}{https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token}
+zu besorgen, ohne sind 60 Aufrufe pro Stunde möglich, mit Token 5000/h.
+
+Als Alternative zur REST API gibt es auch eine \link{GraphQL API}{https://docs.github.com/en/graphql}. Diese ist etwas präziser und sollte auch
+z.B. Stars over time geben können.
+
+\begin{itemize}
+    \item \link{Lizenzen}{https://docs.github.com/en/rest/reference/licenses\#get-the-license-for-a-repository}
+    \item \link{Project Health und mehr}{https://docs.github.com/en/rest/reference/metrics\#get-community-profile-metrics}
+    \item \link{Page Views}{https://docs.github.com/en/rest/reference/metrics\#get-page-views}
+    \item \link{Contributers}{https://stackoverflow.com/a/36462386/16940103} \textsubscript{1}
+    \item \link{Commits}{https://docs.github.com/en/rest/reference/commits\#list-commits} \textsuperscript{2}
+    \item \link{Stars}{https://docs.github.com/en/rest/reference/activity\#list-stargazers}
+\end{itemize}
+
+\noindent
+\textsuperscript{1} Um an die gesamtzahl der Contributer ran zu kommen ist es ein bisschen tricky, sieh Stackoverflow link
+ich habe dazu auch nicht den Link in der Doku gefunden aber das wird da schon irgendwo sein. Mehr dazu auch
+\link{hier}{https://docs.github.com/en/rest/guides/traversing-with-pagination}
+
+\bigskip
+
+\noindent
+\textsuperscript{2} Hier muss man für Gesamt Commits den gleichen Trick anwenden nehme ich an wie bei den Contributorn.
+zusätzlich dazu lässt sich auch eine Zeitspanne bestimmen!
+
+\bigskip
+
+Zusätzlich oder alternativ lässt sich auch mit den \link{GraphQL Endpoints}{https://docs.github.com/en/graphql/overview/explorer} 
+arbeiten. Hier gibt es zwei Beispiele wie andere es gemacht haben. \link{star-history}{https://star-history.com/}
+und \link{vesoft-inc}{https://vesoft-inc.github.io/github-statistics/}. (Wäre praktische diese wahrscheinlich zu Zitieren,
+die Idee ist ja nicht so ganz meine I guess so ya know). Wie das erste funktioniert weiß ich nicht genau, aber das zweite
+Tool verwendet GraphQL. Es konnte eine Grafik für React anzeigen von Anfang bis heute mit Sternen, allerdings hat der Request
+auch irgendwie idk 10min gedauert, aber bei 187k Sternen und damit dem meisten ist das schon durchaus verkraftbar.
+Die Commits lagen nur ein Jahr zurück, könnte aber eine Implementierungssache sein, da beide Projekte Open Source sind
+kann man in den Code reinschauen und sich was daraus gönnen. Außerdem gibt es noch folgendes Tool: \link{starline}{https://github.com/mawrkus/starline}
 
 % TODO: Frage
 % \frage{

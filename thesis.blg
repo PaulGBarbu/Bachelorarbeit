@@ -5,8 +5,6 @@ Reallocating 'name_of_file' (item size: 1) to 28 items.
 A level-1 auxiliary file: pages/chapters/01_intro.aux
 Reallocating 'name_of_file' (item size: 1) to 60 items.
 A level-1 auxiliary file: pages/chapters/02_success_factors/02_00_success_factors.aux
-Reallocating 'name_of_file' (item size: 1) to 30 items.
-A level-1 auxiliary file: pages/chapters/03_crawler.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
@@ -14,46 +12,45 @@ Database file #1: thesis.bib
 Warning--to sort, need author or key in W3Techs_WebServer
 Warning--to sort, need author or key in StackOverflowSurvey2021
 Warning--to sort, need author or key in OpenSourceDefinition
-Warning--to sort, need author or key in TopGitHubProjects
 You've used 8 entries,
             2811 wiz_defined-function locations,
-            652 strings with 6549 characters,
-and the built_in function-call counts, 3004 in all, are:
-= -- 243
-> -- 57
-< -- 4
-+ -- 20
-- -- 18
-* -- 203
-:= -- 360
-add.period$ -- 21
+            652 strings with 6667 characters,
+and the built_in function-call counts, 3455 in all, are:
+= -- 285
+> -- 73
+< -- 6
++ -- 26
+- -- 24
+* -- 233
+:= -- 421
+add.period$ -- 23
 call.type$ -- 8
-change.case$ -- 34
+change.case$ -- 39
 chr.to.int$ -- 8
-cite$ -- 16
-duplicate$ -- 246
-empty$ -- 280
-format.name$ -- 30
-if$ -- 615
+cite$ -- 14
+duplicate$ -- 280
+empty$ -- 308
+format.name$ -- 39
+if$ -- 714
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 58
-newline$ -- 40
-num.names$ -- 8
-pop$ -- 116
+missing$ -- 64
+newline$ -- 41
+num.names$ -- 10
+pop$ -- 121
 preamble$ -- 1
-purify$ -- 49
+purify$ -- 52
 quote$ -- 0
-skip$ -- 94
+skip$ -- 112
 stack$ -- 0
-substring$ -- 148
-swap$ -- 149
-text.length$ -- 4
-text.prefix$ -- 4
+substring$ -- 192
+swap$ -- 173
+text.length$ -- 6
+text.prefix$ -- 5
 top$ -- 0
 type$ -- 64
-warning$ -- 4
-while$ -- 15
+warning$ -- 3
+while$ -- 19
 width$ -- 9
-write$ -- 77
-(There were 4 warnings)
+write$ -- 81
+(There were 3 warnings)
