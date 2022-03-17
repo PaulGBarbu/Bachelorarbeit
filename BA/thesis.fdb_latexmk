@@ -1,19 +1,19 @@
 # Fdb version 3
-["bibtex thesis"] 1647208257 "thesis.aux" "thesis.bbl" "thesis" 1647208260
+["bibtex thesis"] 1647508679 "thesis.aux" "thesis.bbl" "thesis" 1647508684
   "./natger.bst" 1643207504 30788 bef6d0620a8cfabc823fa7b5a875f0f5 ""
-  "pages/chapters/01_intro.aux" 1647208259 1886 e28f6bba7ecc522bbb707ef6dec4a16f "pdflatex"
-  "pages/chapters/02_success_factors/02_00_success_factors.aux" 1647208260 3651 3cc14017333a318cb9b3ebb7f2050be2 "pdflatex"
-  "thesis.aux" 1647208260 6305 6f10506172454d1108356a68286bd29e "pdflatex"
+  "pages/chapters/01_intro.aux" 1647508683 1679 b8d13c7b6f21ed4f13bcffedee1b7147 "pdflatex"
+  "pages/chapters/02_success_factors/02_00_success_factors.aux" 1647508683 3739 8578d0b39494822b211a8f0be0bfd374 "pdflatex"
+  "thesis.aux" 1647508683 5831 02e25e1114d9cabaff918c7f4190abe5 "pdflatex"
   "thesis.bib" 1647091872 11414 4fc86106f60c02de340769e26757b859 ""
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["makeindex thesis.idx"] 1647208188 "thesis.idx" "thesis.ind" "thesis" 1647208260
-  "thesis.idx" 1647208259 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex thesis.idx"] 1647208188 "thesis.idx" "thesis.ind" "thesis" 1647508684
+  "thesis.idx" 1647508682 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "thesis.ilg"
   "thesis.ind"
-["pdflatex"] 1647208257 "c:/Uni/ws2021_2022/Bachelorarbeit/BA/thesis.tex" "thesis.pdf" "thesis" 1647208260
+["pdflatex"] 1647508679 "c:/Uni/ws2021_2022/Bachelorarbeit/BA/thesis.tex" "thesis.pdf" "thesis" 1647508684
   "C:/Users/barbu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1646076279 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/barbu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1643207158 9769967 747f2b558645491641ca1b28b2061750 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -38,7 +38,6 @@
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
-  "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/mathpazo/fplmb.tfm" 1136768654 984 3dcde7360ef3d34302e591b511cba83c ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/mathpazo/fplmr.tfm" 1136768654 1032 7fa31d93ecd4cbdfac02c7a1ebc6facc ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/mathpazo/fplmri.tfm" 1136768654 1148 56b0fdf7ca3f800294e968f64cfdcb87 ""
@@ -49,7 +48,6 @@
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/mathpazo/zplmr7t.tfm" 1136768654 1828 bb8add3bd19426549f9267c88b0cb8bd ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/mathpazo/zplmr7v.tfm" 1136768654 1012 955c4ca523d7827d33db91a33412b048 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/tfm/public/mathpazo/zplmr7y.tfm" 1136768654 1316 b4037e9c09961a72f8476628774e1ec1 ""
-  "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247593067 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb" 1136846148 45758 19968a0990191524e34e1994d4a31cb6 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb" 1136849748 35941 adef23a721dd8354a4a2bf4434f1c484 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb" 1136849748 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
@@ -65,7 +63,6 @@
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/palatino/pplr9c.vf" 1136768654 2908 c7a03afe5d67b6476673018447828dc3 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/palatino/pplr9e.vf" 1136768654 2296 bb1ff9494546688194a48c9b41b39dac ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/palatino/pplri9e.vf" 1136768654 2296 c260490d12463c5a352580ede007bb93 ""
-  "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/vf/public/mathpazo/zplmr7y.vf" 1136768654 1372 31129ac1f6b6f62aaec24c8fed41b02b ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1638206364 147900 18d47b4bbea226e862cd49f17ede0392 ""
@@ -242,20 +239,20 @@
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1626881362 123 a302f2c651a95033260db60e51527ae8 ""
   "c:/Uni/ws2021_2022/Bachelorarbeit/BA/thesis.tex" 1647172486 6457 5d6095a2292851084a069bca4daad200 ""
-  "pages/chapters/01_intro.aux" 1647208259 1886 e28f6bba7ecc522bbb707ef6dec4a16f "pdflatex"
-  "pages/chapters/01_intro.tex" 1647208252 5038 d189b48a50f79368ca816137d15e3a05 ""
-  "pages/chapters/02_success_factors/02_00_success_factors.aux" 1647208260 3651 3cc14017333a318cb9b3ebb7f2050be2 "pdflatex"
+  "pages/chapters/01_intro.aux" 1647508683 1679 b8d13c7b6f21ed4f13bcffedee1b7147 "pdflatex"
+  "pages/chapters/01_intro.tex" 1647508672 6366 011dc46938569f64ecc82ba5dfe23b88 ""
+  "pages/chapters/02_success_factors/02_00_success_factors.aux" 1647508683 3739 8578d0b39494822b211a8f0be0bfd374 "pdflatex"
   "pages/chapters/02_success_factors/02_00_success_factors.tex" 1647195706 5067 88be3493667a6381c132653b4a7e605f ""
   "pages/chapters/02_success_factors/02_01_licenses.tex" 1647172674 3769 2f4b2c10634fdf4f949502706d5fb4b9 ""
   "pages/chapters/02_success_factors/02_02_nutzlichkeit_quality.tex" 1647173503 1525 addc0376e2d60f19b859bb87eff97d06 ""
   "pages/chapters/02_success_factors/02_03_documentation.tex" 1647173696 1737 ed03499edebe6a89882ccdbb163a40b6 ""
   "pages/chapters/02_success_factors/02_04_community.tex" 1647193124 1127 cee91a0c4e55d5f6f35f99707240ffda ""
-  "pages/chapters/02_success_factors/02_xx_networkEffekt.tex" 1647174885 1034 a40e29da7c219bbad3096b8aff63f7e1 ""
+  "pages/chapters/02_success_factors/02_xx_networkEffekt.tex" 1647506651 1450 7d59a6fccb30b30f95a98d7cdb849ca5 ""
   "pages/chapters/02_success_factors/02_xx_timing.tex" 1646145224 841 4fe32c2b7372a0989df8193a43aaf37a ""
-  "thesis.aux" 1647208260 6305 6f10506172454d1108356a68286bd29e "pdflatex"
-  "thesis.bbl" 1647208257 2034 5b2ec8ee72d56f0471cb4add2ad7e25a "bibtex thesis"
+  "thesis.aux" 1647508683 5831 02e25e1114d9cabaff918c7f4190abe5 "pdflatex"
+  "thesis.bbl" 1647508679 2034 5b2ec8ee72d56f0471cb4add2ad7e25a "bibtex thesis"
   "thesis.ind" 1647208188 0 d41d8cd98f00b204e9800998ecf8427e "makeindex thesis.idx"
-  "thesis.out" 1647208259 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "thesis.out" 1647508683 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "thesis.tex" 1647172486 6457 5d6095a2292851084a069bca4daad200 ""
   (generated)
   "pages/chapters/01_intro.aux"
