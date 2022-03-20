@@ -1,6 +1,6 @@
 \chapter{Einleitung}
 
-\todo{Wird im Laufe der Arbeit noch genauer spezifizieren.}
+% \todo{Wird im Laufe der Arbeit noch genauer spezifizieren.}
 
 % ? Einschränken nur auf Packages. Grund: 
 %?    a) npm 
@@ -35,25 +35,12 @@ Ein zentraler Punkt dieser Ausarbeitung sind die extrinsischen sowie intrinsisch
 die Nutzer zur Auswahl eines Produktes motivieren \cite{midhaFactorsAffectingSuccess2012}. % Chapter 3.1 & 3.2
 Aspekte wie die interne Führung und Organisation der Projekte wird hierbei nicht thematisiert.
 
-% Approach
-% Mithilfe eines Webcrawlers werden zunächst Daten gesammelt und analysiert.
-% Zusätzlich dazu soll es eine standardisierte Umfrage geben mit dem Ziel herauszufinden welche 
-% Faktoren für die Nutzer wichtig sind. Anschließend sollen die Ergebnisse gegenübergestellt werden, 
-% sodass gegebenenfalls Schlussfolgerungen gezogen werden kann.
-
-
 
 \section{Erfolg definieren}
 
-
-% TODO: Weitere Ideen
-
-%? Warum Contributor als Erfolgsmetrik
-% Eine weitere Erfolgsmetrik ist die Anzahl an Nutzern als auch die Anzahl an Contributorn.
-% Warum? Naja wenn viele es nutzten ist es ja obviously Beliebt/Erfolgreiche.
-% Und ein unerfolgreiches Projekt würde ja nicht ein haufen Contributor attracten...
-
-%? Sponsoren als Erfolgsmetrik (?)
+% TODO: Weitere Ideen: Sponsoren
+% Sponsoren als Erfolgsmetrik (?)
+% -------------------------------
 % Sponsoren: Erfolgreiche Projekte haben Sponsoren, kann man als Indikator für Erfolg hernehmen
 % aber auch als Faktor was es teils braucht um Erfolgreich zu werden. (Mehr Geld => Mehr Zeit fürs Projekt)
 % Beziehungsweise wenn die Software aus einem Unternehmen kommt React => Facebook / Google => Tensorflow etc.
@@ -64,57 +51,42 @@ Aspekte wie die interne Führung und Organisation der Projekte wird hierbei nich
 
 % ----------------------------------------------
 
-\todo{Zitate Paraphrasieren}
 
 % Types of Success
-%? Evtl. kann man hier sogar noch Quellen hinzufügen
-\noindent
-In der Literatur wird häufig zwischen zwei Erfolgsbereichen unterschieden.
-Im Artikel von Midha und Palvia \cite{midhaFactorsAffectingSuccess2012} % 2.1
-wird in \textit{Markterfolg} und \textit{technischem Erfolg} unterteilt
-wobei Markterfolg:
+In der Literatur wird häufig in verschiedene Bereichen des Erfolgs unterteilt.
+Im Artikel von Midha und Palvia wird zwischen \textit{Markterfolg} und \textit{technischem Erfolg} unterschieden.
+% Define Markterfolg
+Markterfolg definiert Midha et al.
+als Grad des Nutzerinteresses an ein Projekt, %? Direkt Zitat: Market Success of an OSS project, a measure of project popularity, is defined as the level of interest displayed in the project by its consumers
+welches sich in der Beliebtheit des dieses widerspiegelt.
+% Define Technischer Erfolg
+Den technischen Erfolg definiert Midha et al.
+durch die Entwickleraktivität, d.h. durch den Aufwand, den die Entwickler für das Projekt betreiben %? Direkt Zitat: Technical Success is defined in terms of developer activity, i.e.,the level of effort expended by developers of the project
+\cite{midhaFactorsAffectingSuccess2012}. % 2.1
 
-\begin{quote}
-    \textit{
-        \textcolor{gray}{
-            Market Success of an OSS project, a measure of project popularity, is defined as the
-            level of interest displayed in the project by its consumers
-        }
-    }
-\end{quote}
-
-\noindent
-Während technischer Erfolg wie folgt definiert wird:
-
-\begin{quote}
-    \textit{
-        \textcolor{gray}{
-            Technical Success is defined in terms of developer activity, i.e.,
-            the level of effort expended by developers of the project
-        }
-    }
-\end{quote}
 
 % Nutzerinteresse & Entwickleraktivität
-In Steward et. al. ist die Rede von \textit{Nutzerinteresse} und \textit{Entwickleraktivität} % "Developer Activity"
+In Steward et al. wird zwischen \textit{Nutzerinteresse} und \textit{Entwickleraktivität} unterschieden
 \cite{stewartImpactsLicenseChoice2006a}. % Defining Success in OSS
+Subramaniam et al. geht sogar weiter und unterteilt in \textit{Nutzerinteresse, Entwicklerinteresse und Projektaktivität}
+\cite{subramaniamDeterminantsOpenSource2009}. % 3.2
+
+% Synthese
 Diese Bereiche werden getrennt betrachtet, da verschiedene Faktoren unterschiedlichen Einfluss
 auf den Erfolg eines Projektes haben.
-Vereinfacht kann man sagen,
-dass ein wachsendes Interesse bei Nutzern sich positiv auf den Markterfolg auswirkt,
-während hohe Entwickleraktivität sich positiv den technischen Erfolg auswirkt
+Während sich wachsendes Interesse bei Nutzern positiv auf den Markterfolg auswirkt,
+wirkt sich die Entwickleraktivität positiv den technischen Erfolg aus
 \cite{midhaFactorsAffectingSuccess2012, % 6.3. Hypothosis H3c (aber nur teils unterstützt)
     stewartImpactsLicenseChoice2006a}. % Defining Success in OSS (letzter Absatz)
 
-% Metriken für Erfolg
-Der Markterfolg spiegelt sich in Metriken wider wie, Downloads, Sterne auf GitHub oder Anzahl der Nutzer.
-Den technischen Erfolg kann man messen an Anzahl der Commits und Mitwirkenden oder
-Geschwindigkeit in der Tickets abgearbeitet werden.
-
-% TODO: Welche Metriken nehmen Steward und Midha her?
-
-% Überleitungssatz
-Für ein vollständiges Gesamtbild des Erfolges müssen und werden beide Klassen miteinbezogen
+% Ziel dieser Arbeit
+In dieser Arbeit werden die Erfolgsfaktoren betrachtet, die zum Markt- bzw. technischen Erfolg
+eines Projektes beitragen.
+Der Markterfolg wird anhand Metriken gemessen wie:
+Downloads, Sterne auf GitHub sowie die Anzahl der Nutzer.
+Der technische Erfolg wird anhand von Metriken wie:
+Anzahl der Commits, Anzahl der Mitwirkenden am Projekt,
+Geschwindigkeit in der Tickets abgearbeitet werden und Verhältnis zwischen offenen/abgeschlossenen Issues gemessen.
 
 % \subsection{Markterfolg}
 
@@ -126,11 +98,11 @@ Für ein vollständiges Gesamtbild des Erfolges müssen und werden beide Klassen
 
 % \subsection{Technischer Erfolg}
 
-Unter dem technischen Erfolg zählen Eigenschaften wie Frequenz von Updates,
-sowie Anzahl an Commits und Mitwirkenden. Diese Daten lassen sich ebenfalls auf GitHub erfassen.
-\cite{midhaFactorsAffectingSuccess2012}. % Kapitel 2.1 Success
+% Unter dem technischen Erfolg zählen Eigenschaften wie Frequenz von Updates,
+% sowie Anzahl an Commits und Mitwirkenden. Diese Daten lassen sich ebenfalls auf GitHub erfassen.
+% \cite{midhaFactorsAffectingSuccess2012}. % Kapitel 2.1 Success
 
-% \subsection{Ökosystem}
+% ? \subsection{Ökosystem}
 % Ein weiterer Indikator für Erfolg ist, wenn ein Projekt ein Ökosystem, um sich entwickelt.
 % Beispielsweise hat das Web-Framework React eine große Community die eine Vielzahl von Erweiterungen
 % unabhängig aber für React entwickeln.

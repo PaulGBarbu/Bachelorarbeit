@@ -24,7 +24,8 @@ The {{Open Source Definition}} | {{Open Source Initiative}}.
 \bibitem[Sta]{StackOverflowSurvey2021}
 Stack {{Overflow Developer Survey}} 2021.
 \newblock
-  https://insights.stackoverflow.com/survey/2021/?utm\_source=social-share\&utm\_medium=social\&utm\_campaign=dev-survey-2021.
+  \url{https://insights.stackoverflow.com/survey/2021/?utm\_source=social-share\&utm\_medium=social\&utm\_campaign=dev-survey-2021}.
+\newblock Zuletzt aufgerufen am 20.03.2022.
 
 \bibitem[Ste06]{stewartImpactsLicenseChoice2006a}
 K.~J. Stewart, A.~P. Ammeter und L.~M. Maruping.

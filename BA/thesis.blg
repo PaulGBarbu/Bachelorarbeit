@@ -14,37 +14,37 @@ Warning--to sort, need author or key in StackOverflowSurvey2021
 Warning--to sort, need author or key in OpenSourceDefinition
 You've used 8 entries,
             2811 wiz_defined-function locations,
-            652 strings with 6667 characters,
-and the built_in function-call counts, 3455 in all, are:
-= -- 285
+            653 strings with 6705 characters,
+and the built_in function-call counts, 3482 in all, are:
+= -- 289
 > -- 73
 < -- 6
 + -- 26
 - -- 24
-* -- 233
-:= -- 421
-add.period$ -- 23
+* -- 234
+:= -- 423
+add.period$ -- 24
 call.type$ -- 8
-change.case$ -- 39
+change.case$ -- 40
 chr.to.int$ -- 8
 cite$ -- 14
-duplicate$ -- 280
-empty$ -- 308
+duplicate$ -- 283
+empty$ -- 309
 format.name$ -- 39
-if$ -- 714
+if$ -- 720
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 64
-newline$ -- 41
+missing$ -- 65
+newline$ -- 42
 num.names$ -- 10
-pop$ -- 121
+pop$ -- 124
 preamble$ -- 1
 purify$ -- 52
 quote$ -- 0
-skip$ -- 112
+skip$ -- 109
 stack$ -- 0
-substring$ -- 192
-swap$ -- 173
+substring$ -- 194
+swap$ -- 175
 text.length$ -- 6
 text.prefix$ -- 5
 top$ -- 0
@@ -52,5 +52,5 @@ type$ -- 64
 warning$ -- 3
 while$ -- 19
 width$ -- 9
-write$ -- 81
+write$ -- 83
 (There were 3 warnings)
