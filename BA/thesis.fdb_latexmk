@@ -1,19 +1,19 @@
 # Fdb version 3
-["bibtex thesis"] 1647795960 "thesis.aux" "thesis.bbl" "thesis" 1647795964
+["bibtex thesis"] 1647871176 "thesis.aux" "thesis.bbl" "thesis" 1647871181
   "./natger.bst" 1643207504 30788 bef6d0620a8cfabc823fa7b5a875f0f5 ""
-  "pages/chapters/01_intro.aux" 1647795963 1684 4b32fb6a72cfd34eb78ea679f043e1b8 "pdflatex"
-  "pages/chapters/02_success_factors/02_00_success_factors.aux" 1647795963 3695 6882b6c2af4c456e34eccbd0c59915b0 "pdflatex"
-  "thesis.aux" 1647795963 5831 08ace8517d16c1bffea1fcf693225ec1 "pdflatex"
+  "pages/chapters/01_intro.aux" 1647871180 1684 4b32fb6a72cfd34eb78ea679f043e1b8 "pdflatex"
+  "pages/chapters/02_success_factors/02_00_success_factors.aux" 1647871180 3920 d4dbc5a2b710f55bb00b7ef0f6c5baeb "pdflatex"
+  "thesis.aux" 1647871180 5826 1067370a4a9424928b03c265a647140f "pdflatex"
   "thesis.bib" 1647790617 11473 c2da061d7f5e8df0898fe27336638882 ""
   (generated)
   "thesis.bbl"
   "thesis.blg"
-["makeindex thesis.idx"] 1647793536 "thesis.idx" "thesis.ind" "thesis" 1647795964
-  "thesis.idx" 1647795963 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex thesis.idx"] 1647804327 "thesis.idx" "thesis.ind" "thesis" 1647871181
+  "thesis.idx" 1647871180 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "thesis.ilg"
   "thesis.ind"
-["pdflatex"] 1647795960 "c:/Uni/ws2021_2022/Bachelorarbeit/BA Repo/BA/thesis.tex" "thesis.pdf" "thesis" 1647795964
+["pdflatex"] 1647871176 "c:/Uni/ws2021_2022/Bachelorarbeit/BA Repo/BA/thesis.tex" "thesis.pdf" "thesis" 1647871181
   "C:/Users/barbu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1646076279 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/barbu/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1643207158 9769967 747f2b558645491641ca1b28b2061750 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -239,20 +239,20 @@
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/barbu/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1626881362 123 a302f2c651a95033260db60e51527ae8 ""
   "c:/Uni/ws2021_2022/Bachelorarbeit/BA Repo/BA/thesis.tex" 1647793535 6457 5d6095a2292851084a069bca4daad200 ""
-  "pages/chapters/01_intro.aux" 1647795963 1684 4b32fb6a72cfd34eb78ea679f043e1b8 "pdflatex"
+  "pages/chapters/01_intro.aux" 1647871180 1684 4b32fb6a72cfd34eb78ea679f043e1b8 "pdflatex"
   "pages/chapters/01_intro.tex" 1647795956 5911 a2dc87d590d1a6b221ad4856472b5c95 ""
-  "pages/chapters/02_success_factors/02_00_success_factors.aux" 1647795963 3695 6882b6c2af4c456e34eccbd0c59915b0 "pdflatex"
-  "pages/chapters/02_success_factors/02_00_success_factors.tex" 1647791219 5067 88be3493667a6381c132653b4a7e605f ""
-  "pages/chapters/02_success_factors/02_01_licenses.tex" 1647519184 3729 4dfb70add9509ba93955f571eb1d7b07 ""
+  "pages/chapters/02_success_factors/02_00_success_factors.aux" 1647871180 3920 d4dbc5a2b710f55bb00b7ef0f6c5baeb "pdflatex"
+  "pages/chapters/02_success_factors/02_00_success_factors.tex" 1647804422 3130 4908fd7c824cc0b4e30554b88917333f ""
+  "pages/chapters/02_success_factors/02_01_licenses.tex" 1647871169 4379 45e1393014900aedda67e8d01afb6fbb ""
   "pages/chapters/02_success_factors/02_02_nutzlichkeit_quality.tex" 1647173503 1525 addc0376e2d60f19b859bb87eff97d06 ""
   "pages/chapters/02_success_factors/02_03_documentation.tex" 1647173696 1737 ed03499edebe6a89882ccdbb163a40b6 ""
   "pages/chapters/02_success_factors/02_04_community.tex" 1647193124 1127 cee91a0c4e55d5f6f35f99707240ffda ""
   "pages/chapters/02_success_factors/02_xx_networkEffekt.tex" 1647506651 1450 7d59a6fccb30b30f95a98d7cdb849ca5 ""
   "pages/chapters/02_success_factors/02_xx_timing.tex" 1646145224 841 4fe32c2b7372a0989df8193a43aaf37a ""
-  "thesis.aux" 1647795963 5831 08ace8517d16c1bffea1fcf693225ec1 "pdflatex"
-  "thesis.bbl" 1647795960 2085 51ccbb8ff0bf856068b5a30f3217c856 "bibtex thesis"
-  "thesis.ind" 1647793536 0 d41d8cd98f00b204e9800998ecf8427e "makeindex thesis.idx"
-  "thesis.out" 1647795963 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "thesis.aux" 1647871180 5826 1067370a4a9424928b03c265a647140f "pdflatex"
+  "thesis.bbl" 1647871176 2085 51ccbb8ff0bf856068b5a30f3217c856 "bibtex thesis"
+  "thesis.ind" 1647804327 0 d41d8cd98f00b204e9800998ecf8427e "makeindex thesis.idx"
+  "thesis.out" 1647871180 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "thesis.tex" 1647793535 6457 5d6095a2292851084a069bca4daad200 ""
   (generated)
   "pages/chapters/01_intro.aux"
