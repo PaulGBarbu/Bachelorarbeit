@@ -2,6 +2,13 @@ PWD c:\Uni\ws2021_2022\Bachelorarbeit\BA Repo\BA
 INPUT C:\Users\barbu\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\Uni\ws2021_2022\Bachelorarbeit\BA Repo\BA\thesis.tex
 OUTPUT thesis.log
+INPUT .\util\preamble.tex
+INPUT .\util\preamble.tex
+INPUT .\util\preamble.tex
+INPUT util\preamble.tex
+INPUT .\util\preamble.tex
+INPUT .\util\preamble.tex
+INPUT util\preamble.tex
 INPUT C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
 INPUT C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
 INPUT C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
@@ -1146,6 +1153,10 @@ INPUT C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uni
 INPUT C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
 INPUT C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
 OUTPUT thesis.idx
+INPUT .\util\OwnCommands.tex
+INPUT util\OwnCommands.tex
+INPUT .\util\OwnCommands.tex
+INPUT util\OwnCommands.tex
 INPUT .\thesis.aux
 INPUT thesis.aux
 INPUT thesis.aux

@@ -1,0 +1,42 @@
+\newcommand{\todo}[1]{\noindent\textsf{\colorbox{yellow}{\textbf{TODO:} {#1}}}\noindent}
+\newcommand{\todoo}[1]{\textcolor{blue}{{#1}}}
+
+
+%\newcommand{\todo}[1]{} % Disable TODO
+
+%* Dark Mode Variante
+%\newcommand{\todo}[1]{\noindent\textsf{\colorbox[rgb]{0.7, 0.7, 0}{\textbf{TODO:} {#1}}}\noindent}
+
+%                               \hochgestellt    \blauer text     \wo Quelle?
+\newcommand{\citationNeeded}[1]{\textsuperscript{\textcolor{blue}{{[Mögliche Quelle: #1]}}}}
+
+%                               \hochgestellt    \blauer text     \link
+\newcommand{\quickcite}[1]{\textsuperscript{\textcolor{blue}{\href{#1}{[Quick Citation]}}}}
+
+% URL Links
+\newcommand{\link}[2]{\textcolor{blue}{\underline{\href{#2}{#1}}}}
+
+% Just a shortcut for a Side Note
+\newcommand{\rawidea}{\textcolor{red}{
+  \footnotesize{
+   \textit{(Der folgende Teil ist nur eine Ideensammlung und noch nicht ausformuliert.)}
+    }
+  }
+
+  \noindent
+}
+
+
+% Fancy Color Boxes -------------------
+
+\newcommand{\frage}[1]{
+  \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=Frage]
+    #1
+  \end{tcolorbox}
+}
+
+\newcommand{\todoBox}[1]{
+  \begin{tcolorbox}[colback=yellow!5!white,colframe=yellow!75!black,title=Todo]
+    #1
+  \end{tcolorbox}
+}

@@ -1,173 +1,14 @@
-  \documentclass[
-    twoside=false, %  doppelseitiger Druck
-    DIV=15,% DIV Faktor für Satzspiegelberechnung, sie Doku zu KOMA Script
-    BCOR=15mm, % Bindekorrektur
-    chapterprefix=false,
-    headinclude=true,
-    footinclude=false,
-    pagesize,%         write pagesize to DVI or PDF
-    fontsize=11pt,%             use this font size
-    paper=a4,%          use ISO A4
-    bibliography=totoc,%         write bibliography-chapter to table of contents
-    index=totoc,%         write index-chapter to table of contents
-    cleardoublepage=plain,% \cleardoublepage generates pages with pagestyle empty
-    headings=big,%       A4/B5
-    listof=flat,%        improved list of tables
-    numbers=noenddot
-  ]{scrbook}
+\input{util/preamble}
+\input{util/OwnCommands.tex}
 
-\usepackage[anythingbreaks]{breakurl}
-
-\usepackage[utf8]{inputenc}
-\usepackage{makeidx}
-\usepackage{amsfonts}
-\usepackage[slantedGreek,sc]{mathpazo}  % Schriftart Palatino
-% \usepackage{lmodern}    % statt mathpazo, falls CM Fonts verwendet werden sollen
-%\usepackage{mathptmx}    % statt mathpazo, falls Times  verwendet werden soll
-\usepackage[scaled=.95]{helvet}
-\usepackage{courier}
-\usepackage[T1]{fontenc}
-\usepackage{textcomp}
-\usepackage{amsmath}            % standard math notation (vectors/sets/...)
-\usepackage{bm}        % standard math notation (fonts)
-\usepackage{fixmath}        % standard math notation (fonts)
-\usepackage{graphicx}
-\usepackage[facing=yes]{floatrow}       % mehrere Gleitobjekte nebeneinander/caption neben Bild/Tabelle
-\usepackage[labelfont=bf,sf,font=small,labelsep=space,format=plain]{caption}
-\usepackage{subcaption}
-\usepackage{scrlayer-scrpage}
-% \usepackage{pstool}  % einbinden falls psfrag verwendet werden soll
-\usepackage{epstopdf}
-\usepackage[ngerman]{babel}
-\usepackage{ellipsis}  % Korrigiert den Weißraum um Auslassungspunkte
-\usepackage{microtype}  % optischer Randausgleich etc.
-
-\usepackage{xcolor}         % z.B. für schattierte Boxen
-\usepackage{framed}			% shaded Umgebung
-\definecolor{shadecolor}{gray}{.85}%
-
-
-% ------------------------------ Extra Packages ------------------------------ %
-\usepackage{acronym}
-\usepackage{tcolorbox}
-
-% Multi Columns
-% \usepackage[a4paper, left=1.5cm, right=1.5cm, top=3cm]{geometry}
-% \usepackage{multicol}
-% \setlength{\columnsep}{0.75cm}
-
-% Hypothesen Notes
-\usepackage{amsthm}
-\theoremstyle{hypothesis}
-\newtheorem{hypothesis}{H}
-\newtheorem{subhypothesis}{H}[hypothesis]
-\renewcommand{\thesubhypothesis}{\thehypothesis\alph{subhypothesis}}
-
-
-% Links im PDF
-\usepackage[colorlinks=false,
-            pdfborder={0 0 0},
-            breaklinks=true]
-            {hyperref}
-
-
-% ------------------------------- Own Commands ------------------------------- %
-\newcommand{\todo}[1]{\noindent\textsf{\colorbox{yellow}{\textbf{TODO:} {#1}}}\noindent}
-\newcommand{\todoo}[1]{\textcolor{blue}{{#1}}}
-
-
-%\newcommand{\todo}[1]{} % Disable TODO
-
-%* Dark Mode Variante
-%\newcommand{\todo}[1]{\noindent\textsf{\colorbox[rgb]{0.7, 0.7, 0}{\textbf{TODO:} {#1}}}\noindent}
-
-%                               \hochgestellt    \blauer text     \wo Quelle?
-\newcommand{\citationNeeded}[1]{\textsuperscript{\textcolor{blue}{{[Mögliche Quelle: #1]}}}}
-
-%                               \hochgestellt    \blauer text     \link
-\newcommand{\quickcite}[1]{\textsuperscript{\textcolor{blue}{\href{#1}{[Quick Citation]}}}}
-
-% URL Links
-\newcommand{\link}[2]{\textcolor{blue}{\underline{\href{#2}{#1}}}}
-
-% Just a shortcut for a Side Note
-\newcommand{\rawidea}{\textcolor{red}{
-  \footnotesize{
-   \textit{(Der folgende Teil ist nur eine Ideensammlung und noch nicht ausformuliert.)}
-    }
-  }
-
-  \noindent
-}
-
-
-% Fancy Color Boxes -------------------
-
-\newcommand{\frage}[1]{
-  \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black,title=Frage]
-    #1
-  \end{tcolorbox}
-}
-
-\newcommand{\todoBox}[1]{
-  \begin{tcolorbox}[colback=yellow!5!white,colframe=yellow!75!black,title=Todo]
-    #1
-  \end{tcolorbox}
-}
-
-
-
-% ---------------------------------------------------------------------------- %
-
-
-
-
-
-%\typearea[current]{calc}
-
-
-% Einstellungen für Bild-/Tabellenbeschriftung neben dem Bild
-\floatsetup[figure]{capbesideposition={inside,top}}
-\floatsetup[table]{capbesideposition={inside,top},style=plaintop}
-\renewfloatcommand{fcapside}{figure}[\capbeside][\FBwidth]
-\newfloatcommand{tcapside}{table}[\capbeside][\FBwidth]
-
-
-\selectlanguage{ngerman}
-
-
-\deffootnote{1em}{1em}{%
- \makebox[1em][l]{\thefootnotemark}}
-
-\makeindex
-
-\newcommand{\real}{\mathord{\mathrm{I\!R}}}
-
-
-
-% ---------------------------------------------------------------------------- %
-% ------------------------------ DOKUMENT BEGIN ------------------------------ %
-% ---------------------------------------------------------------------------- %
 
 \begin{document}
 
-% * ---------------------------- Night Mode lel ----------------------------- %
+% ------------------------------------------ Night Mode ------------------------------------------ %
 %\pagecolor[rgb]{0.21, 0.22, 0.24}
 %\color[rgb]{0.9,0.9,0.9}
 
-\selectlanguage{ngerman}
-
-
-% Set Macros/Variables (kind of a shortcut to figure/tables folder)
-\def\figdir{figures}
-\def\tabledir{tables}
-
-\frontmatter
-
-\pagestyle{scrplain}
-\pagestyle{empty}
-
-% ----------------------------- Pre Chapter Stuff ---------------------------- %W
+% --------------------------------------- Pre Chapter Stuff -------------------------------------- %
 
 % Deckblatt
 % \include{pages/title} % ! commented out for now
@@ -189,7 +30,7 @@
 
 \mainmatter
 
-% ------------------------------ Chapters begin ------------------------------ %
+% ---------------------------------------- Chapters begin ---------------------------------------- %
 
 %\begin{multicols}{2}
   %\include{pages/chapters/01_intro}
@@ -205,7 +46,7 @@
 
 \clearpage
 
-% ---------------------------- Post Chapter Stuff ---------------------------- %
+% -------------------------------------- Post Chapter Stuff -------------------------------------- %
 \appendix
 
 % Print glossaries for used words
@@ -216,8 +57,7 @@
 \cleardoublepage
 
 
-% ! Sieh Literaturverzeichnis, Links gehen "über PDF hinaus"
-\bibliographystyle{natger} % TODO: Muss man nach natger Zitieren?
+\bibliographystyle{natger}
 % \bibliographystyle{ieeetr} % Alternative gäbe es halt noch IEEE, würde aber von der Vorlage abweichen
 \bibliography{thesis}
 
