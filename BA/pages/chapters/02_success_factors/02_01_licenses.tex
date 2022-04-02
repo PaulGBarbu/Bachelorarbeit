@@ -1,20 +1,7 @@
 \subsection{Lizenzen}
 
-% TODO: Weitere Quelle einbauen!
-\todoBox{
-    \textbf{Weitere Quelle einbauen:}
-
-    \cite{stewartImpactsLicenseChoice2006a} Seite 140 (16 in PDF) sagt aus, 
-    dass nicht-restriktive Lizenzen sich positiv auf ein Projekt auswirken (Hypothese 1A), 
-    indem mehr User angezogen werden.
-    
-    Gleichzeitig heißt es das es \textit{keinen} Zusammenhang gibt zwischen restriktive Lizenzen
-    und anziehen von mehr Entwicklern für das Projekt.
-}
-
-
 % Lizenzen haben signifikaten Einfluss auf Erfolg [Subramaniam]
-Laut Subramaniam et al. spielen Lizenzen eine \textbf{signifikante} Rolle für den Erfolg von 
+Laut Subramaniam et al. spielen Lizenzen eine signifikante Rolle für den Erfolg von 
 Open Source Software.
 Freie Lizenzen wie MIT oder BSD haben einen positiven Einfluss vor allem auf Software Entwickler.
 Entwickler die OSS nutzen tun dies, um es in eigene Projekte einzubauen, gegebenenfalls zu modifizieren
@@ -26,59 +13,39 @@ da Weiterverbreitung und Modifizierung für diese Nutzergruppe keine Rolle spiel
 \cite{subramaniamDeterminantsOpenSource2009}.
 
 % Stewart et al. on Licenses
-Laut Stewart et al. haben nicht restriktive Lizenzen
-einen positiven Einfluss auf das Nutzerinteresse % Stewart et al. H1A
-während restriktive Lizenzen einen nicht signifikaten Einfluss auf Nutzerinteresse
-als auch Entwickleraktivität haben.
+Stewart et al. widerspricht der zweiten Aussage von Subramaniam et al. laut ihnen
+haben nicht-restriktive-Lizenzen nicht nur auf das Entwicklerinteresse, sondern auch auf das 
+Nutzerinteresse einen positiven Einfluss. % Stewart et al. H1A
+Während restriktive Lizenzen einen nicht signifikanten Einfluss auf
+Entwickleraktivität hätten. \cite{stewartImpactsLicenseChoice2006a}
 
 %? Sample Size von Steward et al.?
 
 % Widerspruch von Midha et. al.
-Midha und Palvia widerspricht \cite{stewartImpactsLicenseChoice2006a} und \cite{subramaniamDeterminantsOpenSource2009} 
-in dem Punkt, das die Lizenz ein signifikanter Faktor für den Erfolg eines OSS Projekts sei.
-Laut Midha et al. spielt die Lizenz nur zu Beginn
-des Projektes eine Rolle, da sobald ein Projekt \todoo{beliebt (Synonym finden)} ist, die Beliebtheit höher gewichtet wird als
-die Lizenz.
-Des Weiteren heißt es auch, dass restriktive Lizenzen sich im späteren Verlauf eines Projektes positiv
-auf Entwickler auswirkt \cite{midhaFactorsAffectingSuccess2012}. % Kapitel 6.2
-Damit widerspricht Midha erneut \cite{stewartImpactsLicenseChoice2006a}.
+Laut Midha und Palvia wirken sich freie Lizenzen positiv auf den Markterfolg aus, allerdings
+nur zu Beginn eines Projektes. %H2a Vermutung: Beliebtheit ist Wichtiger als Lizenz
+Restriktive Lizenzen wiederum wirken sich negativ auf den technischen Erfolg aus %H2b
+\cite{midhaFactorsAffectingSuccess2012}.
 
-Die Stichprobengröße von Midha et. al. lag allerdings nur bei 283, % Kapitel 4.1 (midhaFactorsAffectingSuccess2012)
-während die Stichprobengröße von Subramaniam et. al. bei 
-8627 lag \cite{subramaniamDeterminantsOpenSource2009}. % Kapitel 4.2
+%? Stichproben Größe (Side Note)
+% Midha et al. 283 [Kapitel 4.1]
+% Subramaniam et al. 8627 [Kapitel 4.2]
+% Steward et al. 138 [Kapitel "Sample]
 
-\todoo{
-    Sample-Size in \cite{stewartImpactsLicenseChoice2006a} 138 % Kapitel "Sample"
-}
+Ich glaube, dass sich offene Lizenzen durchgängig positiv auf ein Projekt auswirken. 
+Offene Lizenzen werden tendenziell eher von Unternehmen verwendet als Projekte mit restriktiven
+Lizenzen, das führt zum einen dazu, dass die Beliebtheit und Bekanntheit des Projektes steigt, als
+auch die Wahrscheinlichkeit das die Unternehmen zum Open Source Projekt etwas beitragen oder 
+Sponsoren werden.
 
-% ! Hidden Quote
-% \begin{quote}
-%     \begin{tcolorbox}[colback=black!5!white,colframe=white!75!black,title=Direkt Zitat aus \cite{midhaFactorsAffectingSuccess2012} Kapitel 6.2]
-%         The insignificance may be because consumers
-%         do not wish to be bothered by the license choice when information on other extrinsic attributes is readily
-%         available. This, in a way, agrees with vox populi that most of the end users do not read the
-%         licensing agreements.
-%     \end{tcolorbox}
-% \end{quote}
-
-Wie in \ref{ssec:Eine Community Aufbauen} später genauer erläutert wird, ist eine Community ein 
-essenzieller Bestandteil für ein Open Source Projekt.
-Abhängig der Lizenz zieht man unterschiedliche Personengruppen an.
-Offene Lizenzen wie MIT lädt vor allem X an...
-Mit eingeschränkten Lizenzen wie GPL zieht man weniger Leute/Unternehmen etc. an und hindert 
-somit das Wachstum der eigenen Community \citationNeeded{\cite{stewartImpactsLicenseChoice2006a} PDF S. 16}
-
-Unternehmen nutzten die Software, 
-eingie improven die die Software und ein Teil davon gibt zur OSS Community auch wieder zurück 
-\cite{bangerthWhatMakesComputational2013} % Kapitel 3.5
-
-\bigskip
-
-% --------------------------------- Hypothese -------------------------------- %
 \begin{hypothesis}
-    Lizenzen haben einen signifikanten Einfluss sowohl auf den technischen
-    als auch den Markterfolg. 
-    Wobei offene Lizenzen sich positiv auswirken, während restriktive einen negativen
-    Einfluss auf den Erfolg haben
+    Offene Lizenzen haben positiven Einfluss auf den Markterfolg.
 \end{hypothesis}
-% ---------------------------------------------------------------------------- %
+
+\noindent
+Steigt die Beliebtheit eines Projekts, so steigt auch das Interesse von Open Source Entwickler an einem renommierten 
+Projekt zu arbeiten.
+
+\begin{hypothesis}
+    Offene Lizenzen haben positiven Einfluss auf den technischen Erfolg.
+\end{hypothesis}

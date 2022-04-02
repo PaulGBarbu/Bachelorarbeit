@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.26)  21 MAR 2022 14:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.26)  1 APR 2022 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -939,10 +939,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 
  (pages/chapters/02_success_factors/02_00_success_factors.tex
 chapter 2.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 4.
 (pages/chapters/02_success_factors/02_01_licenses.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 1.
@@ -952,22 +948,26 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 
 
-]) (pages/chapters/02_success_factors/02_02_nutzlichkeit_quality.tex) (pages/chapters/02_success_factors/02_03_documentation.tex [3]
-LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 30.
- (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
-File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
-)) (pages/chapters/02_success_factors/02_04_community.tex) (pages/chapters/02_success_factors/02_xx_networkEffekt.tex) (pages/chapters/02_success_factors/02_xx_timing.tex [4])) [5] (thesis.bbl
-chapter without number
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 27.
-(C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+]) (pages/chapters/02_success_factors/02_03_documentation.tex
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 25.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 25.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 25.
+LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 45.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
+File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
+)) (pages/chapters/02_success_factors/02_04_community.tex [3]) (pages/chapters/02_success_factors/02_xx_networkEffekt.tex) (pages/chapters/02_success_factors/02_xx_timing.tex [4])) [5] (thesis.bbl
+chapter without number
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 \T1/pcr/m/n/10.95 com / survey / 2021 / ?utm _ source = social-[]share & utm _ medium = social &
  []
 
@@ -984,17 +984,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30672 strings out of 478659
- 616318 string characters out of 2845920
- 1083923 words of memory out of 3000000
- 47865 multiletter control sequences out of 15000+600000
- 463070 words of font info for 295 fonts, out of 8000000 for 9000
+ 30656 strings out of 478659
+ 615993 string characters out of 2845920
+ 1084923 words of memory out of 3000000
+ 47875 multiletter control sequences out of 15000+600000
+ 464100 words of font info for 289 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,117p,10648b,620s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (6 pages, 148963 bytes).
+{C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on thesis.pdf (6 pages, 140598 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
+ 180 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
- 79501 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 81029 words of extra memory for PDF output out of 89155 (max. 10000000)
 

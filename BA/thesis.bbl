@@ -5,6 +5,15 @@ W.~Bangerth und T.~Heister.
 \newblock What Makes Computational Open Source Software Libraries Successful?
 \newblock \emph{Computational Science \& Discovery}, 6(1):015010, Nov. 2013.
 
+\bibitem[Dag10]{dagenaisDeveloperDocumentation}
+B.~Dagenais und M.~P. Robillard.
+\newblock Creating and Evolving Developer Documentation: Understanding the
+  Decisions of Open Source Contributors.
+\newblock In \emph{Proceedings of the Eighteenth {{ACM SIGSOFT}} International
+  Symposium on {{Foundations}} of Software Engineering}, {{FSE}} '10, S.
+  127--136. {Association for Computing Machinery}, {New York, NY, USA}, Nov.
+  2010.
+
 \bibitem[Mar15]{marganSuccessOpenSource2015}
 D.~Margan und S.~Čandrlić.
 \newblock The success of open source software: A review.

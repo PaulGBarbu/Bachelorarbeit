@@ -1,33 +1,51 @@
 \subsection{Gute Dokumentation}
 
-\rawidea
-Dokumentationen spielen eine entscheidende Rolle beim Erfolg eines Projekts.
-Ohne eine gute Dokumentation ist die Software schwerer zugänglich für die Benutzer und damit teils
-unbrauchbar, ausgenommen Projekte mit intuitiven User Interfaces.
+\todo{Blauen Text ausformulieren} \\
+\todo{Quelle für raussuchen sieh unten} \\
+\todo{Weitere Quelle einbauen \cite{dagenaisDeveloperDocumentation}}
+
+Dokumentationen spielen eine entscheidende Rolle für den Erfolg eines Projekts.
+Ohne eine gute Dokumentation ist die Software schwer zugänglich für die Benutzer und damit teils
+unbrauchbar.
 Mailing Listen und StackOverflow können eine gute Ergänzung zur Dokumentation sein, allerdings kann
-diese dadurch nicht ersetzt werden.
+diese dadurch nicht ersetzt werden.\\ \citationNeeded{Könnte aus \cite{bangerthWhatMakesComputational2013} stammen}
+
+
 Mit einem Crawler ist es schwer zu beurteilen, ob eine Dokumentation gut ist oder nicht oder ob
 eine Dokumentation überhaupt existiert, da sich diese häufig auch auf der Homepage des Projekts befinden.
 Man kann aber Dokumentation mit als Punkt in die Umfrage mit aufnehmen.
-\citationNeeded{Könnte aus \cite{bangerthWhatMakesComputational2013} stammen}
+
+\begin{quote}
+    GitHub's 2017 Open Source Survey showed incomplete or confusing documentation is the biggest
+    problem for open source users. Good documentation invites people to interact with your project. 
+    Eventually, someone will open an issue or pull request. Use these interactions as opportunities 
+    to move them down the funnel.
+
+    \tiny
+    Source: \url{https://opensource.guide/building-community/#make-people-feel-welcome}
+    \normalsize
+
+\end{quote}
+
+Weitere hilfreiche Quellen: \link{GitHub Open Source Survey}{https://opensourcesurvey.org/2017/},
+\link{Blog Post}{https://opensource.guide/building-community/\#document-everything} über Dokumentieren
 
 \bigskip
 
 \todoo{
     \noindent
     \textbf{"Wie wichtig ist eine gute Dokumentation bei der Auswahl einer OSS für Sie?"} eignet
-    sich als hervorragende Frage in der Umfrage.\\
-    Alternative könnte man diese Daten auch erfassen, allerdings nur von Hand.
-    Da zum einen die Dokumentationen nicht immer in der README.md sind, sondern auf anderen Website
-    und der Crawler nicht beurteilen kann, ob eine Dokumentation gut ist oder nicht. Daher könnte man
-    quasi eine Liste zum Abhacken durchgehen
-    Beispielsweise wie folgt:
+    sich als hervorragende Frage in der Umfrage.
+    Datenerfassung aus GitHub muss ggf. händisch stattfinden und soll wie folgt kategorisiert werden:
     \begin{itemize}
-        \item Hat das Projekt eine Dokumentation?
-        \item Hat die Doku Anwendungsbeispiele?
-        \item Ist ein Sandbox-Modus für dieses Projekt möglich? Wenn ja, gibt es einen?
+        \item 0 = keine Dokumentation
+        \item 1 = Basis Dokumentation in der GitHub README
+        \item 2 = Ausführliche Dokumentation (Eigene Website / Code Beispiele etc.)
     \end{itemize}
 }
+
+% TODO: Hypothese schöner formulieren
+\todo{Hypothese schöner formulieren}
 
 \begin{hypothesis}
     Dokumentation ist wichtig vorallem wenn die Zielgruppe Entwickler sind.

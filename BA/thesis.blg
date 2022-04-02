@@ -12,45 +12,45 @@ Database file #1: thesis.bib
 Warning--to sort, need author or key in W3Techs_WebServer
 Warning--to sort, need author or key in StackOverflowSurvey2021
 Warning--to sort, need author or key in OpenSourceDefinition
-You've used 8 entries,
+You've used 9 entries,
             2811 wiz_defined-function locations,
-            653 strings with 6705 characters,
-and the built_in function-call counts, 3482 in all, are:
-= -- 289
-> -- 73
-< -- 6
-+ -- 26
-- -- 24
-* -- 234
-:= -- 423
-add.period$ -- 24
-call.type$ -- 8
-change.case$ -- 40
-chr.to.int$ -- 8
-cite$ -- 14
-duplicate$ -- 283
-empty$ -- 309
-format.name$ -- 39
-if$ -- 720
+            663 strings with 7111 characters,
+and the built_in function-call counts, 4124 in all, are:
+= -- 347
+> -- 85
+< -- 8
++ -- 30
+- -- 28
+* -- 275
+:= -- 498
+add.period$ -- 28
+call.type$ -- 9
+change.case$ -- 47
+chr.to.int$ -- 9
+cite$ -- 15
+duplicate$ -- 338
+empty$ -- 365
+format.name$ -- 46
+if$ -- 862
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 65
-newline$ -- 42
-num.names$ -- 10
-pop$ -- 124
+missing$ -- 76
+newline$ -- 47
+num.names$ -- 12
+pop$ -- 143
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 59
 quote$ -- 0
-skip$ -- 109
+skip$ -- 133
 stack$ -- 0
-substring$ -- 194
-swap$ -- 175
-text.length$ -- 6
-text.prefix$ -- 5
+substring$ -- 233
+swap$ -- 210
+text.length$ -- 8
+text.prefix$ -- 6
 top$ -- 0
-type$ -- 64
+type$ -- 72
 warning$ -- 3
-while$ -- 19
-width$ -- 9
-write$ -- 83
+while$ -- 24
+width$ -- 10
+write$ -- 96
 (There were 3 warnings)
