@@ -1,56 +1,52 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 28 items.
-A level-1 auxiliary file: pages/chapters/01_intro.aux
 Reallocating 'name_of_file' (item size: 1) to 60 items.
 A level-1 auxiliary file: pages/chapters/02_success_factors/02_00_success_factors.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
-Warning--to sort, need author or key in W3Techs_WebServer
-Warning--to sort, need author or key in StackOverflowSurvey2021
-Warning--to sort, need author or key in OpenSourceDefinition
-You've used 9 entries,
+Warning--to sort, need author or key in GitHubBuildingWelcomingCommunities2022
+You've used 7 entries,
             2811 wiz_defined-function locations,
-            663 strings with 7111 characters,
-and the built_in function-call counts, 4124 in all, are:
-= -- 347
-> -- 85
+            652 strings with 6697 characters,
+and the built_in function-call counts, 3607 in all, are:
+= -- 301
+> -- 83
 < -- 8
-+ -- 30
++ -- 29
 - -- 28
-* -- 275
-:= -- 498
-add.period$ -- 28
-call.type$ -- 9
-change.case$ -- 47
-chr.to.int$ -- 9
-cite$ -- 15
-duplicate$ -- 338
-empty$ -- 365
+* -- 248
+:= -- 454
+add.period$ -- 23
+call.type$ -- 7
+change.case$ -- 40
+chr.to.int$ -- 7
+cite$ -- 9
+duplicate$ -- 297
+empty$ -- 306
 format.name$ -- 46
-if$ -- 862
+if$ -- 744
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 76
-newline$ -- 47
+missing$ -- 67
+newline$ -- 38
 num.names$ -- 12
-pop$ -- 143
+pop$ -- 108
 preamble$ -- 1
-purify$ -- 59
+purify$ -- 49
 quote$ -- 0
-skip$ -- 133
+skip$ -- 110
 stack$ -- 0
-substring$ -- 233
-swap$ -- 210
+substring$ -- 214
+swap$ -- 192
 text.length$ -- 8
 text.prefix$ -- 6
 top$ -- 0
-type$ -- 72
-warning$ -- 3
+type$ -- 56
+warning$ -- 1
 while$ -- 24
 width$ -- 10
-write$ -- 96
-(There were 3 warnings)
+write$ -- 80
+(There was 1 warning)

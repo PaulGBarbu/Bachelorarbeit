@@ -1,4 +1,4 @@
-\begin{thebibliography}{W3T22}
+\begin{thebibliography}{Mar15}
 
 \bibitem[Ban13]{bangerthWhatMakesComputational2013}
 W.~Bangerth und T.~Heister.
@@ -14,6 +14,11 @@ B.~Dagenais und M.~P. Robillard.
   127--136. {Association for Computing Machinery}, {New York, NY, USA}, Nov.
   2010.
 
+\bibitem[Git22]{GitHubBuildingWelcomingCommunities2022}
+Building {{Welcoming Communities}}.
+\newblock \url{https://opensource.guide/building-community/}, M\^^b{a}rz 2022.
+\newblock Zuletzt aufgerufen am 02.04.2022.
+
 \bibitem[Mar15]{marganSuccessOpenSource2015}
 D.~Margan und S.~Čandrlić.
 \newblock The success of open source software: A review.
@@ -26,16 +31,6 @@ V.~Midha und P.~Palvia.
 \newblock Factors Affecting the Success of {{Open Source Software}}.
 \newblock \emph{Journal of Systems and Software}, 85(4):895--905, Apr. 2012.
 
-\bibitem[Ope]{OpenSourceDefinition}
-The {{Open Source Definition}} | {{Open Source Initiative}}.
-\newblock https://opensource.org/osd.
-
-\bibitem[Sta]{StackOverflowSurvey2021}
-Stack {{Overflow Developer Survey}} 2021.
-\newblock
-  \url{https://insights.stackoverflow.com/survey/2021/?utm\_source=social-share\&utm\_medium=social\&utm\_campaign=dev-survey-2021}.
-\newblock Zuletzt aufgerufen am 20.03.2022.
-
 \bibitem[Ste06]{stewartImpactsLicenseChoice2006a}
 K.~J. Stewart, A.~P. Ammeter und L.~M. Maruping.
 \newblock Impacts of License Choice and Organizational Sponsorship on User
@@ -47,12 +42,5 @@ C.~Subramaniam, R.~Sen und M.~L. Nelson.
 \newblock Determinants of Open Source Software Project Success: {{A}}
   Longitudinal Study.
 \newblock \emph{Decision Support Systems}, 46(2):576--585, Jan. 2009.
-
-\bibitem[W3T22]{W3Techs_WebServer}
-Usage {{Statistics}} and {{Market Share}} of {{Web Servers}}, {{February}}
-  2022.
-\newblock \url{https://w3techs.com/technologies/overview/web\_server}, Febr.
-  2022.
-\newblock Zuletzt aufgerufen am 11.02.2022.
 
 \end{thebibliography}
