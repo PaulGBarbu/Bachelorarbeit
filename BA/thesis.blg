@@ -1,52 +1,59 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: pages/chapters/01_intro.aux
 Reallocating 'name_of_file' (item size: 1) to 60 items.
 A level-1 auxiliary file: pages/chapters/02_success_factors/02_00_success_factors.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
+Warning--to sort, need author or key in W3Techs_WebServer
+Warning--to sort, need author or key in StackOverflowSurvey2021
+Warning--to sort, need author or key in GitHubOpenSourceSurvey2017
 Warning--to sort, need author or key in GitHubBuildingWelcomingCommunities2022
-You've used 7 entries,
+Warning--to sort, need author or key in GitHubYourCodeOfConduct2022
+Warning--to sort, need author or key in GitHubStartingAProject2022
+You've used 12 entries,
             2811 wiz_defined-function locations,
-            652 strings with 6697 characters,
-and the built_in function-call counts, 3607 in all, are:
-= -- 301
-> -- 83
+            681 strings with 7650 characters,
+and the built_in function-call counts, 4975 in all, are:
+= -- 427
+> -- 88
 < -- 8
-+ -- 29
++ -- 31
 - -- 28
-* -- 248
-:= -- 454
-add.period$ -- 23
-call.type$ -- 7
-change.case$ -- 40
-chr.to.int$ -- 7
-cite$ -- 9
-duplicate$ -- 297
-empty$ -- 306
+* -- 319
+:= -- 575
+add.period$ -- 38
+call.type$ -- 12
+change.case$ -- 60
+chr.to.int$ -- 10
+cite$ -- 24
+duplicate$ -- 408
+empty$ -- 457
 format.name$ -- 46
-if$ -- 744
-int.to.chr$ -- 1
+if$ -- 1056
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 67
-newline$ -- 38
+missing$ -- 92
+newline$ -- 63
 num.names$ -- 12
-pop$ -- 108
+pop$ -- 198
 preamble$ -- 1
-purify$ -- 49
+purify$ -- 74
 quote$ -- 0
-skip$ -- 110
+skip$ -- 159
 stack$ -- 0
-substring$ -- 214
-swap$ -- 192
+substring$ -- 264
+swap$ -- 243
 text.length$ -- 8
 text.prefix$ -- 6
 top$ -- 0
-type$ -- 56
-warning$ -- 1
+type$ -- 96
+warning$ -- 6
 while$ -- 24
-width$ -- 10
-write$ -- 80
-(There was 1 warning)
+width$ -- 13
+write$ -- 126
+(There were 6 warnings)

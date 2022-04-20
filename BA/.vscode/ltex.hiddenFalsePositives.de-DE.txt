@@ -1,1 +1,2 @@
 {"rule":"DE_COMPOUNDS","sentence":"^\\QUm Erfolg in Open Source Software (OSS) messen zu können muss Erfolg zunächst definiert werden.\\E$"}
+{"rule":"GERMAN_SPELLER_RULE","sentence":"^\"Thanks for showing interest to contribute to Chakra UI, you rock!\".\\E$"}

@@ -18,8 +18,8 @@
 
 % Just a shortcut for a Side Note
 \newcommand{\rawidea}{\textcolor{red}{
-  \footnotesize{
-   \textit{(Der folgende Teil ist nur eine Ideensammlung und noch nicht ausformuliert.)}
+    \footnotesize{
+      \textit{(Der folgende Teil ist nur eine Ideensammlung und noch nicht ausformuliert.)}
     }
   }
 
@@ -39,4 +39,21 @@
   \begin{tcolorbox}[colback=yellow!5!white,colframe=yellow!75!black,title=Todo]
     #1
   \end{tcolorbox}
+}
+
+
+% Coming Soon Banner/Box
+\newenvironment{comingSoonBox}
+{
+  \begin{tcolorbox}[colback=yellow!5!white,colframe=yellow!75!black,title=Coming Soon]
+    }
+    {
+  \end{tcolorbox}
+}
+
+
+% -------------------------------------------- Glossar ------------------------------------------- %
+\newcommand{\glossarEntry}[2]{
+  \textbf{#1} \\
+  \textit{#2}
 }

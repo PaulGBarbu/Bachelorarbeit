@@ -1,52 +1,42 @@
 \subsection{Eine Community Aufbauen} \label{ssec:Eine Community Aufbauen}
 
-\todo{Markierte Quellen evtl. nochmal anschauen}
 
-\todo{Stichpunkte ausformulieren}
-
-\todo{Bogen zu Lizenzen ggf. schließen sieh .tex}
-
-\noindent
-Ein Open Source Projekt braucht eine Community von Benutzern und Mitwirkende. Ohne kann ein Projekt
-nicht wachsen. Einige Nutzer werden selbst zu Mitwirkenden und tragen ihren Teil zur Verbesserung
-des Projektes bei. Angefangen von Bug Reports bis hin zu Pull Requests. Dieses Verhalten der Community
-muss von den Projektleitern ermutigt werden
-\cite{bangerthWhatMakesComputational2013,GitHubBuildingWelcomingCommunities2022}.
-
-\bigskip
-\noindent
-Was muss man dafür machen?
-
-\begin{itemize}
-    \item Make people feel welcome => How
-    \item Document Everything
-    \item Be Responsive (Time to Close a Ticket)
-    \item Share ownership of your project (Encourage Users/Contributors to contribute)
-    \item Good README
-\end{itemize}
-
-\bigskip
-\noindent
-Womöglich gibt es hier noch etwas praktische infos \\
-\url{https://opensource.guide/code-of-conduct/} \\
-\url{https://opensourcesurvey.org/2017/} \\
-\url{https://www.sciencedirect.com/science/article/abs/pii/S0024630108000836} \\
-\cite{midhaFactorsAffectingSuccess2012}
+% ----------------------------------------- New Approach ----------------------------------------- %
+% Was will ich in diesem Kapitel überhaupt aussagen?
+Ein weiterer Erfolgsfaktor in OSS ist die Community, sowohl die Community von Nutzern, als auch die
+Community von OSS-Entwickler. Es liegt in der Verantwortung der Projektleiter die Community aufzubauen
+und zu pflegen. \cite{bangerthWhatMakesComputational2013,GitHubBuildingWelcomingCommunities2022}.
+Auf GitHub finden sich Standardmäßig zwei Dateien, welche auf die Wahrnehmung dieser Verantwortung
+hindeutet. Die \texttt{CODE\_OF\_CONDUCT.md} und \texttt{CONTRIBUTING.md}.
 
 \bigskip
 
-%TODO: Bezug auf Lizenz hier aufnehmen
-Abhängig der Lizenz zieht man unterschiedliche Personengruppen an.
-Offene Lizenzen wie MIT lädt vor allem X an...
-Mit eingeschränkten Lizenzen wie GPL zieht man weniger Leute/Unternehmen etc. an und hindert
-somit das Wachstum der eigenen Community \citationNeeded{\cite{stewartImpactsLicenseChoice2006a} PDF S. 16}
-%
-Unternehmen nutzten die Software,
-eingie improven die die Software und ein Teil davon gibt zur OSS Community auch wieder zurück
-\cite{bangerthWhatMakesComputational2013} % Kapitel 3.5
+% Erklärung zu: Code of Conduct
+Das \texttt{CODE\_OF\_CONDUCT.md} ist ein Dokument, welches die Erwartungen an das Verhalten der
+Projektteilnehmer festlegt.
+Das Übernehmen und Durchsetzten des Code of Conducts kann dazu beitragen, eine positive und soziale
+Atmosphäre für alle zu schaffen \cite{GitHubYourCodeOfConduct2022}. % Section 1
+Häufig werden hierfür Vorlagen von der \textit{Contributor Covenant} 
+Website\footnote{https://www.contributor-covenant.org/} verwendet.
 
-
-
+% Hypothese: Code of Conduct => Markterfolg
 \begin{hypothesis}
-    Bemühungen darin eine Community aufzubauen führen zu einem hohen Markt Erfolg.
+    Das Vorhandensein eines \textit{Code of Conduct} führt zu einem höheren Markterfolg.
+\end{hypothesis}
+
+% Erklärung zu: Contributing
+Die \texttt{CONTRIBUTING.md} Datei ist eine kurze Einführung, für potenzielle neue Contributor,
+wie man am jeweiligen Projekt mitwirken kann. Hier finden sich Anleitungen und Vorlagen für 
+Bug Reports, Feature Requests, vorgehen bei Pull Requests, sowie Richtlinien bezüglich 
+Coding Styles und Testabdeckung \cite{GitHubStartingAProject2022}. % Unter #writing-your-contributing-guidelines
+Einige Projekte beginnen ihre \texttt{CONTRIBUTING.md} mit einem dank an den Leser und künftigen
+Contributor, wie beispielsweise Chakra-UI\footnote{https://github.com/chakra-ui/chakra-ui},
+mit den Worten 
+\textit{"Thanks for showing interest to contribute to Chakra UI, you rock!"}.
+Somit wird die Hypothese aufgestellt, dass Projekte mit einem Contributing Guide eine höhere
+Chance für technischen Erfolg haben.
+
+% Hypothese: Contributing Guides => technischen Erfolg
+\begin{hypothesis}
+    Das Vorhandensein eines \textit{Contributing Guides} führt zu einem höherem technischen Erfolg.
 \end{hypothesis}

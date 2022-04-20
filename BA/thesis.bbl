@@ -1,4 +1,4 @@
-\begin{thebibliography}{Mar15}
+\begin{thebibliography}{W3T22}
 
 \bibitem[Ban13]{bangerthWhatMakesComputational2013}
 W.~Bangerth und T.~Heister.
@@ -14,10 +14,25 @@ B.~Dagenais und M.~P. Robillard.
   127--136. {Association for Computing Machinery}, {New York, NY, USA}, Nov.
   2010.
 
-\bibitem[Git22]{GitHubBuildingWelcomingCommunities2022}
+\bibitem[Gita]{GitHubBuildingWelcomingCommunities2022}
 Building {{Welcoming Communities}}.
-\newblock \url{https://opensource.guide/building-community/}, M\^^b{a}rz 2022.
+\newblock \url{https://opensource.guide/building-community/}.
 \newblock Zuletzt aufgerufen am 02.04.2022.
+
+\bibitem[Gitb]{GitHubStartingAProject2022}
+Starting an Open Source Project.
+\newblock \url{https://opensource.guide/starting-a-project/}.
+\newblock Zuletzt aufgerufen am 07.04.2022.
+
+\bibitem[Gitc]{GitHubYourCodeOfConduct2022}
+Your Code of Conduct.
+\newblock \url{https://opensource.guide/code-of-conduct/}.
+\newblock Zuletzt aufgerufen am 07.04.2022.
+
+\bibitem[Git17]{GitHubOpenSourceSurvey2017}
+Open {{Source Survey}}.
+\newblock \url{https://opensourcesurvey.org/2017/}, 2017.
+\newblock Zuletzt aufgerufen am 03.04.2022.
 
 \bibitem[Mar15]{marganSuccessOpenSource2015}
 D.~Margan und S.~Čandrlić.
@@ -31,6 +46,12 @@ V.~Midha und P.~Palvia.
 \newblock Factors Affecting the Success of {{Open Source Software}}.
 \newblock \emph{Journal of Systems and Software}, 85(4):895--905, Apr. 2012.
 
+\bibitem[Sta]{StackOverflowSurvey2021}
+Stack {{Overflow Developer Survey}} 2021.
+\newblock
+  \url{https://insights.stackoverflow.com/survey/2021/?utm\_source=social-share\&utm\_medium=social\&utm\_campaign=dev-survey-2021}.
+\newblock Zuletzt aufgerufen am 20.03.2022.
+
 \bibitem[Ste06]{stewartImpactsLicenseChoice2006a}
 K.~J. Stewart, A.~P. Ammeter und L.~M. Maruping.
 \newblock Impacts of License Choice and Organizational Sponsorship on User
@@ -42,5 +63,12 @@ C.~Subramaniam, R.~Sen und M.~L. Nelson.
 \newblock Determinants of Open Source Software Project Success: {{A}}
   Longitudinal Study.
 \newblock \emph{Decision Support Systems}, 46(2):576--585, Jan. 2009.
+
+\bibitem[W3T22]{W3Techs_WebServer}
+Usage {{Statistics}} and {{Market Share}} of {{Web Servers}}, {{February}}
+  2022.
+\newblock \url{https://w3techs.com/technologies/overview/web\_server}, Febr.
+  2022.
+\newblock Zuletzt aufgerufen am 11.02.2022.
 
 \end{thebibliography}

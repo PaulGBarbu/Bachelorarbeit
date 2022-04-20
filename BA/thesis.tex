@@ -11,17 +11,22 @@
 % --------------------------------------- Pre Chapter Stuff -------------------------------------- %
 
 % Deckblatt
-% \include{pages/title} % ! commented out for now
+% \include{pages/title} % ! (Titelseite) commented out for now
 \cleardoubleemptypage
 
 % Abstract
-% \include{pages/abstract} % ! commented out for now
+% \include{pages/abstract} % ! (Abstract) commented out for now
 \cleardoubleemptypage
 
 % Table of Contents
 \pagestyle{scrplain}
 \pagenumbering{roman}
-% \include{pages/toc} % ! commented out for now
+% \include{pages/toc} % ! (Inhaltsverzeichnis) commented out for now
+
+
+
+% Glossar
+%\input{pages/glossar}
 
 
 
@@ -33,14 +38,14 @@
 % ---------------------------------------- Chapters begin ---------------------------------------- %
 
 %\begin{multicols}{2}
-  %\include{pages/chapters/01_intro}
+  \include{pages/chapters/01_intro}
   \include{pages/chapters/02_success_factors/02_00_success_factors}
-  %\include{pages/chapters/03_crawler}
-  %\include{pages/chapters/04_methodik}
+  % \include{pages/chapters/03_crawler}
+  % \include{pages/chapters/04_methodik}
 
-  %\include{pages/chapters/xx_survey}
-  %\include{pages/chapters/xx_comparison}
-  %\include{pages/chapters/xx_discussion}
+  % \include{pages/chapters/xx_survey}
+  % \include{pages/chapters/xx_comparison}
+  % \include{pages/chapters/xx_discussion}
 %\end{multicols}
 
 

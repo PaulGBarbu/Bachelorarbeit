@@ -1,51 +1,45 @@
 \subsection{Gute Dokumentation}
 
-\todo{Blauen Text ausformulieren} \\
-\todo{Quelle für raussuchen sieh unten} \\
-\todo{Weitere Quelle einbauen \cite{dagenaisDeveloperDocumentation}} \\
-\todo{Hypothese schöner formulieren}
-
+% Einleitung
 Dokumentationen spielen eine entscheidende Rolle für den Erfolg eines Projekts.
-Ohne eine gute Dokumentation ist die Software schwer zugänglich für die Benutzer und damit teils
-unbrauchbar.
-Mailing Listen und StackOverflow können eine gute Ergänzung zur Dokumentation sein, allerdings kann
-diese dadurch nicht ersetzt werden.\\ \citationNeeded{Könnte aus \cite{bangerthWhatMakesComputational2013} stammen}
+Ohne eine gute Dokumentation ist die Software für die Benutzer als auch Contributor schwer zugänglich. 
+% Quelle 1: StackOverflow et al. not enough
+Mailing Listen und StackOverflow können als eine gute Ergänzung zur Dokumentation dienen, allerdings kann
+diese dadurch nicht ersetzt werden \cite{bangerthWhatMakesComputational2013}. % 2.2.3
 
+% Quelle 2: Gute Dokus ziehen Nutzer an
+Eine gute Dokumentation ist auch ein Mittel, um neue Nutzer zu gewinnen. In Dagenais et al. heißt es,
+dass schon das Vorhandensein eines \textit{Getting Started} Tutorials, den Nutzer beim 
+Entscheidungsprozess positiv beeinflussen kann. \cite{dagenaisDeveloperDocumentation}. % 4.2 Consequences.
+Ist man als Nutzer die ersten Schritte mit einer neuen Programmiersprache, Framework oder Bibliothek
+gegangen, steigt die Wahrscheinlichkeit, dieses Produkt auch zu nutzten.
+% Beispiel: React
+Beispielsweise hat die Web-Bibliothek ReactJS\footnote{https://reactjs.org/} auf der Homepage simple 
+Beispiele, die man live editieren kann, ohne sich vorher etwas downloaden zu müssen, um einen
+ersten Eindruck von React zu gewinnen.
+Des Weiteren, gibt es ein sehr ausführliches Tutorial\footnote{https://reactjs.org/docs/getting-started.html}
+welches über 5 Kapitel mit 21 Unterkapitel alle Grundbausteine von React abdeckt, um das gesamte 
+Feature-Set in Kürze zu präsentieren und neue Entwickler von React zu überzeugen.
 
-Mit einem Crawler ist es schwer zu beurteilen, ob eine Dokumentation gut ist oder nicht oder ob
-eine Dokumentation überhaupt existiert, da sich diese häufig auch auf der Homepage des Projekts befinden.
-Man kann aber Dokumentation mit als Punkt in die Umfrage mit aufnehmen.
+% Quelle 3: GitHub, Bad Doku => Misserfolg / Good Doku => More Contribution
+Laut einer GitHub Umfrage im Jahr 2017 sind unvollständige oder verwirrende Dokumentationen das größte
+Problem für Open Source Nutzer. Eine Gute Dokumentation hingegen lädt nicht nur neue Nutzer ein,
+sondern kann auch Nutzer zu Contributor machen.
+Sei es durch das Erstellen von Issues oder eines ersten Pull Requests.
+Hierfür spielen vor allem Contributing Guides und ein Code of Conduct eine wichtige Rolle, hierzu
+mehr im nächsten Kapitel \cite{GitHubOpenSourceSurvey2017}.
 
-\begin{quote}
-    GitHub's 2017 Open Source Survey showed incomplete or confusing documentation is the biggest
-    problem for open source users. Good documentation invites people to interact with your project. 
-    Eventually, someone will open an issue or pull request. Use these interactions as opportunities 
-    to move them down the funnel.
+% Überleitung zur Hypothese
+Dokumentationen spielen eine wichtige Rolle, um neue Nutzer als auch neue Mitwirkende für ein
+Projekt zu gewinnen. 
+Daher wird die Hypothese aufgestellt, dass Projekte mit guter Dokumentationen, erfolgreicher sind.
+Sowohl im Bereich des Markt- als auch technischen Erfolgs.
 
-    \tiny
-    Source: \url{https://opensource.guide/building-community/#make-people-feel-welcome}
-    \normalsize
-
-\end{quote}
-
-Weitere hilfreiche Quellen: \link{GitHub Open Source Survey}{https://opensourcesurvey.org/2017/},
-\link{Blog Post}{https://opensource.guide/building-community/\#document-everything} über Dokumentieren
-
-\bigskip
-
-\todoo{
-    \noindent
-    \textbf{"Wie wichtig ist eine gute Dokumentation bei der Auswahl einer OSS für Sie?"} eignet
-    sich als hervorragende Frage in der Umfrage.
-    Datenerfassung aus GitHub muss ggf. händisch stattfinden und soll wie folgt kategorisiert werden:
-    \begin{itemize}
-        \item 0 = keine Dokumentation
-        \item 1 = Basis Dokumentation in der GitHub README
-        \item 2 = Ausführliche Dokumentation (Eigene Website / Code Beispiele etc.)
-    \end{itemize}
-}
 
 \begin{hypothesis}
-    Dokumentation ist wichtig vorallem wenn die Zielgruppe Entwickler sind.
-    (Gute Doku => Hoher Technischer Erfolg)
+    Gute Dokumentationen ziehen mehr Nutzer an und führen so zu einem höheren Markt Erfolg.
+\end{hypothesis}
+
+\begin{hypothesis}
+    Vorhanden sein von Contributing Guides und/oder Code of Conduct führt zu einem höheren technischen Erfolg.
 \end{hypothesis}
