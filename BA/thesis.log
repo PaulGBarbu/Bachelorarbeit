@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.26)  17 APR 2022 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.26)  20 APR 2022 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -883,45 +883,42 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 19.70294pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 64.
-)
-LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 41.
-LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 41.
+(Font)              scaled to size 13.67995pt on input line 47.
+LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 50.
  (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 41.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 50.
  (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 41.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 50.
  (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 41.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 50.
  (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 41.
+(Font)              scaled to size 11.40997pt on input line 50.
  (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 41.
+(Font)              scaled to size 8.33606pt on input line 50.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 41.
+(Font)              scaled to size 6.25204pt on input line 50.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 41.
+(Font)              scaled to size 11.40997pt on input line 50.
  (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 41.
+(Font)              scaled to size 8.33606pt on input line 50.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 41.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 41.
+(Font)              scaled to size 6.25204pt on input line 50.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 50.
  (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -929,6 +926,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 102.
  [1
 
 
@@ -940,7 +939,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 
-{C:/Users/barbu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/barbu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) [2]
 \openout2 = `pages/chapters/02_success_factors/02_00_success_factors.aux'.
 
  (pages/chapters/02_success_factors/02_00_success_factors.tex
@@ -948,7 +947,7 @@ chapter 2.
 (pages/chapters/02_success_factors/02_01_licenses.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 1.
- [2
+ [3
 
 
 
@@ -965,7 +964,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [3]) (pages/chapters/02_success_factors/02_05_sponsors.tex
+ [4]) (pages/chapters/02_success_factors/02_05_sponsors.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\setbox' on input line 1.
@@ -1339,7 +1338,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\z@' on input line 1.
 
-) [4] (pages/chapters/02_success_factors/02_xx_timing.tex
+) [5] (pages/chapters/02_success_factors/02_xx_timing.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\setbox' on input line 1.
@@ -1713,29 +1712,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\z@' on input line 72.
 
-) [5] (thesis.bbl
+) [6] (thesis.bbl
 chapter without number
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--21
 []\T1/pplx/m/n/10.95 (+20) Building Wel-co-ming Com-mu-ni-ties.  []$\T1/zi4/m/n/10.95 https : / / opensource . guide /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
-[]\T1/pplx/m/n/10.95 (+20) Starting an Open Sour-ce Pro-ject.  []$\T1/zi4/m/n/10.95 https : / / opensource . guide /
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 50--54
-[]\T1/pplx/m/n/10.95 (+20) Stack Over-flow De-vel-oper Sur-vey 2021.  []$\T1/zi4/m/n/10.95 https : / / insights . stackoverflow .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--54
-\T1/zi4/m/n/10.95 com / survey / 2021 / ?utm _ source = social-[]share & utm _ medium = social & utm _ campaign =
- []
-
-) [6
+) [7
 
 
 
@@ -1748,17 +1732,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30702 strings out of 478659
- 618501 string characters out of 2845920
- 1083618 words of memory out of 3000000
- 47932 multiletter control sequences out of 15000+600000
- 454864 words of font info for 253 fonts, out of 8000000 for 9000
+ 30720 strings out of 478659
+ 618599 string characters out of 2845920
+ 1086618 words of memory out of 3000000
+ 47931 multiletter control sequences out of 15000+600000
+ 455730 words of font info for 265 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,20n,120p,10670b,620s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,19n,120p,10670b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (6 pages, 142363 bytes).
+Output written on thesis.pdf (7 pages, 143255 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 69237 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 69245 words of extra memory for PDF output out of 74296 (max. 10000000)
 

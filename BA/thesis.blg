@@ -9,51 +9,49 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
-Warning--to sort, need author or key in W3Techs_WebServer
-Warning--to sort, need author or key in StackOverflowSurvey2021
 Warning--to sort, need author or key in GitHubOpenSourceSurvey2017
 Warning--to sort, need author or key in GitHubBuildingWelcomingCommunities2022
 Warning--to sort, need author or key in GitHubYourCodeOfConduct2022
 Warning--to sort, need author or key in GitHubStartingAProject2022
-You've used 12 entries,
+You've used 10 entries,
             2811 wiz_defined-function locations,
-            681 strings with 7650 characters,
-and the built_in function-call counts, 4975 in all, are:
-= -- 427
-> -- 88
+            668 strings with 7174 characters,
+and the built_in function-call counts, 4421 in all, are:
+= -- 376
+> -- 86
 < -- 8
 + -- 31
 - -- 28
-* -- 319
-:= -- 575
-add.period$ -- 38
-call.type$ -- 12
-change.case$ -- 60
-chr.to.int$ -- 10
-cite$ -- 24
-duplicate$ -- 408
-empty$ -- 457
+* -- 289
+:= -- 528
+add.period$ -- 32
+call.type$ -- 10
+change.case$ -- 52
+chr.to.int$ -- 8
+cite$ -- 18
+duplicate$ -- 362
+empty$ -- 395
 format.name$ -- 46
-if$ -- 1056
+if$ -- 929
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 92
-newline$ -- 63
+missing$ -- 82
+newline$ -- 53
 num.names$ -- 12
-pop$ -- 198
+pop$ -- 166
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 64
 quote$ -- 0
-skip$ -- 159
+skip$ -- 137
 stack$ -- 0
-substring$ -- 264
-swap$ -- 243
+substring$ -- 244
+swap$ -- 219
 text.length$ -- 8
 text.prefix$ -- 6
 top$ -- 0
-type$ -- 96
-warning$ -- 6
+type$ -- 80
+warning$ -- 4
 while$ -- 24
 width$ -- 13
-write$ -- 126
-(There were 6 warnings)
+write$ -- 107
+(There were 4 warnings)

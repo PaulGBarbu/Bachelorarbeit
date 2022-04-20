@@ -1,61 +1,56 @@
 \chapter{Einleitung}
 
+\todo{Überleitung zur Fragestellung überarbeiten.}
+
 % TODO: Kind of like: In der BA wird Projekt allgemein verwendet für, Framework, Bibliothek, Software etc.
 % TODO: Disclaimer bezüglich so Sachen wie Entwickler:in ... cause you know. We live in 2022
 
-% \todo{Wird im Laufe der Arbeit noch genauer spezifizieren.}
 
 % ? Einschränken nur auf Packages. Grund: 
 %?    a) npm 
 %?    b) "used by" Kategorie auf GitHub  
 %?    c) kleinerer Umfang für BA
 
-% % Intro
-% In der IT ist Open Source ein fester Bestandsteil der gesamten Infrastruktur.
-% Mehr als die Hälfte aller Web Server laufen unter Open-Source-Lizenzen 
-% Die meistgenutzten Frontend Frameworks sind ebenfalls alle Open Source. \cite{StackOverflowSurvey2021}
 
-% % Intro 2.0
-% Open Source Software ist in der gesamten IT Infrastruktur weit verbreitet und sehr erfolgreich.
-% Das Internet baut auf Web-Frameworks wie Apache und NGINX auf, im Frontend wird React, Angular,
-% jQuery usw. eingesetzt. All diese Frameworks laufen unter Open Source Lizenzen, und haben keine wenig
-% Konkurrenz aus der proprietären Welt \cite{W3Techs_WebServer, StackOverflowSurvey2021}.
-% Aber was macht ein Open Source Projekt erfolgreich gegenüber proprietärer oder gar anderen Konkurrenten Open Source Projekten erfolgreich?
-% Welche Faktoren tragen zum Erfolg eines Projektes bei? 
+In der heutigen Software-Entwicklung ist Open Source ein fester Bestandteil der Software Industrie.
+Von Frontend-Entwicklung über Datenbanken bis hin zu Machine Learning, überall kommen Open Source
+Bibliotheken, Frameworks und Software zum Einsatz.
+Im Frontend werden Frameworks bzw. Bibliotheken wie Angular oder React verwendet,
+bei der Auswahl von Datenbankmanagementsysteme stehen einem eine Vielzahl von Optionen zur Auswahl
+wie PostgreSQL, MySQL oder MongoDB
+und im Bereich Machine Learning werde Frameworks wie TensorFlow, Keras oder SciKit-Learn genutzt.
 
-% Intro 3.0 + Ziel der Arbeit
-% ------------------------------------------------------------------------------------------------ %
-In dieser Arbeit soll mittels einer Datenerhebung von ausgewählten Open Source Projekten sowie einer
-Umfrage herausgefunden werden, welche Faktoren zum Erfolg eines Open Source Projektes beitragen. 
-Open Source Software (OSS) ist in der gesamten IT Infrastruktur weit verbreitet, auf Linux Servern
-werden Webserver wie Apache und NGNIX gehostet, im Frontend wird mit React, Angular und jQuery 
-gearbeitet, all diese Komponenten sind Open Source.
-\cite{W3Techs_WebServer, StackOverflowSurvey2021}. 
-% TODO: Theoretisch müsste man glaub ich die W3Tech_Webserver erweitern auf Betriebsysteme idk
-
-% Abgrenzung
-Ein zentraler Punkt dieser Ausarbeitung sind die extrinsischen sowie intrinsischen Anreize,
-die Nutzer zur Auswahl eines Produktes motivieren \cite{midhaFactorsAffectingSuccess2012}. % Chapter 3.1 & 3.2
-Warum React und nicht Angular? Warum Debian und nicht Ubuntu etc.? 
-Aspekte wie die interne Führung und Organisation der Projekte wird hierbei nicht thematisiert.
+% TODO: Überleitung braucht noch feinschliff
+% Überleitung 
+Doch worin unterscheiden sich diese und viele andere Erfolgreiche Open Source Projekte, von nicht
+so weit verbreiteten Wettbewerber.
+% Fragestellung
+Mit dieser Bachelorarbeit soll die Frage beantwortet werden, \textit{welche Faktoren Einfluss auf
+den Erfolg von Open Source Projekten, speziell in der JavaScript/TypeScript Umgebung haben.}
 
 
 % Ziel der Arbeit
-% Mit dieser Arbeit soll, basierend auf ausgewählten Open-Source-Projekten und einer Umfrage,
-% herausgefunden werden welche Faktoren entscheidend zum Erfolg eines Projektes beitragen.
-% Hierbei wird hauptsächlich von der Nutzerperspektive ausgegangen, wobei mit Nutzer nicht nur die
-% Endnutzer der Software, sondern auch Softwareentwickler gemeint sind, die Open Source Produkte wie
-% Bibliotheken etc. in eigenen Projekten einbauen.
+Mittels einer Datenerhebung von ausgewählten Open Source Projekten sowie einer
+Umfrage soll herausgefunden werden, welche Faktoren zum Erfolg eines Open Source Projektes beitragen.
+% Abgrenzung
+Ein zentraler Punkt dieser Ausarbeitung sind die extrinsischen sowie intrinsischen Anreize,
+die Nutzer zur Auswahl eines Produktes motivieren \cite{midhaFactorsAffectingSuccess2012}. % Chapter 3.1 & 3.2
+Warum React und nicht Angular? Warum Debian und nicht Ubuntu etc.?
+Aspekte wie die interne Führung und Organisation der Projekte wird hierbei nicht thematisiert.
 
 
-% % Open Source Erklärung
-% Der Begriff Open Source ist den meisten Softwareentwicklern wahrscheinlich bekannt,
-% aber was genau steckt dahinter? Die Antwort ist weitaus mehr als \textit{nur} quelloffener Code
-% und kostenlose Software.
-% Die \textit{Open Source Initiative} hat eine klare Definition für Open Source.
-% Wie der Name schon sagt, muss der Quellcode offen liegen, des Weiteren gelten allerdings auch
-% Voraussetzungen, wie beispielsweise, dass Nutzer den Quellcode verändern und weitergeben
-% dürfen \cite{OpenSourceDefinition}.
+
+
+% ------------------------------------------------------------------------------------------------ %
+%                                    Definition von Open Source                                    %
+% ------------------------------------------------------------------------------------------------ %
+\section{Definition von Open Source}
+
+Diese Arbeit folgt der gleichen Definition für Open Source wie von der
+\textit{Open Source Initiative}\footnote{https://opensource.org/osd} definiert wird. Entsprechend
+werden nur Projekte betrachtet die eine von der
+OSI genehmigten Lizenzen\footnote{https://opensource.org/licenses/category}
+nutzt.
 
 
 % ------------------------------------------------------------------------------------------------ %
@@ -105,6 +100,9 @@ wirkt sich die Entwickleraktivität positiv den technischen Erfolg aus
 \cite{midhaFactorsAffectingSuccess2012, % 6.3. Hypothosis H3c (aber nur teils unterstützt)
     stewartImpactsLicenseChoice2006a}. % Defining Success in OSS (letzter Absatz)
 
+\todo{Footnote ausformuliren ggf link auf Glossar}
+\todo{Was sind GitHub Sterne?}
+
 % Ziel dieser Arbeit
 In dieser Arbeit werden die Erfolgsfaktoren betrachtet, die zum Markt- bzw. technischen Erfolg
 eines Projektes beitragen.
@@ -112,7 +110,8 @@ Der Markterfolg wird anhand Metriken gemessen wie:
 Downloads, Sterne auf GitHub sowie die Anzahl der Nutzer.
 Der technische Erfolg wird anhand von Metriken wie:
 Anzahl der Commits, Anzahl der Mitwirkenden am Projekt,
-Geschwindigkeit in der Tickets abgearbeitet werden und Verhältnis zwischen offenen/abgeschlossenen Issues gemessen.
+Geschwindigkeit in der Tickets abgearbeitet werden und Verhältnis zwischen offenen/abgeschlossenen
+Issues\footnote{\todoo{Was sind Issues}} gemessen.
 
 % \subsection{Markterfolg}
 
