@@ -1,59 +1,14 @@
-\begin{thebibliography}{Dag10}
+\begin{thebibliography}{Mid12}
 
-\bibitem[Ban13]{bangerthWhatMakesComputational2013}
-W.~Bangerth und T.~Heister.
-\newblock What Makes Computational Open Source Software Libraries Successful?
-\newblock \emph{Computational Science \& Discovery}, 6(1):015010, Nov. 2013.
-
-\bibitem[Dag10]{dagenaisDeveloperDocumentation}
-B.~Dagenais und M.~P. Robillard.
-\newblock Creating and Evolving Developer Documentation: Understanding the
-  Decisions of Open Source Contributors.
-\newblock In \emph{Proceedings of the Eighteenth {{ACM SIGSOFT}} International
-  Symposium on {{Foundations}} of Software Engineering}, {{FSE}} '10, S.
-  127--136. {Association for Computing Machinery}, {New York, NY, USA}, Nov.
-  2010.
-
-\bibitem[Gita]{GitHubBuildingWelcomingCommunities2022}
-Building {{Welcoming Communities}}.
-\newblock \url{https://opensource.guide/building-community/}.
-\newblock Zuletzt aufgerufen am 02.04.2022.
-
-\bibitem[Gitb]{GitHubStartingAProject2022}
-Starting an Open Source Project.
-\newblock \url{https://opensource.guide/starting-a-project/}.
-\newblock Zuletzt aufgerufen am 07.04.2022.
-
-\bibitem[Gitc]{GitHubYourCodeOfConduct2022}
-Your Code of Conduct.
-\newblock \url{https://opensource.guide/code-of-conduct/}.
-\newblock Zuletzt aufgerufen am 07.04.2022.
-
-\bibitem[Git17]{GitHubOpenSourceSurvey2017}
-Open {{Source Survey}}.
-\newblock \url{https://opensourcesurvey.org/2017/}, 2017.
-\newblock Zuletzt aufgerufen am 03.04.2022.
+\bibitem[GHa]{GHapiDocsCommits}
+Why Are My Contributions Not Showing up on My Profile?
+\newblock
+  \url{https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile#commit-was-not-made-in-the-default-or-gh-pages-branch}.
+\newblock Zuletzt aufgerufen am 18.05.2022.
 
 \bibitem[Mid12]{midhaFactorsAffectingSuccess2012}
 V.~Midha und P.~Palvia.
 \newblock Factors Affecting the Success of {{Open Source Software}}.
 \newblock \emph{Journal of Systems and Software}, 85(4):895--905, Apr. 2012.
-
-\bibitem[Ste06]{stewartImpactsLicenseChoice2006a}
-K.~J. Stewart, A.~P. Ammeter und L.~M. Maruping.
-\newblock Impacts of License Choice and Organizational Sponsorship on User
-  Interest and Development Activity in Open Source Software Projects.
-\newblock \emph{Information Systems Research}, 17(2):126--144, 2006.
-
-\bibitem[Sub09]{subramaniamDeterminantsOpenSource2009}
-C.~Subramaniam, R.~Sen und M.~L. Nelson.
-\newblock Determinants of Open Source Software Project Success: {{A}}
-  Longitudinal Study.
-\newblock \emph{Decision Support Systems}, 46(2):576--585, Jan. 2009.
-
-\bibitem[Top]{TopGitHubProjects}
-Top {{GitHub Projects}} by {{Stars}}.
-\newblock
-  \url{https://github.com/search?l=\&o=desc\&q=stars\%3A\%3E100+stars\%3A\%3E1\&s=stars\&type=Repositories}.
 
 \end{thebibliography}

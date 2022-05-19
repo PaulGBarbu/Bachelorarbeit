@@ -1,57 +1,208 @@
 \chapter{Methodik}
 
-Die Datenerhebung findet auf Basis von öffentlichen Daten statt, die man auf den Project-Pages
-auf GitHub findet. Bei den Downloads handelt es sich, um die npm\footnote{npmjs.com} Downloads.
+\todo{Ausformulieren}
+\bigskip
+
+
+% TODO: Hinschreiben genau wie viele Datensätze das sind.
+Für die Datenerhebung wurden 101 Open Source Projekte auf GitHub ausgewählt.
+% Rahmenbedingungen
+Laut Midha et al. lassen sich unterschiedliche Programmiersprache schlecht miteinander vergleichen
+\cite{midhaFactorsAffectingSuccess2012}. Um eine vergleichbare Basis zu schaffen wurde sich bei der
+Datenerhebung auf die Programmiersprachen JavaScript und TypeScript beschränkt.
+
+
+\todo{zusammenhang zwischen JS und TS und warum auch TS Projekte mitaufgenommen werden}
+
+\todo{evtl. weiter Beschränkung erwähnen: Nur Bibliotheken Framekworks etc.}
+
+\todo{evtl. erwähnen warum gerade JavaScript}
+
+% % %  Why JavaScript  % % %
+% JavaScript ist aktuell die beliebteste Programmiersprache auf GitHub, wenn man nach Anzahl der
+% Repositories geht außerdem lassen sich Projekte auch über Downloadzahlen auf NPM vergleichen.
+
+
+
+% ------------------------------------------------------------------------------------------------ %
+%                                     Händische Datenerfassung                                     %
+% ------------------------------------------------------------------------------------------------ %
+\section{Händische Datenerfassung}
+
+\todo{Ausformulieren}
+
+\todo{ggf. mehr Projekte mit nicht MIT Lizenzen in Datenerhebung aufnehmen}
 
 \bigskip
 \noindent
-Die GitHub Daten werden mittels der GitHub API erfasst.
+Mithilfe einer selbstgeschrieben GUI wurden zunächst Eckdaten händisch erfasst, dazu gehören Besitzer und Name
+der ausgewählten GitHub Projektes sowie der Name des Projektes auf NPM. Des Weiteren wurden Daten erfasst, die
+man nicht automatisiert hätte erfassen können. Darunter gehören Daten wie: Qualität der Dokumentation, ob ein
+Projekt Sponsoren hat, wer hinter den Projekten steckt und um was für ein Typ an Projekt es sich handelt.
+
+Mit der GitHub Suchfunktion\footnote{\url{https://github.com/search/advanced}} wurde nach JS/TS Projekten
+gesucht. Die Projekte werden absteigend nach Sternen wiedergegeben und auch so auch erfasst.
+Allerdings gibt es hier viele Projekte die keine Bibliotheken, Frameworks oder ähnliches sind,
+wie beispielsweise
+\textit{30-seconds/30-seconds-of-code}\footnote{\url{https://github.com/30-seconds/30-seconds-of-code}}.
+Dieses und ähnliche Projekte wurden entsprechen für die Datenerfassung nicht berücksichtigt.
+
+Während der Datenerfassung wurde festgestellt, dass die meisten Projekte eine MIT Lizenz haben,
+sodass später explizit nach nicht MIT lizenzierten Projekten gesucht wurde.
+
+Alle Einträge wurden in einer CSV gespeichert und später weiter automatisiert verarbeitet, mehr dazu in
+Kapitel \ref{sec:automatisierte_datenerfassung}.
 
 
-
-
-
-
-
-
-
-
-
-
-% ------------------------------------------------------------------------------------------------ %
-% ------------------------------------------------------------------------------------------------ %
-% ------------------------------------------------------------------------------------------------ %
-\subsubsection*{--------------------------------}
-
-% -------------------------------------------- Umfrage ------------------------------------------- %
-\section{Umfrage}
-
-
-% ----------------------------------- Datenerhebung / "Crawler" ---------------------------------- %
-\section{Datenerhebung bzw Crawler}
-Hierfür wurden X viele Projekte Handpicked ausgewählt, von großen mit über hundert tausend GH-Stars, bis hin
-zu kleinen mit wenigen hundert GH-Stars. Hierbei wurden nur welche ausgewält die....
-
+\bigskip
+\noindent
+In den nächsten Unterkapiteln soll näher erklärt wie und nach welchen Kriterien die von Hand erfassten
+Daten zu Stande kommen und welche Bedeutung die Werte in der CSV haben.
 
 % ----------------------------------------- Dokumentation ---------------------------------------- %
-\section{Dokumentation}
+\subsection{Dokumentation}
+Bei der Qualität der Dokumentation wurde nach folgenden Kriterien bewertet
 
-Der Punkt \textit{Gute Dokumentation} (kann/wird) auf zwei verschiedene Arten und Weisen erfasst.
-Einmal durch die Umfrage und einmal mittels Crawler. In der Umfrage gibt es konkrete Fragen Bezüglich
-Dokumentation wie:
-\begin{itemize}
-    \item Wie wichtig ist eine gute Dokumentation bei der Auswahl einer OSS für Sie?
-    \item Würden Sie wegen einer schlechten Dokumentation ein Stück Software NICHT nutzten?
-    \item Etc.
+\begin{itemize}[noitemsep]
+    \item[0 =] keine Dokumentation
+    \item[1 =] basis Dokumentation, rein textuelle Dokumentation
+    \item[2 =] Dokumentationen mit Demos oder Live Beispielen,
+        Einführungsvideos oder ähnliches
 \end{itemize}
 
-Bezüglich Datenerfassung mittels Crawler muss man das wohl eher händisch machen. Da man mit einem
-Crawler nicht bewerten kann, ob eine Dokumentation gut/vorhanden ist vor allem, weil sich diese
-meist auf anderen Websites befinden. Hierbei könnte man pro Projekt folgendermaßen vorgehen:
-Man geht händisch durch die Projekte durch und bewertet diese nach folgendem Schema
+\noindent
+Hierfür wurde die Dokumentation auf GitHub selbst bzw. auf den externen Websiten überflogen und
+kategorisiert.
 
-\begin{itemize}
-    \item 0 = keine Dokumentation
-    \item 1 = Basis Dokumentation in der GitHub README (Nur ein Getting Started)
-    \item 2 = Ausführliche Dokumentation (Eigene Website / Code Beispiele etc.)
+
+% ------------------------------------------- Sponsoren ------------------------------------------ %
+\subsection{Sponsoren}
+Hier wurde für jedes Projekt geprüft, ob es Sponsoren hat. Hierfür gibt es oft auf der GitHub Page
+eine Link zur Sponsor Seite oder in den meisten Fällen findet sich in der \textit{README.md} bzw.
+auf der Website des Projektes eine kurze Danksagung an die Top Sponsoren.
+
+Die Anzahl an Sponsoren bzw. die Einnahmen durch Sponsoren wurden nicht beachtet, nur ob Sponsoren
+vorhanden sind.
+
+\begin{itemize}[noitemsep]
+    \item[0 =] hat keine Sponsoren
+    \item[1 =] hat Sponsoren
 \end{itemize}
+
+
+% ------------------------------------------- Backed by ------------------------------------------ %
+\subsection{Backed By}
+Im nächsten Schritt wurde vermerkt wer hinter einem Projekt steckt, hierbei gab es die Möglichkeiten:
+
+\begin{itemize}[noitemsep]
+    \item[0 =] Eines reinen Community Projektes wie zum Beispiel VueJS,
+    \item[1 =] ein Projekt wie NodeJS welches von einer Stiftung wie der OpenJS\footnote{\url{https://openjsf.org/}}
+        entwickelt oder unterstützt wird oder
+    \item[2 =] Projekte die von Unternehmen entwickelt werden, wie React von Facebook beispielsweise.
+\end{itemize}
+
+Diese Information fand sich entweder auf der GitHub bzw. Homepage des Projektes oder das Unternehmen
+ist der Besitzer des Repositories.
+
+% ------------------------------------------- Kategorie ------------------------------------------ %
+\subsection{Kategorie}
+Im letzten Schritt wurde das Projekt nach Typ Kategorisiert, folgende Kategorien standen zur Auswahl.
+
+\begin{table}[h]
+    \begin{tabular}{ll}
+        \hline
+        \textbf{Kategorie} & \textbf{Anzahl}        \\ \hline
+        Utility            & \multicolumn{1}{c}{40} \\
+        UI                 & \multicolumn{1}{c}{28} \\
+        Application        & \multicolumn{1}{c}{12} \\
+        Library            & \multicolumn{1}{c}{7}  \\
+        Framework          & \multicolumn{1}{c}{6}  \\
+        Test-Framework     & \multicolumn{1}{c}{5}  \\
+        Open-Core          & \multicolumn{1}{c}{2}  \\
+        API                & \multicolumn{1}{c}{1}
+    \end{tabular}%
+\end{table}
+
+
+Utility
+
+
+
+
+\begin{itemize}[noitemsep]
+    \item \textbf{Utility}, wird nicht direkt in Projekte eingebaut sondern als Tool verwendet.
+          Beispiel: \texttt{shelljs/shelljs}\footnote{\url{https://github.com/shelljs/shelljs}}
+    \item UI
+    \item Application
+    \item Library
+    \item Framework
+    \item Test-Framework
+    \item Open-Core
+    \item API
+\end{itemize}
+
+
+
+\todo{Unterscheidung zwischen Utility/Library etc.}
+
+
+\todo{Zahlen Ausfüllen, wv Projekte in welcher Kategorie}
+
+
+
+% ------------------------------------------------------------------------------------------------ %
+%                                                                                                  %
+%                                   Automatisierte Datenerfassung                                  %
+%                                                                                                  %
+% ------------------------------------------------------------------------------------------------ %
+\section{Automatisierte Datenerfassung}\label{sec:automatisierte_datenerfassung}
+
+Im zweiten Teil der Datenerfassung wurden weitere Daten automatisiert erfasst. Hierfür wurde die
+GitHub API\footnote{\url{https://docs.github.com/en/rest}}, NPM
+API\footnote{\url{https://github.com/npm/registry}} und für einige Daten Web-Scraping
+verwendet.
+
+
+% ----------------------------------- Daten aus der GitHub API ----------------------------------- %
+\subsection{Daten aus der GitHub API}
+Mittels der GitHub API wurden folgende Daten gesammelt:
+
+\begin{itemize}[noitemsep]
+    \item Anzahl der GitHub-Sternen
+    \item Erstellungsdatum des Repositories
+    \item Vorhandensein einer \textit{CODE\_OF\_CONDUCT.md}
+    \item Vorhandensein einer \textit{CONTRIBUTING.md}
+    \item Lizenz
+    \item Anzahl der Commits in den letzten 12 Monaten
+    \item Anzahl der Issues in den letzten 12 Monaten
+\end{itemize}
+
+% * GitHub_generalInfo
+% * projectHealth
+% * commitActivity
+% * issues_PRs
+
+% ------------------------------------- Daten aus der NPM API ------------------------------------ %
+\subsection{Daten aus der NPM API}
+Mit der NPM API wurden die Downloads der letzten 7 Tage abgefragt.
+
+% * npm_downloads
+
+
+\subsection{Daten aus dem Web-Scraping}
+Mithilfe von Web-Scraping wurden folgende Daten erfasst:
+
+\begin{itemize}[noitemsep]
+    \item Die Anzahl von \textit{UsedBy} auf der GitHub Page des Projektes.
+    \item Anzahl der Gesamt-Commits auf dem default Branch
+    \item Anzahl der Contributor
+\end{itemize}
+
+\noindent
+Ein Contributor zählt nur dann als solche, wenn dessen Commit entweder auf dem \textit{default}
+oder \textit{gh-pages} Branch liegt. Commits auf anderen Branches werden nur dann gezählt, wenn ein
+merge auf einen der vorherig erwähnten Branches stattfindet. Gleiches gilt für Commits \cite{GHapiDocsCommits}.
+
+% * GitHub_usedBy
+% * GitHub_Page
+% * npm_dependants

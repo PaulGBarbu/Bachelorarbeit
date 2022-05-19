@@ -1,62 +1,52 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 28 items.
-A level-1 auxiliary file: pages/chapters/01_intro.aux
-Reallocating 'name_of_file' (item size: 1) to 60 items.
-A level-1 auxiliary file: pages/chapters/02_success_factors/02_00_success_factors.aux
-Reallocating 'name_of_file' (item size: 1) to 30 items.
-A level-1 auxiliary file: pages/chapters/03_crawler.aux
 Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: pages/chapters/04_methodik.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
-Warning--to sort, need author or key in GitHubOpenSourceSurvey2017
-Warning--to sort, need author or key in GitHubBuildingWelcomingCommunities2022
-Warning--to sort, need author or key in GitHubYourCodeOfConduct2022
-Warning--to sort, need author or key in GitHubStartingAProject2022
-Warning--to sort, need author or key in TopGitHubProjects
-You've used 10 entries,
+Warning--to sort, need author or key in GHapiDocsCommits
+You've used 2 entries,
             2811 wiz_defined-function locations,
-            668 strings with 7145 characters,
-and the built_in function-call counts, 4038 in all, are:
-= -- 339
-> -- 75
-< -- 6
-+ -- 26
-- -- 24
-* -- 266
-:= -- 478
-add.period$ -- 30
-call.type$ -- 10
-change.case$ -- 48
-chr.to.int$ -- 8
-cite$ -- 20
-duplicate$ -- 330
-empty$ -- 371
-format.name$ -- 39
-if$ -- 843
-int.to.chr$ -- 3
+            609 strings with 5366 characters,
+and the built_in function-call counts, 790 in all, are:
+= -- 65
+> -- 13
+< -- 1
++ -- 4
+- -- 4
+* -- 53
+:= -- 100
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 9
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 63
+empty$ -- 72
+format.name$ -- 7
+if$ -- 160
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 77
-newline$ -- 52
-num.names$ -- 10
-pop$ -- 163
+missing$ -- 15
+newline$ -- 13
+num.names$ -- 2
+pop$ -- 32
 preamble$ -- 1
-purify$ -- 62
+purify$ -- 12
 quote$ -- 0
-skip$ -- 119
+skip$ -- 21
 stack$ -- 0
-substring$ -- 208
-swap$ -- 197
-text.length$ -- 6
-text.prefix$ -- 5
+substring$ -- 42
+swap$ -- 38
+text.length$ -- 1
+text.prefix$ -- 1
 top$ -- 0
-type$ -- 80
-warning$ -- 5
-while$ -- 20
-width$ -- 14
-write$ -- 103
-(There were 5 warnings)
+type$ -- 16
+warning$ -- 1
+while$ -- 4
+width$ -- 3
+write$ -- 22
+(There was 1 warning)
