@@ -104,4 +104,8 @@
         },
     ],
     "latex-workshop.latex.recipe.default": "first",
+
+    // Small Mode
+    // "window.zoomLevel": -1,
+    // "editor.lineNumbers": "off"
 }

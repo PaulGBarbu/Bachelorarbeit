@@ -1,5 +1,34 @@
 \chapter{Diskussion}
 
+
+
+
+\section{Zu Hypothese 1}
+Mit dieser Datenerhebung hat sich \hyperref[H:1]{Hypothese H1} bestätigt. Allerdings muss man einräumen,
+dass für die Beliebtheit nur GitHub Sterne verwendet wurden. Der Linux Kernel ist GPLv2 lizenziert und 
+gehört zu den bekanntesten und erfolgreichsten Open Source Projekten. 
+Ein Grund weshalb freizügige Lizenzen beliebter sein könnten ist, dass es sich bei restriktiven 
+Projekten meist, um Applikationen handelt. Telegram, Signal und ähnliche Open Source Chat Apps 
+werden von Entwicklern sowie nicht Entwicklern verwendet, die eventuell gar keine GitHub Accounts haben.
+GitHub Sterne erfassen somit nicht das gesamte Bild \textit{Markterfolg}.
+
+\section{Zu Hypothese 3}
+Für manche Projekte lohnt es sich ggf. nicht ein Code of Conduct zu haben, da die Teams schlichtweg 
+zu klein sind. Der Code of Conduct muss nicht nur augestellt sondern auch umgesetzt werden.
+Es kann also sein, das einige Projekte den CoC erst einführen wenn es sich lohnt, sprich ab einer 
+gewissen Größe erst...
+Wieder nur ein Vergleichsmaß von Sternen (aber auch Downloads so thats something)
+
+\section{Zur Hypothese mit Sponsoren...}
+% Disclaimer
+\subsubsection*{Anmerkung}
+Man muss allerdings anmerken, dass einige Projekte von Unternehmen entwickelt werden. Diese finanzieren 
+ihre Projekte meist selbst und sind somit nicht abhängig von Sponsoren. 
+React beispielsweise kommt aus dem Hause Facebook, während VueJS unabhängig ist und auf Sponsoren angewiesen ist.
+In diesem Kontext zählen Projekte von Unternehmen auch als gesponsert.
+Es sind aber auch nur 10 Projekte von Unternehmen, also fällt das auch nicht so sehr ins Gewicht tatsächlich.
+
+
 \begin{itemize}
     \item Stichprobe war klein
     \item (Problem => Donations not enough, abhängig was aus dem Crawler für Ergebnisse kommen)
@@ -8,7 +37,7 @@
           Findet man dieses Problem in den Daten überhaupt... existiert dieses Problem überhaupt
           Soll allerdings nur angeschnitten werden, da die BA nur auf die Sicht der Nutzer geschaut hat.
           Probleme der Open Source Entwickler ist ein anderes Problem.
-    \item Die Daten aus dem \texit{Crawler} sind nur ein Snapshot der aktuellen Lage, sprich man kann
+    \item Die Daten aus dem \textit{Crawler} sind nur ein Snapshot der aktuellen Lage, sprich man kann
           nur sagen. Ja es gibt eine Korrelation zwischen z.B. Sponsoren und User Interest, aber nicht was was hervorruft.
           Hat das Projekt Sponsoren weil es viele Nutzer hat \textit{oder} hat das Projekt viele Nutzer weil es Sponsoren hat?
           Dafür bräuchte man eine Datenerhebung over time. 
@@ -16,3 +45,16 @@
           \cite{midhaFactorsAffectingSuccess2012} hat beispielsweise in einem Zeitfenster von 3 Jahren die
           Datenerhebung gemacht. % Abstract
 \end{itemize}
+
+
+\subsection{Disclaimer}
+
+https://www.npmjs.com/package/npm-downloads-increaser
+
+npm downloadzahlen sind manipulierbar, ich geh zwar davon aus, dass es allgemein nicht häufig gemacht wird
+und da ja sowieso vielmehr in die rechnung rein geht als nur npm downloads. Werden diese daten trotzdem mit erfasst.
+\link{How to exploit NPM}{https://dev.to/andyrichardsonn/how-i-exploited-npm-downloads-and-why-you-shouldn-t-trust-them-4bme}.
+
+In einem 
+\link{Blogpost}{https://blog.npmjs.org/post/92574016600/numeric-precision-matters-how-npm-download-counts-work.html}
+erklärt NPM wie es zu den Download zahlen zustande kommt.

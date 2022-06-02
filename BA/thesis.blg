@@ -1,52 +1,52 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 31 items.
-A level-1 auxiliary file: pages/chapters/04_methodik.aux
+Reallocating 'name_of_file' (item size: 1) to 41 items.
+A level-1 auxiliary file: pages/chapters/06_umfrage/06_umfrage.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: pages/chapters/xx_discussion.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
-Warning--to sort, need author or key in GHapiDocsCommits
 You've used 2 entries,
             2811 wiz_defined-function locations,
-            609 strings with 5366 characters,
-and the built_in function-call counts, 790 in all, are:
-= -- 65
-> -- 13
-< -- 1
-+ -- 4
-- -- 4
-* -- 53
-:= -- 100
+            610 strings with 5137 characters,
+and the built_in function-call counts, 836 in all, are:
+= -- 64
+> -- 19
+< -- 2
++ -- 7
+- -- 6
+* -- 56
+:= -- 122
 add.period$ -- 6
 call.type$ -- 2
 change.case$ -- 9
 chr.to.int$ -- 2
-cite$ -- 4
-duplicate$ -- 63
-empty$ -- 72
-format.name$ -- 7
-if$ -- 160
+cite$ -- 2
+duplicate$ -- 71
+empty$ -- 68
+format.name$ -- 11
+if$ -- 159
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 15
+missing$ -- 17
 newline$ -- 13
-num.names$ -- 2
-pop$ -- 32
+num.names$ -- 4
+pop$ -- 26
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 13
 quote$ -- 0
-skip$ -- 21
+skip$ -- 23
 stack$ -- 0
-substring$ -- 42
-swap$ -- 38
-text.length$ -- 1
-text.prefix$ -- 1
+substring$ -- 40
+swap$ -- 40
+text.length$ -- 2
+text.prefix$ -- 2
 top$ -- 0
 type$ -- 16
-warning$ -- 1
-while$ -- 4
+warning$ -- 0
+while$ -- 6
 width$ -- 3
-write$ -- 22
-(There was 1 warning)
+write$ -- 23

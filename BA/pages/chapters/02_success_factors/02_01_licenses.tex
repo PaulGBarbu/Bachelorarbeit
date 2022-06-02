@@ -1,20 +1,26 @@
-\subsection{Lizenzen}
+\section{Lizenzen}
+
+
+\todo{Klare Unterscheidung zwischen Restriktiv und Permissive, aus Kapitel Datenerfassung
+soll man hierdrauf verlinken können.}
+
+\todo{Offene LIzenzen => Freizügig oder Permissive Lizenz}
 
 % Lizenzen haben signifikaten Einfluss auf Erfolg [Subramaniam]
-Laut Subramaniam et al. spielen Lizenzen eine signifikante Rolle für den Erfolg von 
+Laut Subramaniam et al. spielen Lizenzen eine signifikante Rolle für den Erfolg von
 Open Source Software.
 Freie Lizenzen wie MIT oder BSD haben einen positiven Einfluss vor allem auf Software Entwickler.
 Denn Entwickler nutzen OSS, um es in eigene Projekte einzubauen, gegebenenfalls zu modifizieren
-und ein Endprodukt mit der OSS Komponente weiterzuverbreiten. Das ist mit restriktiven Lizenzen 
-wie GPL meist nicht bedingungslos umsetzbar. Restriktive Lizenzen wie GPL wirken sich daher 
+und ein Endprodukt mit der OSS Komponente weiterzuverbreiten. Das ist mit restriktiven Lizenzen
+wie GPL meist nicht bedingungslos umsetzbar. Restriktive Lizenzen wie GPL wirken sich daher
 negativ bis neutral auf den Erfolg von OSS aus. Wenn die Software allerdings an Endnutzer
 gerichtet ist, wie zum Beispiel die Chat-App Telegram\footnote{https://telegram.org/}, spielt die
-Lizenz eine weniger wichtige Rolle, da Weiterverbreitung und Modifizierung für diese Nutzergruppe 
+Lizenz eine weniger wichtige Rolle, da Weiterverbreitung und Modifizierung für diese Nutzergruppe
 keine Rolle spielen \cite{subramaniamDeterminantsOpenSource2009}.
 
 % Stewart et al. on Licenses
 Stewart et al. widerspricht der zweiten Aussage von Subramaniam et al. laut ihnen
-haben nicht-restriktive-Lizenzen nicht nur auf das Entwicklerinteresse, sondern auch auf das 
+haben nicht-restriktive-Lizenzen nicht nur auf das Entwicklerinteresse, sondern auch auf das
 Nutzerinteresse einen positiven Einfluss. % Stewart et al. H1A
 Während restriktive Lizenzen einen nicht signifikanten Einfluss auf
 Entwickleraktivität hätten. \cite{stewartImpactsLicenseChoice2006a}
@@ -31,20 +37,43 @@ Restriktive Lizenzen wiederum wirken sich negativ auf den technischen Erfolg aus
 % Steward et al. 138 [Kapitel "Sample]
 
 % Überleitung zur Hypothese (Ich Form, aber Bro schau dir mal wie häufig "WE" in Paper vorkommt)
-Ich glaube, dass sich offene Lizenzen durchgängig positiv auf ein Projekt auswirken. 
+Meine Hypothese ist, dass sich offene Lizenzen durchgängig positiv auf ein Projekt auswirken.
 Offene Lizenzen werden tendenziell eher von Unternehmen verwendet als Projekte mit restriktiven
 Lizenzen, das führt zum einen dazu, dass die Beliebtheit und Bekanntheit des Projektes steigt, als
-auch die Wahrscheinlichkeit das die Unternehmen zum Open Source Projekt etwas beitragen oder 
+auch die Wahrscheinlichkeit das die Unternehmen zum Open Source Projekt etwas beitragen oder
 Sponsoren werden.
 
 \begin{hypothesis}
     Offene Lizenzen haben positiven Einfluss auf den Markterfolg.
+    \label{H:1}
 \end{hypothesis}
 
 \noindent
-Steigt die Beliebtheit eines Projekts, so steigt auch das Interesse von Open Source Entwickler an 
+Steigt die Beliebtheit eines Projekts, so steigt auch das Interesse von Open Source Entwickler an
 einem renommierten Projekt mitzuwirken.
 
 \begin{hypothesis}
     Offene Lizenzen haben positiven Einfluss auf den technischen Erfolg.
 \end{hypothesis}
+
+
+
+\todo{A word about Licenses}
+Was macht permissive aus?
+- Kann uneingeschränkt benutzt werden
+- Kann ez verwendet werden, einfach Lizenz Text beilegen
+- Source Code einer MIT Lib kann in Propreritärer Software verwendet werden usw.
+- Beispiel: MIT, BSD, Apache
+
+Was macht GPL aus?
+- Kann nicht uneingeschränkt genutzt werden => one GPL Lib => Whole Programm needs to be Open Source now under gpl
+- GPLv2 vs GPLv3
+- Was hat es dann eigentlich mit AGPL und LGPL aufsich? irgendwas mit Cloud und Server shit
+
+MPL
+- Die Mitte zwischen GPL und MIT
+So under the terms of the MPL, it allows the integration of MPL-licensed code into proprietary codebases,
+but only on condition those components remain accessible
+% Quelle: https://en.wikipedia.org/wiki/Mozilla_Public_License
+% Sieh auch: https://www.mozilla.org/en-US/MPL/2.0/FAQ/   =>   Q11
+% https://www.youtube.com/watch?v=YlKtCDJquSw

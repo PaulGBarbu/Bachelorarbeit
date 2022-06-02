@@ -1,4 +1,4 @@
-\subsection{Netzwerkeffekt}
+\section{Netzwerkeffekt}
 
 
 % Einleitung: Network Effekt Erklären
@@ -8,21 +8,19 @@ diesen nutzten.
 Im Software Umfeld würde sich der Netzwerkeffekt in, z.B. Anzahl an Tutorials
 oder Fragen/Antworten auf StackOverflow zeigen.
 
-Ist ein Projekt erfolgreich werden Entwickler mehr Fragen stellen und Tutorials verfassen, 
-was wiederum einen stärkeren Anreiz schafft das beliebtere Tool zu nutzten. 
-Vergleicht man beispielsweise ReactJS und Svelte wird man feststellen das React etwas mehr als 3-mal 
-so viele Sterne auf GitHub hat, aber über 100-mal so viele Fragen auf StackOverflow. 
+Ist ein Projekt erfolgreich werden Entwickler mehr Fragen stellen und Tutorials verfassen,
+was wiederum einen stärkeren Anreiz schafft das beliebtere Tool zu nutzten.
+Vergleicht man beispielsweise ReactJS und Svelte wird man feststellen das React etwas mehr als 3-mal
+so viele Sterne auf GitHub hat, aber über 100-mal so viele Fragen auf StackOverflow.
 
 % Edit with: https://www.tablesgenerator.com/latex_tables
 \begin{table}[h]
-    \resizebox{\textwidth}{!}{%
-        \begin{tabular}{lcccc}
-            \hline
-                            & \multicolumn{1}{l}{\textbf{GitHub Stars}} & \multicolumn{1}{l}{\textbf{npm downloads}} & \multicolumn{1}{l}{\textbf{Tutorials}\footnote{Anzahl der Google Ergebnisse}} & \multicolumn{1}{l}{\textbf{StackOverflow Fragen}} \\ \hline
-            \textbf{React}  & 186k                                      & 14.6 mio                                   & 438 mio                                                                       & 380k                                              \\
-            \textbf{Svelte} & 57k                                       & 278k                                       & 2.3 mio                                                                       & 3k
-        \end{tabular}%
-    }
+    \begin{tabular}{lcccc}
+        \hline
+                        & \multicolumn{1}{l}{\textbf{GitHub Stars}} & \multicolumn{1}{l}{\textbf{npm downloads}} & \multicolumn{1}{l}{\textbf{Tutorials}\footnote{Anzahl der Google Ergebnisse}} & \multicolumn{1}{l}{\textbf{StackOverflow Fragen}} \\ \hline
+        \textbf{React}  & 186k                                      & 14.6 mio                                   & 438 mio                                                                       & 380k                                              \\
+        \textbf{Svelte} & 57k                                       & 278k                                       & 2.3 mio                                                                       & 3k
+    \end{tabular}%
 \end{table}
 
 \todo{Schöner Formulieren}
@@ -40,7 +38,7 @@ dieser wirkt sich laut \cite{subramaniamDeterminantsOpenSource2009} % Kapitel 5.
 positiv auf den Erfolg von OSS aus.
 
 % Überleitung zur Hypothese
-Projekte die bereits beliebt sind haben einen dadurch einen Vorteil noch mehr neue Nutzer anzuziehen, 
+Projekte die bereits beliebt sind haben einen dadurch einen Vorteil noch mehr neue Nutzer anzuziehen,
 also welche die neu auf dem Markt sind.
 
 \todo{Hyoothese ausformulieren}
@@ -48,21 +46,3 @@ also welche die neu auf dem Markt sind.
     Erfolgreiche Projekte werden noch erfolgreicher. => neue Projekte müssen raus stechen
     sonst haben sie keine Chance gegen die bestehenden OSS Alternativen
 \end{hypothesis}
-
-
-
-
-% ------------------------------------------------------------------------------------------------ %
-\subsubsection*{\textcolor{cyan}{Ideen für das Erfassen der Daten}}
-
-Das kann erfassen mittels Umfrage. Durch Fragen wie: "Wie wichtig sind Downloads und GitHub
-Sterne oder ähnliche Metriken bei der Auswahl eines Projektes, im Vergleich zu anderen Metriken."
-
-Oder: Sortieren der wichtigkeiten, zur Auswahl wird dann sowas gegeben wie:
-\begin{itemize}
-    \item Anzahl der Contributor
-    \item Regelmäßigkeit der Commits
-    \item Anzahl der offenen Issues (bzw Tickets o.ä.)
-    \item Beliebtheit des Projekts, anhand Downloads oder GitHub Sterne.
-    \item Lizenz
-\end{itemize}

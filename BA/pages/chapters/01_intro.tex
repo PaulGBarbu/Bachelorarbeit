@@ -12,30 +12,31 @@
 %?    c) kleinerer Umfang für BA
 
 
-In der heutigen Software-Entwicklung ist Open Source ein fester Bestandteil der Software Industrie.
+Open Source ist heutzutage ein fester Bestandteil der Softwareindustrie.
 Von Frontend-Entwicklung über Datenbanken bis hin zu Machine Learning, überall kommen Open Source
-Bibliotheken, Frameworks und Software zum Einsatz.
-Im Frontend werden Frameworks bzw. Bibliotheken wie Angular oder React verwendet,
-bei der Auswahl von Datenbankmanagementsysteme stehen einem eine Vielzahl von Optionen zur Auswahl
+Bibliotheken, Frameworks und Programme zum Einsatz.
+Im Frontend werden verschiedene Frameworks bzw. Bibliotheken wie Angular oder React verwendet,
+auch im Fall von Datenbankmanagementsysteme gibt eine Vielzahl an Optionen
+bei der Auswahl von Datenbankmanagementsysteme steht einem eine Vielzahl von Optionen zur Auswahl
 wie PostgreSQL, MySQL oder MongoDB
 und im Bereich Machine Learning werde Frameworks wie TensorFlow, Keras oder SciKit-Learn genutzt.
 
 % TODO: Überleitung braucht noch feinschliff
 % Überleitung 
-Doch worin unterscheiden sich diese und viele andere Erfolgreiche Open Source Projekte, von nicht
-so weit verbreiteten Wettbewerber.
+Doch worin unterscheiden sich die oben genannten von vielen weiteren erfolgreiche Open Source
+Projekte, von denen die nicht als erfolgreich definiert werden können.
 % Fragestellung
 Mit dieser Bachelorarbeit soll die Frage beantwortet werden, \textit{welche Faktoren Einfluss auf
-den Erfolg von Open Source Projekten, speziell in der JavaScript/TypeScript Umgebung haben.}
+    den Erfolg von Open Source Projekten, speziell in der JavaScript/TypeScript Umgebung haben.}
 
 
 % Ziel der Arbeit
 Mittels einer Datenerhebung von ausgewählten Open Source Projekten sowie einer
 Umfrage soll herausgefunden werden, welche Faktoren zum Erfolg eines Open Source Projektes beitragen.
 % Abgrenzung
-Ein zentraler Punkt dieser Ausarbeitung sind die extrinsischen sowie intrinsischen Anreize,
+Ein zentraler Punkt dieser Ausarbeitung sind die extrinsischen sowie intrinsischen Anreize, % Extrinsisch == Downloads, Intrinsisch == Qualität
 die Nutzer zur Auswahl eines Produktes motivieren \cite{midhaFactorsAffectingSuccess2012}. % Chapter 3.1 & 3.2
-Warum React und nicht Angular? Warum Debian und nicht Ubuntu etc.?
+Warum React und nicht Angular? Warum Debian und nicht Ubuntu?
 Aspekte wie die interne Führung und Organisation der Projekte wird hierbei nicht thematisiert.
 
 
@@ -46,6 +47,7 @@ Aspekte wie die interne Führung und Organisation der Projekte wird hierbei nich
 % ------------------------------------------------------------------------------------------------ %
 \section{Definition von Open Source}
 
+\todo{Hier kann ne ganze Seite hin....}
 Diese Arbeit folgt der gleichen Definition für Open Source wie von der
 \textit{Open Source Initiative}\footnote{https://opensource.org/osd} definiert wird. Entsprechend
 werden nur Projekte betrachtet die eine von der
@@ -58,60 +60,50 @@ nutzt.
 % ------------------------------------------------------------------------------------------------ %
 \section{Erfolg definieren}
 
-% TODO: Weitere Ideen: Sponsoren
-% Sponsoren als Erfolgsmetrik (?)
-% -------------------------------
-% Sponsoren: Erfolgreiche Projekte haben Sponsoren, kann man als Indikator für Erfolg hernehmen
-% aber auch als Faktor was es teils braucht um Erfolgreich zu werden. (Mehr Geld => Mehr Zeit fürs Projekt)
-% Beziehungsweise wenn die Software aus einem Unternehmen kommt React => Facebook / Google => Tensorflow etc.
-% Das ist zwar kein Garant für Erfolg, allerdings könnte man sich dann anschauen
-% Hypothesen:
-%     - "Are Company backed OSS more successful?"
-%     - "Are Sponsor backed OSS more sucessful?"} mehr in \cite{stewartImpactsLicenseChoice2006a} Hypothese 2A
-
-% -------------------------------
-
 
 % Types of Success
-In der Literatur wird häufig in verschiedene Bereichen des Erfolgs unterteilt.
-Im Artikel von Midha und Palvia wird zwischen \textit{Markterfolg} und \textit{technischem Erfolg} unterschieden.
+Der Erfolg wird in der Literatur häufig in verschiedene Bereiche unterteilt.
+Im Artikel von Midha und Palvia wird zwischen \textit{Markterfolg} und \textit{technischem Erfolg}
+unterschieden.
 % Define Markterfolg
-Markterfolg definiert Midha et al.
-als Grad des Nutzerinteresses an ein Projekt, %? Direkt Zitat: Market Success of an OSS project, a measure of project popularity, is defined as the level of interest displayed in the project by its consumers
+Midha et al. definieren Markterfolg als
+als Grad des Nutzerinteresses an einem Projekt, %? Direkt Zitat: Market Success of an OSS project, a measure of project popularity, is defined as the level of interest displayed in the project by its consumers
 welches sich in der Beliebtheit des Projektes widerspiegelt.
 % Define Technischer Erfolg
-Den technischen Erfolg definiert Midha et al.
-durch die Entwickleraktivität, d.h. durch den Aufwand, den die Entwickler für das Projekt betreiben %? Direkt Zitat: Technical Success is defined in terms of developer activity, i.e.,the level of effort expended by developers of the project
-Beispielsweise die Häufigkeit und Frequenz von Updates und neuen Versionen.
+Den technischen Erfolg definieren Midha et al. durch die Entwickleraktivität, d.h. durch den Aufwand,
+den die Entwickler für das Projekt betreiben %? Direkt Zitat: Technical Success is defined in terms of developer activity, i.e.,the level of effort expended by developers of the project
+beispielsweise die Häufigkeit und Frequenz von Updates und neuen Versionen
 \cite{midhaFactorsAffectingSuccess2012}. % 2.1
 
 
 % Nutzerinteresse & Entwickleraktivität
-In Steward et al. wird zwischen \textit{Nutzerinteresse} und \textit{Entwickleraktivität} unterschieden
+Im Artikel von Steward et al. wird zwischen \textit{Nutzerinteresse} und \textit{Entwickleraktivität} unterschieden
 \cite{stewartImpactsLicenseChoice2006a}. % Defining Success in OSS
-Subramaniam et al. geht sogar weiter und unterteilt in \textit{Nutzerinteresse, Entwicklerinteresse und Projektaktivität}
+Subramaniam et al. gehen sogar weiter und unterteilen den Erfolg in
+\textit{Nutzerinteresse, Entwicklerinteresse und Projektaktivität}
 \cite{subramaniamDeterminantsOpenSource2009}. % 3.2
 
 % Synthese
 Diese Bereiche werden getrennt betrachtet, da verschiedene Faktoren unterschiedlichen Einfluss
 auf den Erfolg eines Projektes haben.
-Während sich wachsendes Interesse bei Nutzern positiv auf den Markterfolg auswirkt,
-wirkt sich die Entwickleraktivität positiv den technischen Erfolg aus
+Laut Midha et al. und Steward et al. wirkt sich wachsendes Interesse der Nutzern positiv auf den
+Markterfolg aus, während sich die Entwickleraktivität positiv den technischen Erfolg auswirken
 \cite{midhaFactorsAffectingSuccess2012, % 6.3. Hypothosis H3c (aber nur teils unterstützt)
     stewartImpactsLicenseChoice2006a}. % Defining Success in OSS (letzter Absatz)
 
-\todo{Footnote ausformuliren ggf link auf Glossar}
-\todo{Was sind GitHub Sterne?}
+
+\todo{Warum genau diese Metriken? Sterne, Downloads etc.???}
+
+\todoo{- Kein Copy Paste von Autoren, weil die nicht GH verwendet haben (Nicht aktuell)
+- Beliebte vergleichsmetriken (I guess lol)}
 
 % Ziel dieser Arbeit
 In dieser Arbeit werden die Erfolgsfaktoren betrachtet, die zum Markt- bzw. technischen Erfolg
 eines Projektes beitragen.
-Der Markterfolg wird anhand Metriken gemessen wie:
-Downloads, Sterne auf GitHub sowie die Anzahl der Nutzer.
+Der Markterfolg wird anhand folgender Metriken gemessen:
+Downloads und Sterne auf GitHub.
 Der technische Erfolg wird anhand von Metriken wie:
-Anzahl der Commits, Anzahl der Mitwirkenden am Projekt,
-Geschwindigkeit in der Tickets abgearbeitet werden und Verhältnis zwischen offenen/abgeschlossenen
-Issues\footnote{\todoo{Was sind Issues}} gemessen.
+Anzahl der Commits und Anzahl der Mitwirkenden am Projekt gemessen.
 
 % \subsection{Markterfolg}
 
