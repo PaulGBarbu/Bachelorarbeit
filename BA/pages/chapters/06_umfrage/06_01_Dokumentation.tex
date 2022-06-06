@@ -1,12 +1,15 @@
 \section{Dokumentation}
 
 % Was mussten die Teilnehmer machen?
-Im ersten Teil der Umfrage mussten die Teilnehmenden zwei Aussagen bewerten.
+Im ersten Teil der Umfrage mussten die Teilnehmenden zu zwei Aussagen verschiedene Kriterien bewerten.
+Diese Kriterien wurden gewählt basierend auf Erfahrung als Entwickler als auch Beobachtungen vieler
+Dokumentationen während der manuellen Datenerfassung zu aus Kapitel
+\ref{ssec:manuelle_datenerfassung_dokumentation}.
 
 
 \bigskip
 \noindent
-Die erste Aussage \textit{"Was macht gute Dokumentation aus?"}, mit den \todoo{Punkten}:
+Die erste Aussage war \textit{"Wie wichtig sind Ihnen folgende Aspekte der OSS-Dokumentation"}, mit den Punkten:
 \begin{multicols}{2}
     \begin{itemize}
         \setlength\itemsep{0em}
@@ -23,7 +26,8 @@ Die erste Aussage \textit{"Was macht gute Dokumentation aus?"}, mit den \todoo{P
 
 \bigskip
 \noindent
-Die zweite Aussage war \textit{"Was macht schlechte Dokumentation aus?"}, mit den \todoo{Punkten}:
+Die zweite Aussage war \textit{"Die folgenden Punkte würden mich von der Nutzung eines OSS-Projekts
+    abhalten oder mich möglicherweise dazu veranlassen, nach Alternativen zu suchen."}, mit den Punkten:
 
 \begin{multicols}{2}
     \begin{itemize}
@@ -37,31 +41,39 @@ Die zweite Aussage war \textit{"Was macht schlechte Dokumentation aus?"}, mit de
 \end{multicols}
 
 
-\todoo{Diese Punkte wurden gewählt basierend auf Beobachtungen vieler Dokumentationen, während des "Einsammel" prozesses
-    sowie Allgemein erfahrung die ich als Entwickler hab. Manche Dokumentationen sind strukturierter als andere, Manche
-    haben Code-Beispiele manche nicht, manche haben Live-Demos manche nicht. Hiermit wollte ih quasi herausfinden welche
-    punkte die wichtigsten sind für die Befragen. Wie sich herasusstellt sind es Code-Beispiele......}
-
-\todo{Etwas genauer erklären was hier gewichtet heißt}
-
 
 \bigskip
 \noindent
 % More Detail
-%! Die Referenzen sind aktuell RIP !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Die Aussagen wurden auf einer 5-Punkte Skala bewertet, hierbei entspricht 1 \textit{Stimme gar nicht zu}
-und 5 \textit{Stimme vollkommend zu}. In den Tabellen \ref{tab:gute_doku} und \ref{tab:schlechte_doku}
-finden sich die Antworten auf die jeweiligen Aussagen als gewichteten Mittelwerte.
+und 5 \textit{Stimme vollkommen zu}. Um die Aussagen miteinander zu vergleichen, wurde jeweils der
+Mittelwert berechnet.
 
 % Conclusion
-Die Umfrage hat gezeigt, dass Code Beispiele und Übersichtlichkeit bzw. Struktur die wichtigsten
-Eigenschaften einer guten Dokumentation sind.
-Die Teilnehmer bewerteten diese als wichtige Aspekte einer guten Dokumentation, während die
-Abwesenheit dieser Aspekte tendenziell Nutzer motivieren würde sich nach Alternativen umzuschauen.
-Eine Getting-Started Page wird tendenziell als wichtig empfunden, dessen Abwesenheit wird allerdings
-weniger kritisch betrachtet als die vorher genannten. Eine Getting-Started Page bewegt sich basierend
-auf diesen Daten daher eher in die Richtung \textit{Nice-To-Have}, während Code Beispiele und Struktur
-\textit{Must-Have} sind.
+Die zwei wichtigsten Aspekte einer Guten Dokumentation sind laut den Befragten, Code Beispiele und
+Übersichtlichkeit in beiden Fällen mit einem durchschnittlichen Wert von 4,36. Gefolgt von guter 
+Struktur (4,09) und
+das Vorhandensein eines \textit{Getting Started} (3,98). Einfache Sprache (3,08) und Live-Demos spielt für
+die Befragten eine weniger wichtige Rolle. 
+Übersetzungen belegen mit 1,53 den letzten Platz und spielt somit die unwichtigste Rolle in einer 
+guten Dokumentation. 
+
+
+Die zweite Aussage war \textit{"Die folgenden Punkte würden mich von der Nutzung eines OSS-Projekts
+    abhalten oder mich möglicherweise dazu veranlassen, nach Alternativen zu suchen."} Am höchsten bewertet
+wurde der Punkt \textit{Fehlende Code Beispiele} (4,07) und ist somit der wichtigste Teil einer guten
+Dokumentation, gefolgt von schlechter Struktur (3,91). 
+Eine komplexe Dokumentation oder das Fehlen einer Getting Started Seite wurde hierbei als mittelmäßig kritisch 
+eingestuft, mit einer durchschnittlichen Bewertung von 3,29 bzw. 3,10. Das Fehlen einer Übersetzung ist mit 1,37
+das unwichtigste Kriterium.
+In den Abbildungen \ref{abb:GuteDoku_BarChart} und
+\ref{abb:SchlechteDoku_BarChart} wird das Meinungsbild der Teilnehmer grafisch dargestellt.
+
+% Interpretation beider Fragen.
+Zusammenfassend kann man sagen, dass Code Beispiele ein Must Have einer Dokumentation ist.
+Das Vorhandensein wird als wichtig eingestuft, während das Fehlen dazu führen könnte, dass Nutzer
+zu alternativen greifen würden. Übersetzungen hingegen werden als gleichgültig betrachtet, das
+Vorhandensein bietet wenig Mehrwert, die Abwesenheit wird nicht als kritisch betrachtet.
 
 % ---------------------------------------------------- %
 % Likert to Kano (kinda)
@@ -70,60 +82,53 @@ auf diesen Daten daher eher in die Richtung \textit{Nice-To-Have}, während Code
 
 
 % ----------------------------------------- FreitextFeld ----------------------------------------- %
-Zudem gab es jeweils ein Freitextfeld, wo die Teilnehmenden die Möglichkeit hatten weitere Aspekte
-einer guten bzw. schlechten Dokumentation zu nennen. Diese Freitextfelder waren optional und wurden
-von  95 bzw. 71 von den gesamten 308 Teilnehmenden genutzt.
-
 \bigskip
 \noindent
+Beide Fragen hatten jeweils ein Freitextfeld, indem die Teilnehmenden die Möglichkeit hatten weitere
+Aspekte einer guten bzw. schlechten Dokumentation zu nennen. Diese Freitextfelder waren optional und
+wurden von 95 bzw. 71 der gesamten 308 Teilnehmenden genutzt.
+Alle Einträge wurden kategorisiert und zusammengefasst.
+
 % Most Used Words
-In den Tabellen \ref{tab:freitext_felder_ergebnisse} (a) und (b) finden sich die am häufigsten genannten
-Punkte der Freitextfelder. Aktualität, Vollständigkeit und UX waren die am häufigsten genannten Punkte
-bezüglich guter Dokumentation, die jeweiligen pendants, veraltete Dokumentation, unvollständige
+In der Tabelle \ref{tab:freitext_felder_ergebnisse} finden sich die am häufigsten genannten
+Punkte. Aktualität, Vollständigkeit und UX waren die am meisten genannten Eigenschaften
+bezüglich guter Dokumentation, die jeweiligen Pendants, veraltete Dokumentation, unvollständige
 Dokumentation und schlechte UX waren die häufigsten genannten Gründe, um ein OSS Projekt nicht zu
-nutzten. Somit ergänzen diese drei Punkte die vorhin erwähnten \textit{Must-Haves}.
-
-\todo{Diesen Fact etwas schöner einbinden}
+nutzten. Diese drei Merkmale vervollständigen somit die vorhin erwähnten \textit{Must-Haves} einer
+guten Dokumentation.
 
 \bigskip
-\noindent
-\todoo{Die letzte Frage zum Thema Dokumentation war
-    \textit{"Hat eine schlechte Dokumentation Sie jemals dazu gebracht, ein alternatives Projekt zu wählen?"}.\\
-    81\% der Teilnehmer haben diese Frage mit \textit{"Ja"} beantwortet.}
+\begin{table}[h]
+    \begin{tabular}{lcllc}
+        \cline{1-2} \cline{4-5}
+        \textbf{Gute Dokumentation} & \multicolumn{1}{l}{\textbf{Erwähnungen}} & \hspace{1cm} & \textbf{Schlechte Dokumentation}   & \multicolumn{1}{l}{\textbf{Erwähnungen}} \\ \cline{1-2} \cline{4-5}
+        Aktualität                  & 28                                       &              & Veraltet                           & 25                                       \\
+        Vollständigkeit             & 21                                       &              & Unvollständig                      & 15                                       \\
+        Gute UX                     & 14                                       &              & Schlechte UX                       & 11                                       \\
+        Versionierung               & 10                                       &              & Fehlerhaft                         & 7                                        \\
+        Changelog vorhanden         & 6                                        &              & Keine Doku vorhanden               & 6                                        \\
+        Gute Code Beispiele         & 5                                        &              & Code Beispiele funktionieren nicht & 5
+    \end{tabular}%
+    \caption{Häufigste Erwähnungen der Freitexter}
+    \label{tab:freitext_felder_ergebnisse}
+\end{table}
+
 
 \subsubsection*{Anmerkung:}
-Im Fall von UX wurden folgende Punkte zusammengefasst: Suchfunktion/Verlinkung, Design und
-Übersichtlichkeit.
+\textit{Im Fall von UX wurden folgende Punkte zusammengefasst: Suchfunktion/Verlinkung, Design und
+Übersichtlichkeit.}
+
+
+\bigskip
+\bigskip
+\noindent
+Die abschließende Frage zum Thema Dokumentation war: \textit{"Hat eine schlechte Dokumentation Sie jemals
+    dazu gebracht, ein alternatives Projekt zu wählen?"}. 81\% der Teilnehmen haben diese Frage mit
+\textit{"Ja"} beantwortet. 
+
 
 % Gutes Zitat tbh.
 % "Gar keine Dokumentation ist ein Zeichen von fehlendem Engagement/Einsatz - nicht vertrauenswürdig"
-
-\newpage
-% % Tabelle gute Dokumentation
-% \begin{table}[ht]
-%     \resizebox{\textwidth}{!}{%
-%         \begin{tabular}{ccccccc}
-%             \hline
-%             Code Beispiele & Übersichtlichkeit & Struktur & Getting Started & Einfache Sprache & Live-Demo & Übersetzung \\ \hline
-%             4.36           & 4.36              & 4.10     & 3.98            & 3.09             & 2.91      & 1.54
-%         \end{tabular}%
-%     }
-%     \caption{\label{tab:gute_doku}Was macht gute Dokumentation aus?}
-% \end{table}
-
-% \bigskip
-
-% % Tabelle schlechte Dokumentation
-% \begin{table}[ht]
-%     \resizebox{\textwidth}{!}{%
-%         \begin{tabular}{ccccccc}
-%             \hline
-%             Keine Code Beispiele & Schlechte Struktur & Komplexe Doku. & Keine Getting Started & Keine Übersetzung \\ \hline
-%             4.08                 & 3.92               & 3.30           & 3.10                  & 1.38
-%         \end{tabular}%
-%     }
-%     \caption{\label{tab:schlechte_doku}Was kennzeichnet schlechte Dokumentation?}
-% \end{table}
 
 
 % ------------------------------------------ Bar Charts ------------------------------------------ %
@@ -139,42 +144,4 @@ Im Fall von UX wurden folgende Punkte zusammengefasst: Suchfunktion/Verlinkung, 
     \includegraphics[scale=0.05]{figures/05/SchlechteDoku_BarChart.png}
     \caption{Antworten: Was zeichnet Gute Dokumentation aus?}
     \label{abb:SchlechteDoku_BarChart}
-\end{figure}
-
-
-% Tabelle: Most Used Words
-\begin{figure}[tph]
-    \todo{Die zwei Tabellen unten werden als \textbf{Abbildung} gekennzeichnet ! Statt Tabellen
-    Copy Paste einfach die Tabelle 4.1 Lizenzen der erfassten Projekte}
-    \begin{minipage}[t]{0.4\textwidth}\vspace{0pt}%
-        \subcaptionbox{\label{tab:gute_doku_freitext}Freitext: Gute Dokumentation}{
-            \begin{tabular}{lc}
-                \firsthline
-                Aktualität          & 28 \\ \hline
-                Vollständigkeit     & 21 \\ \hline
-                Gute UX             & 14 \\ \hline
-                Versionierung       & 10 \\ \hline
-                Changelog vorhanden & 6  \\ \hline
-                Gute Code Beispiele & 5  \\ \hline
-            \end{tabular}% 
-        }
-    \end{minipage}
-    %
-    \hfill
-    %
-    \begin{minipage}[t]{0.5\textwidth}\vspace{0pt}%
-        \subcaptionbox{\label{tab:schlechte_doku_freitext}Freitext: Schlechte Dokumentation}{
-            \begin{tabular}{lc}
-                \firsthline
-                Veraltet                           & 25 \\ \hline
-                Unvollständig                      & 15 \\ \hline
-                Schlechte UX                       & 11 \\ \hline
-                Fehlerhaft                         & 7  \\ \hline
-                Keine Doku vorhanden               & 6  \\ \hline
-                Code Beispiele Funktionieren nicht & 5  \\ \hline
-            \end{tabular}% 
-
-        }
-    \end{minipage}
-    \captionabove{\label{tab:freitext_felder_ergebnisse}Häufigste Erwähnungen beim Freitext}
 \end{figure}

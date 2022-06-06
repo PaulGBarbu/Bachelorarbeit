@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.26)  2 JUN 2022 15:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.26)  6 JUN 2022 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -867,7 +867,7 @@ Package floatrow Info: Redefining fcapside on input line 87.
 
 
 Writing index file thesis.idx
-) (util/OwnCommands.tex) (thesis.aux (pages/chapters/06_umfrage/06_umfrage.aux) (pages/chapters/xx_discussion.aux))
+) (util/OwnCommands.tex) (thesis.aux (pages/title.aux) (pages/abstract.aux) (pages/toc.aux) (pages/chapters/01_intro.aux) (pages/chapters/02_success_factors/02_00_success_factors.aux) (pages/chapters/04_Datenerfassung/04_datenerfassung.aux) (pages/chapters/05_Datenanalyse/05_datenanalyse.aux) (pages/chapters/06_umfrage/06_00_umfrage.aux) (pages/chapters/xx_discussion.aux) (pages/chapters/07_Fazit.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -992,9 +992,179 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count341
 ))
-\openout2 = `pages/chapters/06_umfrage/06_umfrage.aux'.
+\openout2 = `pages/title.aux'.
 
- (pages/chapters/06_umfrage/06_umfrage.tex
+ (pages/title.tex
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 3.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 3.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package epstopdf Info: Source file: <figures/logo-th-rosenheim-2019_master_quer_2c.eps>
+(epstopdf)                    date: 2022-01-26 15:31:44
+(epstopdf)                    size: 2465070 bytes
+(epstopdf)             Output file: <figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-01-27 12:37:39
+(epstopdf)                    size: 21979 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf figures/logo-th-rosenheim-2019_master_quer_2c.eps>
+(epstopdf)             \includegraphics on input line 9.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf, id=6, 181.67876pt x 57.21375pt>
+File: figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf Graphic file (type pdf)
+<use figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf>
+Package pdftex.def Info: figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf  used on input line 9.
+(pdftex.def)             Requested size: 181.6783pt x 57.2136pt.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 16.41594pt on input line 14.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 18.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 16.41594pt on input line 25.
+[1
+
+
+
+
+
+{C:/Users/barbu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figures/logo-th-rosenheim-2019_master_quer_2c-eps-converted-to.pdf>]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplx/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+) [2
+
+
+]
+\openout2 = `pages/abstract.aux'.
+
+ (pages/abstract.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.40245pt on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 19.70294pt on input line 1.
+) [3
+
+
+
+
+
+
+
+]
+\openout2 = `pages/toc.aux'.
+
+ (pages/toc.tex
+Package tocbasic Info: character protrusion at toc deactivated on input line 6.
+ (thesis.toc
+LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 5.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 5.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 5.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 5.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 5.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 5.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 5.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 5.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 42.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.42 ...pter}{\numberline {7}Fazit}{27}{chapter.7}
+                                                  % [1
+
+
+
+
+
+
+
+])
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 \clearpage
+               [2]
+Package tocbasic Info: character protrusion at lof deactivated on input line 8.
+ (thesis.lof)
+\tf@lof=\write7
+\openout7 = `thesis.lof'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \clearpage
+               [3
+
+
+
+]
+Package tocbasic Info: character protrusion at lot deactivated on input line 10.
+ (thesis.lot)
+\tf@lot=\write8
+\openout8 = `thesis.lot'.
+
+ [4
+
+
+
+]) (pages/glossar.tex) [5
+
+
+
+
+
+
+]
+\openout2 = `pages/chapters/01_intro.aux'.
+
+ (pages/chapters/01_intro.tex
 chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -1011,130 +1181,206 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface.
 
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 1.
-(C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
-File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 1.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.40245pt on input line 1.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 19.70294pt on input line 1.
- (pages/chapters/06_umfrage/06_01_Dokumentation.tex
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 1.
-LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 13.
- (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
-File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
-)
-
-LaTeX Warning: Reference `tab:gute_doku' on page 1 undefined on input line 53.
+(Font)              scaled to size 13.67995pt on input line 42.
+[1
 
 
-LaTeX Warning: Reference `tab:schlechte_doku' on page 1 undefined on input line 53.
 
-LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 73.
-LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 73.
-(C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pplx.fd
-File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
-)
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 73.
- (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
-File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 73.
- (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
-File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
-)
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 73.
- (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
-File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 73.
- (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 73.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 73.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 73.
- (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 73.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 73.
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 73.
- (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
-File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `zplm' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [1
+
+]) [2]
+\openout2 = `pages/chapters/02_success_factors/02_00_success_factors.aux'.
+
+ (pages/chapters/02_success_factors/02_00_success_factors.tex
+chapter 2.
+(pages/chapters/02_success_factors/02_01_licenses.tex) [3
 
 
 
 
 
-
-
-
-
-
-{C:/Users/barbu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-<figures/05/GuteDoku_BarChart.png, id=27, 8737.64375pt x 4075.225pt>
-File: figures/05/GuteDoku_BarChart.png Graphic file (type png)
-<use figures/05/GuteDoku_BarChart.png>
-Package pdftex.def Info: figures/05/GuteDoku_BarChart.png  used on input line 132.
-(pdftex.def)             Requested size: 436.90779pt x 203.77318pt.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 133.
-<figures/05/SchlechteDoku_BarChart.png, id=29, 8662.3625pt x 3924.6625pt>
-File: figures/05/SchlechteDoku_BarChart.png Graphic file (type png)
-<use figures/05/SchlechteDoku_BarChart.png>
-Package pdftex.def Info: figures/05/SchlechteDoku_BarChart.png  used on input line 139.
-(pdftex.def)             Requested size: 433.14351pt x 196.24461pt.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.54997pt on input line 160.
-
-Overfull \hbox (204.35988pt too wide) in paragraph at lines 148--179
- [][][][][][] 
+] (pages/chapters/02_success_factors/02_03_documentation.tex
+Overfull \hbox (65.74872pt too wide) in paragraph at lines 4--5
+[][][][][][] 
  []
 
-) [3 <./figures/05/GuteDoku_BarChart.png> <./figures/05/SchlechteDoku_BarChart.png>] [4]) [5
+) [4] (pages/chapters/02_success_factors/02_04_community.tex
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 23.
+ (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 10.95pt on input line 23.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zi4' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) [5] (pages/chapters/02_success_factors/02_05_sponsors.tex
+<figures/02/VueSponsoren.JPG, id=238, 556.479pt x 554.67226pt>
+File: figures/02/VueSponsoren.JPG Graphic file (type jpg)
+<use figures/02/VueSponsoren.JPG>
+Package pdftex.def Info: figures/02/VueSponsoren.JPG  used on input line 32.
+(pdftex.def)             Requested size: 333.88997pt x 332.80592pt.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 9.49997pt on input line 33.
+) [6 <./figures/02/VueSponsoren.JPG>] (pages/chapters/02_success_factors/02_xx_networkEffekt.tex)) [7]
+\openout2 = `pages/chapters/04_Datenerfassung/04_datenerfassung.aux'.
+
+ (pages/chapters/04_Datenerfassung/04_datenerfassung.tex
+chapter 3.
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 9.0pt on input line 38.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 38.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 38.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 38.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 38.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 38.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 38.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 62.
+
+<figures/04/WebInterface.png, id=259, 1586.92876pt x 738.76pt>
+File: figures/04/WebInterface.png Graphic file (type png)
+<use figures/04/WebInterface.png>
+Package pdftex.def Info: figures/04/WebInterface.png  used on input line 64.
+(pdftex.def)             Requested size: 396.73122pt x 184.68954pt.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 73.
+[8
+
+
+
+
+
+] [9 <./figures/04/WebInterface.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 121.
+(C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
+File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
+) [10] [11]
+<figures/04/DatenerfassungArchitektur.png, id=303, 3929.68124pt x 1018.80624pt>
+File: figures/04/DatenerfassungArchitektur.png Graphic file (type png)
+<use figures/04/DatenerfassungArchitektur.png>
+Package pdftex.def Info: figures/04/DatenerfassungArchitektur.png  used on input line 239.
+(pdftex.def)             Requested size: 392.99115pt x 101.88658pt.
+) [12 <./figures/04/DatenerfassungArchitektur.png>]
+\openout2 = `pages/chapters/05_Datenanalyse/05_datenanalyse.aux'.
+
+ (pages/chapters/05_Datenanalyse/05_datenanalyse.tex
+chapter 4.
+(pages/chapters/05_Datenanalyse/extras/Lizenzen_erfasste_Projekte.tex)
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 74.
+
+<figures/05/permissive_vs_restrictive_asBarChart.png, id=313, 1188.8415pt x 312.9291pt>
+File: figures/05/permissive_vs_restrictive_asBarChart.png Graphic file (type png)
+<use figures/05/permissive_vs_restrictive_asBarChart.png>
+Package pdftex.def Info: figures/05/permissive_vs_restrictive_asBarChart.png  used on input line 76.
+(pdftex.def)             Requested size: 475.52818pt x 125.1694pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 82.
+
+<figures/05/license_vs_last12MonthsCommits_asBarChart.png, id=314, 1182.5781pt x 312.9291pt>
+File: figures/05/license_vs_last12MonthsCommits_asBarChart.png Graphic file (type png)
+<use figures/05/license_vs_last12MonthsCommits_asBarChart.png>
+Package pdftex.def Info: figures/05/license_vs_last12MonthsCommits_asBarChart.png  used on input line 84.
+(pdftex.def)             Requested size: 473.02286pt x 125.1694pt.
+[13
+
+
+
+
+
+] [14 <./figures/05/permissive_vs_restrictive_asBarChart.png> <./figures/05/license_vs_last12MonthsCommits_asBarChart.png>]
+<figures/05/Contributors_Projects_asBarChart.png, id=330, 1176.0738pt x 312.9291pt>
+File: figures/05/Contributors_Projects_asBarChart.png Graphic file (type png)
+<use figures/05/Contributors_Projects_asBarChart.png>
+Package pdftex.def Info: figures/05/Contributors_Projects_asBarChart.png  used on input line 139.
+(pdftex.def)             Requested size: 493.94763pt x 131.4293pt.
+) [15 <./figures/05/Contributors_Projects_asBarChart.png>]
+\openout2 = `pages/chapters/06_umfrage/06_00_umfrage.aux'.
+
+ (pages/chapters/06_umfrage/06_00_umfrage.tex
+chapter 5.
+[16
+
+
+
+
+
+] (pages/chapters/06_umfrage/06_01_Dokumentation.tex [17]
+<figures/05/GuteDoku_BarChart.png, id=354, 8737.64375pt x 4075.225pt>
+File: figures/05/GuteDoku_BarChart.png Graphic file (type png)
+<use figures/05/GuteDoku_BarChart.png>
+Package pdftex.def Info: figures/05/GuteDoku_BarChart.png  used on input line 137.
+(pdftex.def)             Requested size: 436.90779pt x 203.77318pt.
+<figures/05/SchlechteDoku_BarChart.png, id=355, 8662.3625pt x 3924.6625pt>
+File: figures/05/SchlechteDoku_BarChart.png Graphic file (type png)
+<use figures/05/SchlechteDoku_BarChart.png>
+Package pdftex.def Info: figures/05/SchlechteDoku_BarChart.png  used on input line 144.
+(pdftex.def)             Requested size: 433.14351pt x 196.24461pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [18 <./figures/05/GuteDoku_BarChart.png>] (pages/chapters/06_umfrage/06_02_Beliebtheit.tex [19 <./figures/05/SchlechteDoku_BarChart.png>]) [20
+
+
+] (pages/chapters/06_umfrage/06_03_Sponsoren.tex) [21] (pages/chapters/06_umfrage/06_04_Development.tex) [22]) [23
 
 
 ]
 \openout2 = `pages/chapters/xx_discussion.aux'.
 
  (pages/chapters/xx_discussion.tex
-chapter 2.
-
-LaTeX Warning: Hyper reference `H:1' on page 6 undefined on input line 7.
-
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 50.
-[6
+chapter 6.
+[24
 
 
 
 
 
-]) [7] (thesis.bbl
+] [25]) [26]
+\openout2 = `pages/chapters/07_Fazit.aux'.
+
+ (pages/chapters/07_Fazit.tex
+chapter 7.
+) [27
+
+
+
+
+
+] (thesis.bbl
 chapter without number
-) [8
+
+Underfull \hbox (badness 7759) in paragraph at lines 23--27
+[]\T1/pplx/m/n/10.95 (+20) Why Are My Con-tri-bu-ti-ons Not Sho-wing up on My Pro-fi-le?  []$\T1/zi4/m/n/10.95 https : / / docs .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--27
+\T1/zi4/m/n/10.95 github . com / en / account-[]and-[]profile / setting-[]up-[]and-[]managing-[]your-[]github-[]profile /
+ []
+
+
+Overfull \hbox (80.63062pt too wide) in paragraph at lines 23--27
+\T1/zi4/m/n/10.95 managing-[]contribution-[]graphs-[]on-[]your-[]profile / why-[]are-[]my-[]contributions-[]not-[]showing-[]up-[]on-[]my-[]profile #
+ []
+
+) [28
 
 
 
@@ -1142,25 +1388,27 @@ chapter without number
 
 
 
-] (thesis.ind) (thesis.aux (pages/chapters/06_umfrage/06_umfrage.aux) (pages/chapters/xx_discussion.aux))
+] (thesis.ind)
 
-LaTeX Warning: There were undefined references.
+Package caption Warning: Unused \captionsetup[sub] on input line 56.
+See the caption package documentation for explanation.
 
+(thesis.aux (pages/title.aux) (pages/abstract.aux) (pages/toc.aux) (pages/chapters/01_intro.aux) (pages/chapters/02_success_factors/02_00_success_factors.aux) (pages/chapters/04_Datenerfassung/04_datenerfassung.aux) (pages/chapters/05_Datenanalyse/05_datenanalyse.aux) (pages/chapters/06_umfrage/06_00_umfrage.aux) (pages/chapters/xx_discussion.aux) (pages/chapters/07_Fazit.aux))
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31744 strings out of 478659
- 635157 string characters out of 2845920
- 1114766 words of memory out of 3000000
- 48979 multiletter control sequences out of 15000+600000
- 463212 words of font info for 250 fonts, out of 8000000 for 9000
+ 32726 strings out of 478659
+ 661085 string characters out of 2845920
+ 1113783 words of memory out of 3000000
+ 49481 multiletter control sequences out of 15000+600000
+ 507341 words of font info for 452 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,21n,120p,10670b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (8 pages, 2275409 bytes).
+ 113i,20n,120p,10670b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on thesis.pdf (36 pages, 3014834 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 85095 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 633 PDF objects out of 1000 (max. 8388607)
+ 140 named destinations out of 1000 (max. 500000)
+ 144762 words of extra memory for PDF output out of 154059 (max. 10000000)
 

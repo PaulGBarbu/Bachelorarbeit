@@ -1,47 +1,65 @@
-\section{Eine Community Aufbauen} \label{ssec:Eine Community Aufbauen}
+\section{Die Community und die Projektentwicklung}\label{sec:community}
 
 
 % ----------------------------------------- New Approach ----------------------------------------- %
 
-\todo{Was bringt CoC und Contributing Guide überhaupt. Mehr oder weniger evtl GitHub Guides hier zitieren}
-
 % Was will ich in diesem Kapitel überhaupt aussagen?
-Ein weiterer Erfolgsfaktor in OSS ist die Community, sowohl die Community von Nutzern, als auch die
-Community von OSS-Entwickler. Es liegt in der Verantwortung der Projektleiter die Community aufzubauen
-und zu pflegen. \cite{bangerthWhatMakesComputational2013,GitHubBuildingWelcomingCommunities2022}.
-Auf GitHub finden sich Standardmäßig zwei Dateien, welche auf die Wahrnehmung dieser Verantwortung
-hindeutet. Die \texttt{CODE\_OF\_CONDUCT.md} und \texttt{CONTRIBUTING.md}.
+Ein weiterer Erfolgsfaktor der OSS ist die Community, die sowohl aus Nutzern als auch von OSS-Entwickler besteht. 
+Es liegt in der Verantwortung der Projektleiter die Community aufzubauen und zu pflegen 
+\cite{bangerthWhatMakesComputational2013,GitHubBuildingWelcomingCommunities2022}.
 
-\bigskip
+
+In einem Leitfaden von GitHub wird die Bedeutung der Community und wie diese ihr Aufbau. Hierbei
+ist vor allem die Rede von einem Code of Conduct und Contributing Guide
+\cite{GitHubBuildingWelcomingCommunities2022}. Das Ziel ist es eine offene und wachsende Community
+aufzubauen, die dem technischen Erfolg dienen soll.
+
+
 
 % Erklärung zu: Code of Conduct
-Das \texttt{CODE\_OF\_CONDUCT.md} ist ein Dokument, welches die Erwartungen an das Verhalten der
-Projektteilnehmer festlegt.
-Das Übernehmen und Durchsetzten des Code of Conducts kann dazu beitragen, eine positive und soziale
-Atmosphäre für alle zu schaffen \cite{GitHubYourCodeOfConduct2022}. % Section 1
-Häufig werden hierfür Vorlagen von der \textit{Contributor Covenant} 
-Website\footnote{https://www.contributor-covenant.org/} verwendet.
+Das \textit{Code of Conduct} ist ein Dokument, welches die Erwartungen an das Verhalten der Projektteilnehmer
+festlegt. Das Übernehmen und Durchsetzten des Code of Conducts kann dazu beitragen, eine positive
+und soziale Atmosphäre für alle zu schaffen \cite{GitHubYourCodeOfConduct2022}. % Section 1
+Häufig findet sich hier im Root-Verzeichnis des Projektes die Datei \texttt{CODE\_OF\_CONDUCT.md}.
+Als Vorlagen dient in der Regel das \textit{Contributor Covenant}\footnote{https://www.contributor-covenant.org/}.
 
-% Hypothese: Code of Conduct => Markterfolg
+
+% Erklärung zu: Contributing
+Der \textit{Contributing Guide} ist eine Einführung, für neue Mitwirkende,
+die sich an dem jeweiligen beteiligen wollen. Hier finden sich die Anleitungen und Vorlagen für
+Bug Reports, Feature Requests, vorgehen bei Pull Requests, sowie Richtlinien bezüglich
+Coding Styles und Testabdeckung \cite{GitHubStartingAProject2022}. % Unter #writing-your-contributing-guidelines
+Einige Projekte beginnen ihre \texttt{CONTRIBUTING.md} mit einem Dank an den Leser und künftigen
+Mitwirkenden, wie beispielsweise Chakra-UI\footnote{https://github.com/chakra-ui/chakra-ui},
+mit den Worten
+\textit{"Thanks for showing interest to contribute to Chakra UI, you rock!"}.
+Somit wird die Hypothese aufgestellt, dass Projekte mit einem Code of Conduct bzw. Contributing
+Guide eine höheren technischen Erfolg haben.
+
+% Hypothese: Code of Conduct => technischer Erfolg
 \begin{hypothesis}
-    Das Vorhandensein eines \textit{Code of Conduct} führt zu einem höheren Markterfolg.
+    Das Vorhandensein eines \textit{Code of Conduct} führt zu einem höheren technischen Erfolg.
     \label{H:4}
 \end{hypothesis}
 
-% Erklärung zu: Contributing
-Die \texttt{CONTRIBUTING.md} Datei ist eine kurze Einführung, für potenzielle neue Contributor,
-wie man am jeweiligen Projekt mitwirken kann. Hier finden sich Anleitungen und Vorlagen für 
-Bug Reports, Feature Requests, vorgehen bei Pull Requests, sowie Richtlinien bezüglich 
-Coding Styles und Testabdeckung \cite{GitHubStartingAProject2022}. % Unter #writing-your-contributing-guidelines
-Einige Projekte beginnen ihre \texttt{CONTRIBUTING.md} mit einem dank an den Leser und künftigen
-Contributor, wie beispielsweise Chakra-UI\footnote{https://github.com/chakra-ui/chakra-ui},
-mit den Worten 
-\textit{"Thanks for showing interest to contribute to Chakra UI, you rock!"}.
-Somit wird die Hypothese aufgestellt, dass Projekte mit einem Contributing Guide eine höhere
-Chance für technischen Erfolg haben.
 
 % Hypothese: Contributing Guides => technischen Erfolg
 \begin{hypothesis}
     Das Vorhandensein eines \textit{Contributing Guides} führt zu einem höherem technischen Erfolg.
     \label{H:5}
+\end{hypothesis}
+
+
+\noindent
+Da der Entwicklungsprozess in einem Open Source Projekt offen einsehbar ist, kann dieser von potenziellen
+Nutzern auch bewertet werden. Metriken wie Aktualität des letzten Commits, Regelmäßigkeit der Commits,
+Anzahl der aktiven Maintainer oder die Antwortzeit der Entwickler auf Tickets
+könnten hierbei für einen Nutzer interessant sein.
+Die sechste Hypothese ist daher, dass Projekte mit hohem technischen Erfolg einen positiven Einfluss auf 
+die Wahl der OSS haben.
+
+
+\begin{hypothesis}
+    Technischer Erfolg führt zu Markterfolg.
+    \label{H:6}
 \end{hypothesis}

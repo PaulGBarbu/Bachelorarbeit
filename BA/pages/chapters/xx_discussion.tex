@@ -1,60 +1,288 @@
 \chapter{Diskussion}
 
 
+\todoo{Ziel dieser Arbeit war es....}
 
 
-\section{Zu Hypothese 1}
-Mit dieser Datenerhebung hat sich \hyperref[H:1]{Hypothese H1} bestätigt. Allerdings muss man einräumen,
-dass für die Beliebtheit nur GitHub Sterne verwendet wurden. Der Linux Kernel ist GPLv2 lizenziert und 
-gehört zu den bekanntesten und erfolgreichsten Open Source Projekten. 
-Ein Grund weshalb freizügige Lizenzen beliebter sein könnten ist, dass es sich bei restriktiven 
-Projekten meist, um Applikationen handelt. Telegram, Signal und ähnliche Open Source Chat Apps 
-werden von Entwicklern sowie nicht Entwicklern verwendet, die eventuell gar keine GitHub Accounts haben.
-GitHub Sterne erfassen somit nicht das gesamte Bild \textit{Markterfolg}.
+% ---------------------------------------- Hypothese 1 & 2 --------------------------------------- %
+\section{Einfluss von permissiven Lizenzen auf den Erfolg}
 
-\section{Zu Hypothese 3}
-Für manche Projekte lohnt es sich ggf. nicht ein Code of Conduct zu haben, da die Teams schlichtweg 
-zu klein sind. Der Code of Conduct muss nicht nur augestellt sondern auch umgesetzt werden.
-Es kann also sein, das einige Projekte den CoC erst einführen wenn es sich lohnt, sprich ab einer 
-gewissen Größe erst...
-Wieder nur ein Vergleichsmaß von Sternen (aber auch Downloads so thats something)
 
-\section{Zur Hypothese mit Sponsoren...}
-% Disclaimer
-\subsubsection*{Anmerkung}
-Man muss allerdings anmerken, dass einige Projekte von Unternehmen entwickelt werden. Diese finanzieren 
-ihre Projekte meist selbst und sind somit nicht abhängig von Sponsoren. 
-React beispielsweise kommt aus dem Hause Facebook, während VueJS unabhängig ist und auf Sponsoren angewiesen ist.
-In diesem Kontext zählen Projekte von Unternehmen auch als gesponsert.
-Es sind aber auch nur 10 Projekte von Unternehmen, also fällt das auch nicht so sehr ins Gewicht tatsächlich.
+% --------------------- Hypothese 1 --------------------- %
+%~ 1. Um welche Hypothese geht es
+In Kapitel \ref{sec:Lizenzen} wurde die Hypothese aufgestellt, dass permissive Lizenzen einen positiven
+Effekt auf den Markterfolg haben.
+%~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
+Um diese Hypothesen zu Prüfen wurde eine Datenerhebung mit 108 Projekten durchgeführt. Als Metrik des
+Markterfolges wurden GitHub Sterne verwendet.
+%~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
+Wie die Ergebnisse aus Kapitel \ref{sec:Ergebnisse_Datenerhebung_Lizenzen} zeigen, haben Projekte mit
+permissiven Lizenzen 27,4\% mehr Sterne zusätzlich sind die Top 32\% Projekte permissiv lizenziert.  
+Und das trotz expliziter suche nach restriktiven Projekten, wie in Kapitel \ref{sec:manuelle_datenerfassung}
+beschrieben. Bei der Manuellen Datenerfassung war es zusätzlich notwendig explizit nach restriktiven 
+Projekten zu suchen, um den Anteil von restriktiver Projekte zu erhöhen. Das zeigt zum einen, dass 
+permissive Lizenzen allgemein bevorzugt werden und permissiv lizenzierte Projekte auch allgemein 
+erfolgreicher sind. Somit bestätigt sich \hyperref[H:1]{Hypothese H1}.
+%~ Beschränkungen
+Ursprünglich sollten auch die NPM Downloads als Beliebtheitsmerkmalen verwendet und vergleichen
+werden. Allerdings sind nur 4 der 10 restriktiven Projekte auf NPM.
+
+
+% --------------------- Hypothese 2 --------------------- %
+\bigskip
+\noindent
+%~ 1. Um welche Hypothese geht es
+Des Weiteren wurde die Hypothese aufgestellt, das permissive Lizenzen einen positiven Einfluss auf den
+Technischen Erfolg haben.
+%~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
+Zum Prüfen der Hypothese wurden wie in Hypothese 1 vorgegangen, allerdings wurden hier 
+Anzahl der Commits in den letzten 12 Monaten und Anzahl der Mitwirkenden
+verglichen.
+%~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
+Projekte mit permissiven Lizenzen haben im Median sowohl mehr Commits (252\%) als auch mehr Mitwirkende
+(144\%). Somit bestätigt sich die \hyperref[H:2]{Hypothese H2}, permissive Projekte sind technisch 
+erfolgreicher.
+
+
+\todo{Sieh .tex}
+
+\bigskip
+\noindent
+% Limitations 2.0
+Dieser Arbeit hat sich nur mit Projekten beschäftigt, die hauptsächlich in JavaScript/Typescript
+programmiert sind. Das JS/TS Umfeld ist hierbei dominiert von permissiven Lizenzen, dies hat zur
+Folge gehabt, das von den 108 Projekten nur 10 Projekte restriktiv Lizenziert sind. Diese
+Ungleichverteilung erschwert Aussagen bezüglich Lizenzen.
+
+% TODO: Weiteres wäre: 
+      % - Commits zählen nur auf Main und GH-Page branch. 
+      % - Die genannten Punkte decken representieren natürlich nicht in Fülle Markt und technischen Erfolg sondern
+      % sind nur versuche diese anzunähren
+
+\bigskip
+\noindent
+%~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
+Die Ergebnisse bestätigen die Studie von Subramaniam et al. in dem Punkt, dass permissive Lizenzen 
+einen positiven Effekt auf den Erfolg von Projekten haben \cite{subramaniamDeterminantsOpenSource2009}. 
+Über den Effekt von restriktiven Lizenzen lassen sich hier keine starken Aussagen treffen, aufgrund 
+kleiner Datenmengen mit restriktiven Lizenzen.
+
+% Subramaniam et al. 
+%       - Freie Lizenzen haben positiven Einfluss 
+%       - Restriktive Lizenzen kann ich aufgrund der Beschränkung nicht bestätigen.
+
+% Steward et al.
+%       - idk...
+
+% Midha et al.
+%       - Freizügige Lizenzen nur zu beginn bedeutend, würde ich nicht zustimmen
+
+
+% Limitations
+% \todoo{
+%       In 2015 hat GitHub in einem Blogeintrag die Aufteilung der Lizenznutzung auf ihrer Platform veröffentlicht
+%       \cite{OpenSourceLicense2015}. Wie man in Tabelle \ref{tab:GitHub_Blog_Lizenznutzung2015} sehen kann,
+%       haben 64\% aller Projekte permissive Lizenzen und 24\% restriktive. 15\% der Projekte haben keine
+%       Standardlizenz und werden von GitHub daher als \textit{other} kategorisiert.
+% }
+%? What about this text? 
+% Allerdings muss man einräumen,
+% dass für die Beliebtheit nur GitHub Sterne verwendet wurden. Der Linux Kernel ist GPLv2 lizenziert und
+% gehört zu den bekanntesten und erfolgreichsten Open Source Projekten.
+% Ein Grund weshalb freizügige Lizenzen beliebter sein könnten ist, dass es sich bei restriktiven
+% Projekten meist, um Applikationen handelt. Telegram, Signal und ähnliche Open Source Chat Apps
+% werden von Entwicklern sowie nicht Entwicklern verwendet, die eventuell gar keine GitHub Accounts haben.
+% GitHub Sterne erfassen somit nicht das gesamte Bild \textit{Markterfolg}.
+
+
+
+
+
+% ------------------------------------------ Hypothese 3 ----------------------------------------- %
+%\newpage %! new page
+\section{Der Einfluss einer guten Dokumentation auf den Markterfolg} 
+% TODO: Kann der Titel eigentlich sowas sein wie? 
+
+%~ 1. Um welche Hypothese geht es
+Im Kapitel \ref{sec:Documentation} wurde die Hypothese aufgestellt, dass gute Dokumentationen mehr 
+Nutzer anziehen würden und somit zu einem höheren Markterfolg führen würde. 
+%~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
+Um diese Hypothese zu prüfen wurde eine Umfrage durchgeführt. Die Umfrage hatte 308 Teilnehmer. 
+%~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
+Die Teilnehmenden sollten auf einer Likert Skala Aussagen zustimmen oder ablehnen, hier hatte das 
+Thema Dokumentation die höchste Zustimmung verglichen mit den anderen Themengebieten der Umfrage, 
+dies zeigt ein allgemein hohes Interesse am Thema Dokumentation. Diese Aussage wird vom Fakt 
+untermauert, das wie in Kapitel \ref{sec:umfrage_last_question} gezeigt wird, die Dokumentation 
+das wichtigste Kriterium, bei der Auswahl von OSS ist. Des Weiteren gaben 81\% der befragten an, 
+aufgrund schlechter Dokumentation schon mal zu einem alternativen Projekt gewechselt zu haben.
+% Hypothese ist Proven.
+Das zeigt die Wichtigkeit einer guten Dokumentation und bestätigt somit die 
+\hyperref[H:3]{Hypothese H3}.
+
+
+%~ Beschränkungen
+Die Freitext Felder haben gezeigt das die Kriterien die es zum bewerten gab nicht vollständig waren. 
+Vor allem Aktualität und Vollständigkeit sind weitere wichtige Eigenschaften für Dokumentationen.
+Für weitere Forschung wäre daher sinnvoll die Kriterien die es zu bewerten gilt zu erweitern.
+Dies würde auch dazu führen das man die Wichtigkeit dieser Kriterien vergleichbarer macht.
+
+%~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
+In einer Umfrage der Open Source Survey aus 2017 stellte sich heraus, dass unvollständige bzw. 
+verirrende Dokumentation als größtes Problem in Open Source gelten \cite{GitHubOpenSourceSurvey2017}.
+Diese Arbeit bestätigt diese Ergebnisse, und erweitert diese. Neben Komplexität und Unvollständigkeit
+sind die wichtigste Punkte einer Guten Dokumentation, Code Beispiele und Aktualität.
+
+
+% Die Ergebnisse der Umfrage bezüglich Code Beispiele decken mit den Aussagen aus Dagenais et al. 
+% \cite{dagenaisDeveloperDocumentation}.
+
+
+
+
+% ---------------------------------------- Hypothese 4 & 5 --------------------------------------- %
+\section{Der Einfluss vom Code of Conduct und Contributing Guide auf den technischen Erfolg}
+
+%~ 1. Um welche Hypothese geht es
+Im Kapitel \ref{sec:community} wurden zwei Hypothesen aufgestellt, basierend auf den Open Source 
+Guide von GitHub aufgestellt \cite{GitHubBuildingWelcomingCommunities2022}.
+Die \hyperref[H:4]{Hypothese H4} beschäftigt sich mit dem Effekt des \textit{Code of Conducts} auf
+den technischen Erfolg. \hyperref[H:5]{Hypothese H5} hingegen beschäftigt sich mit dem Effekt des
+\textit{Contributing Guides} auf den technischen Erfolg.
+%~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
+Zum prüfen beider Hypothesen wurden die Daten aus der Datenerhebung verwendet.
+%~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
+Das Code of Conduct haben 53\% der 108 analysierten Projekte. Einen Contributing Guide 86\%.
+
+Gemessen wurde der technische Erfolg anhand Commits und und Anzahl der Mitwirkenden. Projekte mit 
+einem Code of Conduct haben deutlich mehr Commits (717\%) und Mitwirkende (201\%).
+Projekte mit einem Contributing Guide haben 463\% mehr Commits und 412\% mehr Mitwirkende als Projekte 
+ohne.
+% Hypothese belegt.
+Damit sind beide Hypothese eindeutig belegt.
+
+%~ Begründung für die Daten
+Eine plausible Erklärung für den starken unterschied, kann damit begründet werden, dass es sich für 
+kleine Projekte nicht lohnt eine Code of Conduct einzuführen, da die Größe der Teams zu klein ist.
+
+Im Fall des Contributing Guides, könnte die ungleiche Verteilung in den Daten die Ursache sein.
+
+%~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
+Es zeigt sich allerdings deutlich, dass die Empfehlungen von GitHub auch durchgesetzt werden, vor allem
+in großen Projekten. 
+
+
+
+% ------------------------------------------ Hypothese 6 ----------------------------------------- %
+\section{Technischer Erfolg führt zu Markterfolg}
+
+\red{Ich glaub diese Hypothese schmeiß ich wieder aus da ich die nicht ordentlich belegen/wiederlegen kann}
+
+%//% %~ 1. Um welche Hypothese geht es
+%// Im Kapitel \ref{sec:community} wurde die Hypothese aufgestellt, dass technischer Erfolg positiven 
+%// Einfluss auf den Markterfolg hat.
+%// %~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
+%// Die Hypothese wurde mittels Umfrage geprüft.
+%// %~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
+%// %~ Begründung für die Daten
+%// %~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
+
+
+
+
+% ---------------------------------------- Hypothese 7 & 8 --------------------------------------- %
+
+
+\section{Einfluss der Sponsoren auf den Erfolg}
+
+%~ 1. Um welche Hypothese geht es
+Im Kapitel \ref{sec:sponsors} wurde die Hypothese aufgestellt, dass Sponsoren einen positiven Einfluss
+bei der Wahl von OSS hätten.
+%~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
+Die Hypothese wurde mittels Umfrage getestet.
+%~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
+Wie in Kapitel \ref{sec:umfrage_sponsoren} und \ref{sec:sponsoren_datenerhebung} bereits gezeigt, 
+spielen Sponsoren für die Nutzer von OSS fast gar keine Rolle.
+
+Somit wird \hyperref[H:6]{Hypothese 6} nicht unterstützt.
+
+
+%// %~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
+% Die \hyperref[H:7]{Hypothese H7}, Sponsoren hätten einen positiven Einfluss bei der Auswahl von OSS
+% wird nicht unterstützt. In Kapitel \ref{sec:Beliebtheit} \todoo{zeigt sich das die Anzahl der Sponsoren
+%       garnicht beachtet werden}
+
+
+%~ 1. Um welche Hypothese geht es
+Bezüglich Sponsoren wurde zusätzlich noch die Hypothese aufgestellt, dass Sponsoren sich positiv auf
+den technischen Erfolg auswirken würden. 
+%~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
+Diese Hypothese wurde mittels der Datenerhebung geprüft.
+%~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
+Wie sich herausstellt haben Projekte mit Sponsoren 72\% mehr Commits und 86\% mehr Mitwirkende.
+%~ Limitations für die Daten
+% Manche Projekte haben keine Sponsoren sondern Unternehmen.
+
+%~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
+%TODO: Kein Bezug zur Literatur
+
+%%% Disclaimer
+%\subsubsection*{Anmerkung}
+% Man muss allerdings anmerken, dass einige Projekte von Unternehmen entwickelt werden. Diese finanzieren
+% ihre Projekte meist selbst und sind somit nicht abhängig von Sponsoren.
+% React beispielsweise kommt aus dem Hause Facebook, während VueJS unabhängig ist und auf Sponsoren angewiesen ist.
+% In diesem Kontext zählen Projekte von Unternehmen auch als gesponsert.
+% Es sind aber auch nur 10 Projekte von Unternehmen, also fällt das auch nicht so sehr ins Gewicht tatsächlich.
+
+
+
+
+
+% ------------------------------------------ Hypothese 9 ----------------------------------------- %
+\section{Zu Hypothese 9}
+Die \hyperref[H:9]{Hypothese H9}, Beliebte Projekte werden von Nutzern bei der Wahl von OSS bevorzugt.
+Wird nur schwach/Nicht unterstützt? (54\% Nein etc....)
+
+In Kapitel \ref{sec:Beliebtheit} sieht man das fast die hälfte schon auf Beliebtheit achte, aber halt
+erstens nur die hälfte und zweites kommt es auf die Vergleichsmetrik an. Mehr als die hälfte zumindest
+achtet auf Downloads.... (Schwach unterstützte Hypothese? Garnicht? idk)
+
+
+
+
+% TODO: Nach allen Hypothesen, eine zusammenfassung, 4 von 9 sind bestätigt etc...  und eine teil bestätigt.....
+
+% TODO: Bezug auf LIteratur, anders oder gleich...
+
+% TODO: Ausblick, ...
+
+
+
+
+%! Allgemeine Limitation
+Gleiches war bei den Contributor nicht umsetzbar, da die GitHub API keinen
+Endpoint hierfür hat, somit werden Contributor über den gesamten Zeitraum des Projektes verglichen. (Commits nur der letzten 12 Monate)
 
 
 \begin{itemize}
-    \item Stichprobe war klein
-    \item (Problem => Donations not enough, abhängig was aus dem Crawler für Ergebnisse kommen)
-    \item Evtl ist die Umfrage Stichprobe sehr spezifisch (Überwiegend Studenten)
-    \item Fazit => Problem mit Donations? Zu wenige?
-          Findet man dieses Problem in den Daten überhaupt... existiert dieses Problem überhaupt
-          Soll allerdings nur angeschnitten werden, da die BA nur auf die Sicht der Nutzer geschaut hat.
-          Probleme der Open Source Entwickler ist ein anderes Problem.
-    \item Die Daten aus dem \textit{Crawler} sind nur ein Snapshot der aktuellen Lage, sprich man kann
-          nur sagen. Ja es gibt eine Korrelation zwischen z.B. Sponsoren und User Interest, aber nicht was was hervorruft.
-          Hat das Projekt Sponsoren weil es viele Nutzer hat \textit{oder} hat das Projekt viele Nutzer weil es Sponsoren hat?
-          Dafür bräuchte man eine Datenerhebung over time. 
-          Diese ist allerdings im kleinen Zeitfenster einer Bachelorarbeit nicht machbar.
-          \cite{midhaFactorsAffectingSuccess2012} hat beispielsweise in einem Zeitfenster von 3 Jahren die
-          Datenerhebung gemacht. % Abstract
+      \item Umfrage hatte nur den Umfang von 308 Teilnehmern und kann deshalbt nicht generalisiert werden... 
+      \item Die Daten aus dem \textit{Crawler} sind nur ein Snapshot der aktuellen Lage, sprich man kann
+            nur sagen. Ja es gibt eine Korrelation zwischen z.B. Sponsoren und User Interest, aber nicht was was hervorruft.
+            Hat das Projekt Sponsoren weil es viele Nutzer hat \textit{oder} hat das Projekt viele Nutzer weil es Sponsoren hat?
+            Dafür bräuchte man eine Datenerhebung over time.
+            Diese ist allerdings im kleinen Zeitfenster einer Bachelorarbeit nicht machbar.
+            \cite{midhaFactorsAffectingSuccess2012} hat beispielsweise in einem Zeitfenster von 3 Jahren die
+            Datenerhebung gemacht. % Abstract
 \end{itemize}
 
 
-\subsection{Disclaimer}
+% \subsection{Disclaimer}
 
-https://www.npmjs.com/package/npm-downloads-increaser
+% https://www.npmjs.com/package/npm-downloads-increaser
 
-npm downloadzahlen sind manipulierbar, ich geh zwar davon aus, dass es allgemein nicht häufig gemacht wird
-und da ja sowieso vielmehr in die rechnung rein geht als nur npm downloads. Werden diese daten trotzdem mit erfasst.
-\link{How to exploit NPM}{https://dev.to/andyrichardsonn/how-i-exploited-npm-downloads-and-why-you-shouldn-t-trust-them-4bme}.
+% npm downloadzahlen sind manipulierbar, ich geh zwar davon aus, dass es allgemein nicht häufig gemacht wird
+% und da ja sowieso vielmehr in die rechnung rein geht als nur npm downloads. Werden diese daten trotzdem mit erfasst.
+% \link{How to exploit NPM}{https://dev.to/andyrichardsonn/how-i-exploited-npm-downloads-and-why-you-shouldn-t-trust-them-4bme}.
 
-In einem 
-\link{Blogpost}{https://blog.npmjs.org/post/92574016600/numeric-precision-matters-how-npm-download-counts-work.html}
-erklärt NPM wie es zu den Download zahlen zustande kommt.
+% In einem
+% \link{Blogpost}{https://blog.npmjs.org/post/92574016600/numeric-precision-matters-how-npm-download-counts-work.html}
+% erklärt NPM wie es zu den Download zahlen zustande kommt.

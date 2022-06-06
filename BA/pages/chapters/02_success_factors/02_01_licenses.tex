@@ -1,32 +1,26 @@
-\section{Lizenzen}
-
-
-\todo{Klare Unterscheidung zwischen Restriktiv und Permissive, aus Kapitel Datenerfassung
-soll man hierdrauf verlinken können.}
-
-\todo{Offene LIzenzen => Freizügig oder Permissive Lizenz}
+\section{Lizenzen} \label{sec:Lizenzen}
 
 % Lizenzen haben signifikaten Einfluss auf Erfolg [Subramaniam]
 Laut Subramaniam et al. spielen Lizenzen eine signifikante Rolle für den Erfolg von
 Open Source Software.
-Freie Lizenzen wie MIT oder BSD haben einen positiven Einfluss vor allem auf Software Entwickler.
+Freizügige Lizenzen wie MIT oder BSD haben einen positiven Einfluss vor allem auf Softwareentwickler.
 Denn Entwickler nutzen OSS, um es in eigene Projekte einzubauen, gegebenenfalls zu modifizieren
 und ein Endprodukt mit der OSS Komponente weiterzuverbreiten. Das ist mit restriktiven Lizenzen
 wie GPL meist nicht bedingungslos umsetzbar. Restriktive Lizenzen wie GPL wirken sich daher
 negativ bis neutral auf den Erfolg von OSS aus. Wenn die Software allerdings an Endnutzer
-gerichtet ist, wie zum Beispiel die Chat-App Telegram\footnote{https://telegram.org/}, spielt die
-Lizenz eine weniger wichtige Rolle, da Weiterverbreitung und Modifizierung für diese Nutzergruppe
+gerichtet ist, wie zum Beispiel die Instant-Messaging-Dienst Telegram\footnote{https://telegram.org/},
+spielt die Lizenz eine weniger wichtige Rolle, da Weiterverbreitung und Modifizierung für diese Nutzergruppe
 keine Rolle spielen \cite{subramaniamDeterminantsOpenSource2009}.
 
 % Stewart et al. on Licenses
 Stewart et al. widerspricht der zweiten Aussage von Subramaniam et al. laut ihnen
-haben nicht-restriktive-Lizenzen nicht nur auf das Entwicklerinteresse, sondern auch auf das
+haben permissive Lizenzen nicht nur auf das Entwicklerinteresse, sondern auch auf das
 Nutzerinteresse einen positiven Einfluss. % Stewart et al. H1A
 Während restriktive Lizenzen einen nicht signifikanten Einfluss auf
 Entwickleraktivität hätten. \cite{stewartImpactsLicenseChoice2006a}
 
 % Widerspruch von Midha et. al.
-Laut Midha und Palvia wirken sich freie Lizenzen positiv auf den Markterfolg aus, allerdings
+Laut Midha und Palvia wirken sich permissive Lizenzen positiv auf den Markterfolg aus, allerdings
 nur zu Beginn eines Projektes. %H2a Vermutung: Beliebtheit ist Wichtiger als Lizenz
 Restriktive Lizenzen wiederum wirken sich negativ auf den technischen Erfolg aus %H2b
 \cite{midhaFactorsAffectingSuccess2012}.
@@ -54,26 +48,5 @@ einem renommierten Projekt mitzuwirken.
 
 \begin{hypothesis}
     Offene Lizenzen haben positiven Einfluss auf den technischen Erfolg.
+    \label{H:2}
 \end{hypothesis}
-
-
-
-\todo{A word about Licenses}
-Was macht permissive aus?
-- Kann uneingeschränkt benutzt werden
-- Kann ez verwendet werden, einfach Lizenz Text beilegen
-- Source Code einer MIT Lib kann in Propreritärer Software verwendet werden usw.
-- Beispiel: MIT, BSD, Apache
-
-Was macht GPL aus?
-- Kann nicht uneingeschränkt genutzt werden => one GPL Lib => Whole Programm needs to be Open Source now under gpl
-- GPLv2 vs GPLv3
-- Was hat es dann eigentlich mit AGPL und LGPL aufsich? irgendwas mit Cloud und Server shit
-
-MPL
-- Die Mitte zwischen GPL und MIT
-So under the terms of the MPL, it allows the integration of MPL-licensed code into proprietary codebases,
-but only on condition those components remain accessible
-% Quelle: https://en.wikipedia.org/wiki/Mozilla_Public_License
-% Sieh auch: https://www.mozilla.org/en-US/MPL/2.0/FAQ/   =>   Q11
-% https://www.youtube.com/watch?v=YlKtCDJquSw

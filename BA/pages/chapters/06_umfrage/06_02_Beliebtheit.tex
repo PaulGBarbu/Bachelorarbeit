@@ -2,16 +2,18 @@
 \cleardoublepage %! \cleardoublepage
 
 \section{Beliebtheit}\label{sec:Beliebtheit}
-Im zweiten Teil der Umfrage ging es, um den Einfluss der Beliebtheit bei der Wahl eines OS-Projektes.
-Wie zuvor auch sollten die Teilnehmenden Aussagen auf einer 5-Punkte Skala bewerten.
-Die Fragestellung war: \textit{"Wie sehr achten Sie bei der Auswahl von OSS auf..."}.
+Im zweiten Teil der Umfrage, soll geklärt werden, welchen Einfluss die Beliebtheit, bei der Wahl
+eines Projektes hat. Wie zuvor auch sollten die Teilnehmer Kriterien auf einer 5-Punkte Skala bewerten.
+Die Mittelwerte der Antworten finden sich in Tabelle \ref{tab:beliebtheit} wieder.
 
-
+\bigskip
+\noindent
+Die Aussage war \textit{"Wie sehr achten Sie bei der Auswahl von OSS auf..."}, mit den Punkten:
 \begin{multicols}{2}
     \begin{itemize}
         \setlength\itemsep{0em}
         \item Anzahl der GitHub Sterne
-        \item Anzahl der Contributor eines
+        \item Anzahl der Mitwirkenden eines
               Projektes
         \item Anzahl von Sponsoren
         \item Trends
@@ -20,35 +22,36 @@ Die Fragestellung war: \textit{"Wie sehr achten Sie bei der Auswahl von OSS auf.
 \end{multicols}
 
 \noindent
-\todoo{Diese Punkte wurden gewählt basierend auf den gestellten Hypothesen. GitHub Sterne und Downloads
-    sind eine schnelle und einfache Methode die Beliebtheit eines Projektes zu....
-    Trends beziehen sich auch auf GitHub Sterne oder Downloads allerdings zeigen sie die Beliebtheit über
-    Zeit an, statt nur als Snapshot der aktuellen Beliebtheit. Häufig genutzte Tools hierfür sind
-    \textit{StackOverflow Trends}\footnote{https://insights.stackoverflow.com/trends},
-    \textit{npm trends}\footnote{https://www.npmtrends.com/} oder
-    \textit{Google Trends}\footnote{https://trends.google.de/trends/}}
+Diese Punkte wurden gewählt, da es klassischen Vergleichsmerkmalen sind, um die Beliebtheit von OSS
+zu vergleichen. GitHub Sterne und Downloads sind eine schnelle und einfache Methode, um die aktuelle 
+Beliebtheit eines Projektes zu vergleichen. Trends hingegen stellen GitHub Sterne oder Downloads 
+über Zeit dar, häufig genutzte Tools für die Analyse von Trends sind
+\textit{StackOverflow Trends}\footnote{\url{https://insights.stackoverflow.com/trends}},
+\textit{npm trends}\footnote{\url{https://www.npmtrends.com/}} oder
+\textit{Google Trends}\footnote{\url{https://trends.google.de/trends/}}.
 
 
+% Daten beschreiben
+Anders als bei der Dokumentation gibt es hier kein Kriterium mit starker Zustimmung. Die Downloads
+sind hierbei mit einer durchschnittlich Zustimmung von 3,27 die beliebtes Vergleichsmetrik für Beliebtheit
+gefolgt von Sternen (2,92). Anzahl der Mitwirkenden (2,68), StackOverflow Fragen und Antworten (2,60) sowie 
+Trends (2,23) werden tendenziell weniger beachtet. Die Anzahl der Sponsoren wird mit einer durchschnittlichen
+Bewertung (1,7) fast gar nicht beachtet. 
 
-\todo{Describe it like you dont see the table: Downloads ganz oben, Keiner shaut auf Sponsoren...}
 
-\bigskip
-\noindent
-Anders als bei der Dokumentation liegt die durchschnittliche Bewertung aller Punkte im \todoo{Mittelfeld}
-die höchste Bewertung hast Downloads mit durchschnittlich 3,27.
-Außerdem gab es auch hier die Ja/Nein Frage \textit{"Hat die geringe Popularität eines Projekts Sie
-    jemals davon abgehalten, es zu nutzen?"}. Hier haben 46\% der Teilnehmer mit \textit{"Ja"} gestimmt.
-Insgesamt wirkt sich die Beliebtheit schwächer auf den Entscheidungsprozess aus, als die Qualität der
-Dokumentation.
+Die letzte Frage zum Thema Beliebtheit war 
+\textit{"Hat die geringe Popularität eines Projekts Sie jemals davon abgehalten, es zu nutzen?"}
+54\% der Teilnehmer haben die Frage mit \textit{"Nein"} beantwortet. Die leichte Ablehnung der Frage
+deckt sich mit den vorherigen Ergebnissen. Nutzer achten auf Beliebtheit weniger als auf die 
+Qualität der Dokumentation bei der Wahl von OSS.
 
 \begin{table}[h]
-    \resizebox{\textwidth}{!}{%
+    %\resizebox{\textwidth}{!}{%
         \begin{tabular}{cccccc}
             \hline
-            Downloads & Sterne & Contributor & StackOverflow Fragen/Antworten & Trends & Sponsoren \\ \hline
-            3.27      & 2.92   & 2.68        & 2.60  \vspace{0.3cm}           & 2.23   & 1.7       \\
-            +0.27     & -0.08  & -0.32       & -0.40                          & -0.77  & -1.3
+            Downloads & Sterne & Mitwirkende & StackOverflow Fragen/Antworten & Trends & Sponsoren \\ \hline
+            3.27      & 2.92   & 2.68        & 2.60                           & 2.23   & 1.7
         \end{tabular}%
-    }
-    \caption{\label{tab:beliebtheit}Einfluss von Beliebtheitsmerkmalen}
+    %}
+    \caption{\label{tab:beliebtheit}Einfluss der Beliebtheitsmerkmalen bei der Wahl von OSS}
 \end{table}

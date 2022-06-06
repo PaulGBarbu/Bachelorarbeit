@@ -11,11 +11,11 @@
 % --------------------------------------- Pre Chapter Stuff -------------------------------------- %
 
 % Deckblatt
-% \include{pages/title} % ! (Titelseite) commented out for now
+\include{pages/title} % ! (Titelseite) commented out for now
 \cleardoubleemptypage
 
 % Abstract
-% \include{pages/abstract} % ! (Abstract) commented out for now
+\include{pages/abstract} % ! (Abstract) commented out for now
 \cleardoubleemptypage
 
 % Table of Contents
@@ -23,12 +23,12 @@
 \pagenumbering{roman}
 
 % TODO: Inhaltsverzeichnis beim nächsten Review mitschicken
-%\include{pages/toc} % ! (Inhaltsverzeichnis) commented out for now
+\include{pages/toc} % ! (Inhaltsverzeichnis) commented out for now
 
 
 
 % Glossar
-%\input{pages/glossar}
+\input{pages/glossar}
 
 
 
@@ -40,19 +40,18 @@
 % ---------------------------------------- Chapters begin ---------------------------------------- %
 
 %\begin{multicols}{2}
-%\include{pages/chapters/01_intro}
-%\include{pages/chapters/02_success_factors/02_00_success_factors}
-%\include{pages/chapters/03_crawler}
-
-
-%\include{pages/chapters/04_Datenerfassung/04_datenerfassung}
-%\include{pages/chapters/05_Datenanalyse/05_datenanalyse}
-\include{pages/chapters/06_umfrage/06_umfrage}
-
-%\include{pages/chapters/xx_comparison}
+\include{pages/chapters/01_intro}
+\include{pages/chapters/02_success_factors/02_00_success_factors}
+\include{pages/chapters/04_Datenerfassung/04_datenerfassung}
+\include{pages/chapters/05_Datenanalyse/05_datenanalyse}
+\include{pages/chapters/06_umfrage/06_00_umfrage}
 \include{pages/chapters/xx_discussion}
+\include{pages/chapters/07_Fazit.tex}
 %\end{multicols}
 
+%? Legacy
+%%%%% \include{pages/chapters/03_crawler} 
+%%%%% \include{pages/chapters/xx_comparison}
 
 \clearpage
 

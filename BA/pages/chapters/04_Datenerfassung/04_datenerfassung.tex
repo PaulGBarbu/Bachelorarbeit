@@ -1,34 +1,30 @@
-\chapter{Quantitative Datenerhebung}
+\chapter{Datenerhebung} \label{kap:Datenerhebung}
 
-% TODO: Was ist das Ziel dieser Datenerfassung?
-\todo{Was ist das Ziel dieser Datenerfassung?}
-
-\todo{Kapitel}
+\todo{Bessere Title ? Datenerhebung Github}
 
 % Ziel der Datenerhebung
-\todoo{Ziel der Datenerhebung ist es zu prüfen, welchen Einfluss Lizenzen auf den Markt- bzw.
-    technischen Erfolg habe (Hypothese 1 \& 2). Welchen Einfluss das Code of Conduct auf den Markterfolg
-    und das Contributing Guide und Sponsoren auf den technischen Erfolg hatten.}
+Das Ziel dieser Datenerhebung ist es die Hypothese H1, H2, H4, H5, und H8 zu prüfen.
+
+% \todoo{Ziel der Datenerhebung ist es zu prüfen, welchen Einfluss Lizenzen auf den Markt- bzw.
+%     technischen Erfolg habe (Hypothese 1 \& 2). Welchen Einfluss das Code of Conduct auf den Markterfolg
+%     und das Contributing Guide und Sponsoren auf den technischen Erfolg hatten.}
 
 
 
-Für die Datenerhebung wurden \todoo{108} Open Source Projekte auf GitHub ausgewählt.
+Hier wurden 108 Open Source Projekte auf GitHub ausgewählt.
 % Rahmenbedingungen
 Die Studie von Midha et al. hat sich auf die Programmiersprachen C++ beschränkt, ähnlich wird sich
-auch die Datenerhebung auf JavaScript (JS) und TypeScript (TS) beschränken. Grund hierfür ist, das
+auch diese Arbeit auf JavaScript (JS) und TypeScript (TS) beschränken. Grund hierfür ist, dass
 sich verschiedene Programmiersprachen schlecht miteinander vergleichen lassen
 \cite{midhaFactorsAffectingSuccess2012}.
-JavaScript wurde für die Datenerfassung ausgewählt, da es zur Zeit die Sprache mit den meisten
+JavaScript wurde für die Datenerfassung ausgewählt, da es zurzeit die Sprache mit den meisten
 Projekten auf GitHub ist.
 % Why TypeScript? What is TypeScript? 
-TypeScript wird mit in der Datenerfassung aufgenommen, da es ein Superset von JavaScript ist.
-Das heißt, TS Bibliotheken können problemlos in JS Projekten verwendet werden. Außerdem ist es möglich
-die TS Syntax in JS Scripte einzusetzen, somit ist es unmöglich wäre reine JS Projekte für die
-Datenerfassung zu verwenden. Entsprechend wird TS explizit in die Datenerfassung mit aufgenommen.
+TS wird mit aufgenommen, da es ein Obermenge von JS ist. 
+Es ist unmöglich reine JS Projekte \todoo{aufzufinden.}
 
-Des Weiteren werden für die Datenerfassung nur Software Repositories aufgenommen, ausgeschlossen sind
-somit E-Books, Tutorials oder Lehrplattformen wie
-\textit{freeCodeCamp}\footnote{\url{https://github.com/freeCodeCamp/freeCodeCamp}}.
+Erhoben wurden nur Software Projekte. Repositories wie E-Books, Tutorials oder Lehrplattformen wurden 
+ausgeschlossen. Projekt Archive wurden ebenfalls ausgeschlossen
 
 
 
@@ -36,46 +32,37 @@ somit E-Books, Tutorials oder Lehrplattformen wie
 % ------------------------------------------------------------------------------------------------ %
 %                                     Manuelle Datenerfassung                                      %
 % ------------------------------------------------------------------------------------------------ %
-\section{Manuelle Datenerfassung}
-
-
-\todo{Außerdem dürfen es keine Projekt Archive sein.}
-
-% Warum Daten von Hand sammeln?
-Die Daten wurden im ersten Schritt von Hand gesammelt, Grund hierfür ist, dass viele Projekte keine
-Software Projekte, sondern E-Books, Tutorials oder Lehrplattformen wie im Fall von beispielsweise
-\textit{freeCodeCamp}\footnote{\url{https://github.com/freeCodeCamp/freeCodeCamp}} sind.
+\section{Manuelle Datenerfassung}\label{sec:manuelle_datenerfassung}
 
 % Wie wurden die Daten erfasst
-Hierfür wurde zunächst mittels der GitHub Suchfunktion\footnote{\url{https://github.com/search/advanced}}
-nach JS und TS Projekten gefiltert gesucht. Die Ausgabe war nach Sternen sortiert. In dieser Reihenfolge
-wurden die Daten auch erfasst.
+Mithilfe der GitHub Suchfunktion\footnote{\url{https://github.com/search/advanced}} wurden JS und 
+TS Projekte ausgewählt. Die Ausgabe wurde nach Anzahl Sternen sortiert wiedergegeben und in 
+dieser Reihenfolge erfasst.
 % None MIT-Search
-Während der Datenerfassung wurde festgestellt, dass die meisten Projekte eine MIT Lizenz haben,
-deshalb wurde im Laufe der Datenerfassung explizit nach nicht MIT lizenzierten Projekten gefiltert,
-um etwas besser verteilte Daten zu erhalten.
+Die Ausgabe der ersten Suche beinhaltete überwiegende Mehrzahl der Projekte mit MIT Lizenz. Um eine
+höhere Diversität des Lizenzen-Milieus zu gewährleisten wurde im Laufe der Datenerfassung explizit,
+nach nicht MIT lizenzierten Projekten gefiltert.
 % Was wurde erfasst [pt. 1]
-Für das erfassen der Daten wurde ein selbst entwickeltes Web Interface verwendet, um das erheben der
-Daten zu vereinfachen. Wie in Abbildung \ref{abb:Web_Interface} zu sehen ist wurden zunächst
+Zum Erfassen der Daten wurde ein selbst entwickeltes Web-Interface verwendet, um die Erhebung
+zu vereinfachen. Wie in Abbildung \ref{abb:Web_Interface} zu sehen ist wurden zunächst
 Identifikationsdaten notiert. Für GitHub wurde \textit{<owner>/<project>} verwendet,
-wie sie auch in der URL oder auf der Project Page zu finden sind \todoo{Abbildung X?}. Für NPM wurde der
-Package Name verwendet, falls dieser vorhanden war. Applikationen beispielsweise haben in den meisten
+wie sie auch in der URL oder auf der Project Page zu finden sind. Für NPM wurde der Package Name
+verwendet, falls dieser vorhanden war. Applikationen beispielsweise haben in den meisten
 Fällen kein NPM Package.
 % Was wurde erfasst [pt. 2]
-Es wurden auch weitere Daten, die sich nicht automatisieren, erfasst. Dazu gehören Niveau der
-Dokumentation, Vorhandensein von Sponsoren, wer hinter dem Projekt steht und um was für ein Typ Projekt
-es sich handelt.
+Des Weiteren wurden auch Niveau der Dokumentation, Vorhandensein von Sponsoren, wer hinter dem 
+Projekt steht und um was für ein Typ Projekt es sich handelt gesammelt.
 % Einführung nächste Kapitel
 Alle Einträge wurden an ein NodeJS Backend gesendet und als CSV abgespeichert.
-Im den nächsten Unterkapiteln soll näher erläutert wie die Kriterien die von Hand erfasst werden zustande
-kommen und welche Bedeutung die Werte in der CSV-Datei haben.
+Im den nächsten Unterkapiteln wird näher erläutert, wie die Kriterien, die von Hand erfasst wurden 
+zustande gekommen sind und welche Bedeutung die Werte in der CSV-Datei haben.
 
 
 % ----------------------------------- Abbildung: Web Interface ----------------------------------- %
 \begin{figure}[]
     \centering
     \includegraphics[scale=0.25]{figures/04/WebInterface.png}
-    \caption{Web Interface}
+    \caption{Web-Interface}
     \label{abb:Web_Interface}
 \end{figure}
 
@@ -83,9 +70,8 @@ kommen und welche Bedeutung die Werte in der CSV-Datei haben.
 
 
 % ----------------------------------------- Dokumentation ---------------------------------------- %
-\subsection{Dokumentation}
-Für die Dokumentation wurde \textit{README.md} bzw. eine externe Website überflogen und kategorisiert.
-Bei der Qualität der Dokumentation wurde wie folgt bewertet:
+\subsection{Dokumentation} \label{ssec:manuelle_datenerfassung_dokumentation}
+Die Dokumentation des Projektes wurde analysiert und nach folgenden Kriterien kategorisiert:
 
 \begin{itemize}[noitemsep]
     \item[0 =] keine Dokumentation
@@ -97,10 +83,8 @@ Bei der Qualität der Dokumentation wurde wie folgt bewertet:
 
 % ------------------------------------------- Sponsoren ------------------------------------------ %
 \subsection{Sponsoren}
-Für jedes Projekt wurde geprüft, ob es Sponsoren hat. Auf der GitHub-Seite findet sich oft ein Link
-zur Sponsoren Website oder alternativ gibt es meist in der \textit{README.md} bzw. auf der Website
-des Projektes eine kurze Danksagung an die Sponsoren. Die Anzahl an Sponsoren bzw. die Einnahmen
-durch Sponsoren wurden nicht beachtet, nur ob Sponsoren vorhanden sind.
+Für jedes Projekt wurde geprüft, ob es Sponsoren hat. Die Anzahl an Sponsoren bzw. die Einnahmen
+durch Sponsoren wurden nicht beachtet. Das Vorhandensein der Sponsoren wurde folgend codiert:
 
 \begin{itemize}[noitemsep]
     \item[0 =] hat keine Sponsoren
@@ -128,9 +112,8 @@ ist der Besitzer des Repositories.
 
 
 % ------------------------------------------- Kategorie ------------------------------------------ %
-\subsection{Kategorie}
+\subsection{Projektarten}
 Im letzten Schritt wurde das Projekt in eins der folgenden Kategorien zugeordnet: \\
-Utility, UI, Application, Library, Framework, Test-Framework, Open-Core, API
 
 \begin{multicols}{2}
     \begin{itemize}
@@ -170,16 +153,15 @@ Utility, UI, Application, Library, Framework, Test-Framework, Open-Core, API
 \newpage %! newpage
 \section{Automatisierte Datenerfassung}\label{sec:automatisierte_datenerfassung}
 
-\todo{Im Text einbinden Architektur.}
-
-Im zweiten Teil der Datenerfassung wurden weitere Daten automatisiert erhoben. Hierfür wurde die
+Im zweiten Teil der Erhebung wurden weitere Daten automatisiert gesammelt. Hierfür wurde die
 GitHub API\footnote{\url{https://docs.github.com/en/rest}}, NPM
 API\footnote{\url{https://github.com/npm/registry}} und für einige Daten Web-Scraping
 verwendet.
 
-Zu diesem Zweck wurde ein NodeJS Applikation geschrieben, die CSV aus dem ersten Schritt ausließt und
-mithilfe der APIs und Web-Scraping eine neue CSV-Datei generiert. In den folgenden Unterkapiteln wird
-aufgelistet welche Daten mittels welcher Methode gesammelt wurden.
+Zu diesem Zweck wurde eine weitere NodeJS Applikation geschrieben, welche die CSV-Datei aus dem 
+Kapitel \ref{sec:manuelle_datenerfassung} ausliest und mithilfe der APIs und Web-Scraping eine neue 
+CSV-Datei generiert. In Abbildung \ref{abb:Architektur} wird der Prozess der Datenerhebung grafisch
+dargestellt. In den folgenden Unterkapiteln wird aufgelistet welche Daten mittels welcher Methode gesammelt wurden.
 
 
 % ----------------------------------- Daten aus der GitHub API ----------------------------------- %
@@ -218,9 +200,9 @@ Mithilfe von Web-Scraping wurden folgende Daten erfasst:
 \end{itemize}
 
 \subsubsection*{Anmerkung:}
-Ein Contributor zählt nur dann als solcher, wenn dessen Commit entweder auf dem \textit{default}
-oder \textit{gh-pages} Branch liegt. Commits auf anderen Branches werden nur dann gezählt, wenn ein
-merge auf einen der vorherig erwähnten Branches stattfindet. Gleiches gilt für Commits \cite{GHapiDocsCommits}.
+Ein Mitwirkender zählt nur dann als solcher, wenn dessen Commit entweder auf dem \textit{default}
+oder \textit{gh-pages} Branch liegt. Die Commits auf anderen Branches werden nur dann gezählt, 
+wenn ein merge auf einen der vorherig erwähnten Branches stattfindet. Gleiches gilt für Commits \cite{GHapiDocsCommits}.
 
 % * GitHub_usedBy
 % * GitHub_Page
@@ -229,28 +211,33 @@ merge auf einen der vorherig erwähnten Branches stattfindet. Gleiches gilt für
 
 % ----------------------------------- Nachbearbeitung der Daten ---------------------------------- %
 \subsection{Nachbearbeitung der Daten}
-\todoo{Nachdem erheben der Daten waren noch einige Schritte notwendig bevor die Daten analysiert werden
-    konnten. Einige Projekte hatten die Lizenz \texttt{other}. Der Grund hierfür ist, dass die
-    \texttt{LICENSE.md} nicht dem Standard Text entspricht. Ein Beispiel wäre die Lizenz von meteor\footnote{https://github.com/meteor/meteor/blob/devel/LICENSE}
-    Alle als \texttt{other} gekennzeichneten Projekte wurden manuell geprüft und korrigiert.
-    %
-    Des Weiteren wurden Projekte ohne Lizenzen oder Lizenzen die nicht von der \textit{Open Source Initiative} zugelassene
-    sind komplett aussortiert.
-    %
-    Nach dem gleichen Prinzip wurden Projekte kontrolliert die keine Contributing Guide bzw. kein Code of Conduct haben.
-    Grund hierfür. GitHub erkennt das Vorhandensein dieser Dateien nur dann wenn diese im Hauptverzeichnis liegen.
-    Andere Projekte wiederum haben ein Contributing Guide in der README.md oder auf deren Website. 
-    % 9 Datensätze wurden korrigiert (Contributing) / 2 Datensätze wurden bezüglich (CoC) korrigiert
-}
+
+Nachdem erheben der Daten war eine Nachbearbeitung notwendig. Einige Projekte hatten die Lizenz 
+\texttt{other}. Der Grund hierfür ist, dass die \texttt{LICENSE.md} nicht dem Standardtext einer 
+Lizenz entsprochen hat. Ein Beispiel wäre die Lizenz von 
+meteor\footnote{\url{https://github.com/meteor/meteor/blob/devel/LICENSE}},
+welche nach dem offiziellen Lizenztext noch eine Anmerkung bezüglich benutzter Bibliotheken hat.
+Alle als \texttt{other} gekennzeichneten Projekte wurden manuell geprüft und korrigiert.
+%
+Zudem wurden Projekte ohne Lizenzen oder Lizenzen die nicht von der \textit{Open Source Initiative} 
+zugelassene sind komplett aussortiert.
+%
+Nach dem gleichen Prinzip wurden Projekte kontrolliert, die laut API kein Contributing Guide bzw. kein Code 
+of Conduct haben. Grund hierfür ist, dass GitHub das Vorhandensein dieser Dateien nur dann erkennt, 
+wenn diese im Hauptverzeichnis liegen und exakt \texttt{CONTRIBUTING.md} bzw \texttt{CODE\_OF\_CONDUCT.md} 
+heißen. Einige Projekte hatten Tippfehler in den Dateinamen, oder den Contributing Guide bzw Code of Conduct
+war Teil der README.md statt eine eigene Datei bzw. auf der Website des Projektes.
+% 9 Datensätze wurden korrigiert (Contributing) / 2 Datensätze wurden bezüglich (CoC) korrigiert
+
 
 
 
 
 % ------------------------------------ Abbildung: Architektur ------------------------------------ %
-\begin{figure}[]
+\begin{figure}[h]
     \centering
     \includegraphics[scale=0.1]{figures/04/DatenerfassungArchitektur.png}
-    \caption{Architektur}
+    \caption{Prozess der Datenerhebung}
     \label{abb:Architektur}
 \end{figure}
 

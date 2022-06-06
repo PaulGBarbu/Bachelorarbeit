@@ -1,17 +1,35 @@
-\section{Netzwerkeffekt}
+\section{Beliebtheit}
 
+Des Weiteren kann die Beliebtheit eines Projekts für die Nutzer eine wichtige Rolle spielen. 
+% Midha zu Beliebtheit
+Midha et al. fanden eine starke Korrelation zwischen der vergangenen Beliebtheit 
+eines Projekts, und der aktuellen Beliebtheit. Der Grund hierfür sei, dass die Beliebtheit
+als Entscheidungskriterium bei der Auswahl eines Projektes verwendet wird
+\cite{midhaFactorsAffectingSuccess2012}. % Kapitel 6.3
+In dieser Arbeit wird die Beliebtheit anhand der Anzahl der GitHub Sterne und Downloads gemessen.
 
-% Einleitung: Network Effekt Erklären
-Der Begriff \textit{Netzwerkeffekt} kommt aus der Volkswirtschaftslehre und beschreibt ein Phänomen,
+% Quelle: Subramaniam 
+Subramaniam et al. sprechen von vom sogenannten \textit{Netzwerkeffekt},
+dieser wirkt sich laut \cite{subramaniamDeterminantsOpenSource2009} % Kapitel 5.1. 
+positiv auf den Erfolg von OSS aus.
+% Network Effekt Erklären
+Der Begriff Netzwerkeffekt kommt aus der Volkswirtschaftslehre und beschreibt ein Phänomen,
 bei dem ein Produkt oder eine Dienstleistung einen zusätzlichen Wert erhält, wenn mehr Menschen
 diesen nutzten.
-Im Software Umfeld würde sich der Netzwerkeffekt in, z.B. Anzahl an Tutorials
-oder Fragen/Antworten auf StackOverflow zeigen.
+Im Softwareumfeld wird der Netzwerkeffekt in, z.B. Anzahl an Tutorials
+oder Beiträge auf StackOverflow zeigen.
+%Ist ein Projekt erfolgreich werden Entwickler mehr Fragen stellen und Tutorials verfassen,
+Das wiederum schafft einen stärkeren Anreiz das beliebtere Tool zu nutzten.
+Im Vergleich von ReactJS und Svelte wie in der Tabelle \ref{tab:react_vs_svelte} dargestellt wird, 
+zeigt sich, dass ReactJS etwas mehr als 3-mal so viele Sterne auf GitHub hat, aber über 100-mal so viele 
+Beiträge auf StackOverflow. 
+Daraus ergibt sich die Hypothese:
 
-Ist ein Projekt erfolgreich werden Entwickler mehr Fragen stellen und Tutorials verfassen,
-was wiederum einen stärkeren Anreiz schafft das beliebtere Tool zu nutzten.
-Vergleicht man beispielsweise ReactJS und Svelte wird man feststellen das React etwas mehr als 3-mal
-so viele Sterne auf GitHub hat, aber über 100-mal so viele Fragen auf StackOverflow.
+\begin{hypothesis}
+    Beliebte Projekte werden von Nutzern bei der Wahl von OSS bevorzugt.
+    \label{H:9}
+\end{hypothesis}
+
 
 % Edit with: https://www.tablesgenerator.com/latex_tables
 \begin{table}[h]
@@ -21,28 +39,6 @@ so viele Sterne auf GitHub hat, aber über 100-mal so viele Fragen auf StackOver
         \textbf{React}  & 186k                                      & 14.6 mio                                   & 438 mio                                                                       & 380k                                              \\
         \textbf{Svelte} & 57k                                       & 278k                                       & 2.3 mio                                                                       & 3k
     \end{tabular}%
+    \caption{React vs Svelte}
+    \label{tab:react_vs_svelte}
 \end{table}
-
-\todo{Schöner Formulieren}
-
-
-% Midha zu Beliebtheit
-Midha et al. fand eine starke Korrelation zwischen der vergangenen Beliebtheit eines Projekts,
-und der aktuellen Beliebtheit. Der Grund hierfür sei, dass die Beliebtheit
-als Entscheidungskriterium bei der Auswahl eines Projektes verwendet wird
-\cite{midhaFactorsAffectingSuccess2012}. % Kapitel 6.3
-
-% Quelle: Subramaniam 
-Subramaniam et al. spricht von vom sogenannten \textit{Network Effekt},
-dieser wirkt sich laut \cite{subramaniamDeterminantsOpenSource2009} % Kapitel 5.1. 
-positiv auf den Erfolg von OSS aus.
-
-% Überleitung zur Hypothese
-Projekte die bereits beliebt sind haben einen dadurch einen Vorteil noch mehr neue Nutzer anzuziehen,
-also welche die neu auf dem Markt sind.
-
-\todo{Hyoothese ausformulieren}
-\begin{hypothesis}
-    Erfolgreiche Projekte werden noch erfolgreicher. => neue Projekte müssen raus stechen
-    sonst haben sie keine Chance gegen die bestehenden OSS Alternativen
-\end{hypothesis}

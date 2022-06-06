@@ -1,52 +1,75 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 41 items.
-A level-1 auxiliary file: pages/chapters/06_umfrage/06_umfrage.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: pages/title.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: pages/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: pages/toc.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: pages/chapters/01_intro.aux
+Reallocating 'name_of_file' (item size: 1) to 60 items.
+A level-1 auxiliary file: pages/chapters/02_success_factors/02_00_success_factors.aux
+Reallocating 'name_of_file' (item size: 1) to 55 items.
+A level-1 auxiliary file: pages/chapters/04_Datenerfassung/04_datenerfassung.aux
+Reallocating 'name_of_file' (item size: 1) to 51 items.
+A level-1 auxiliary file: pages/chapters/05_Datenanalyse/05_datenanalyse.aux
+Reallocating 'name_of_file' (item size: 1) to 44 items.
+A level-1 auxiliary file: pages/chapters/06_umfrage/06_00_umfrage.aux
 Reallocating 'name_of_file' (item size: 1) to 33 items.
 A level-1 auxiliary file: pages/chapters/xx_discussion.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: pages/chapters/07_Fazit.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: natger.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 Database file #1: thesis.bib
-You've used 2 entries,
+Warning--to sort, need author or key in GitHubOpenSourceSurvey2017
+Warning--to sort, need author or key in GitHubBuildingWelcomingCommunities2022
+Warning--to sort, need author or key in GitHubYourCodeOfConduct2022
+Warning--to sort, need author or key in GitHubStartingAProject2022
+Warning--to sort, need author or key in GHapiDocsCommits
+Warning--to sort, need author or key in Cryptpad_org
+You've used 12 entries,
             2811 wiz_defined-function locations,
-            610 strings with 5137 characters,
-and the built_in function-call counts, 836 in all, are:
-= -- 64
-> -- 19
-< -- 2
-+ -- 7
-- -- 6
-* -- 56
-:= -- 122
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 9
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 71
-empty$ -- 68
-format.name$ -- 11
-if$ -- 159
-int.to.chr$ -- 1
+            686 strings with 7737 characters,
+and the built_in function-call counts, 4655 in all, are:
+= -- 392
+> -- 83
+< -- 7
++ -- 29
+- -- 26
+* -- 298
+:= -- 550
+add.period$ -- 37
+call.type$ -- 12
+change.case$ -- 57
+chr.to.int$ -- 10
+cite$ -- 24
+duplicate$ -- 385
+empty$ -- 428
+format.name$ -- 43
+if$ -- 972
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 13
-num.names$ -- 4
-pop$ -- 26
+missing$ -- 90
+newline$ -- 63
+num.names$ -- 12
+pop$ -- 198
 preamble$ -- 1
-purify$ -- 13
+purify$ -- 73
 quote$ -- 0
-skip$ -- 23
+skip$ -- 137
 stack$ -- 0
-substring$ -- 40
-swap$ -- 40
-text.length$ -- 2
-text.prefix$ -- 2
+substring$ -- 228
+swap$ -- 221
+text.length$ -- 7
+text.prefix$ -- 6
 top$ -- 0
-type$ -- 16
-warning$ -- 0
-while$ -- 6
-width$ -- 3
-write$ -- 23
+type$ -- 96
+warning$ -- 6
+while$ -- 22
+width$ -- 15
+write$ -- 124
+(There were 6 warnings)

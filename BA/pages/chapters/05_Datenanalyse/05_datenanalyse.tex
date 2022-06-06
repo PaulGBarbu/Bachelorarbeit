@@ -1,44 +1,38 @@
 \newpage %! newpage
-\chapter{Analyse der erhobenen Daten}
+\chapter{Ergebnisse der Datenerhebung}
 
+\todo{Kleine Einleitung + 108 Projekte erwähnen.}
+
+\todoo{In den folgenden unterkapitel... werden die Ergebnisse der 108 Projekte ...}
 
 % ------------------------------------------- Lizenzen ------------------------------------------- %
-\section{Lizenzen}
+\section{Lizenzen} \label{sec:Ergebnisse_Datenerhebung_Lizenzen}
 
 \todo{Verweis auf Kapitel 2.1 Lizenzen => Warum genau diese Aufteilung}
 
-\todo{Bonus Formulierung: Die Projekte die offen sind befinden sich in den Top 50\%....}
-
 \bigskip
 \noindent
-Zunächst wurden die Datensätze in zwei Gruppen aufgeteilt, Projekte mit freizügigen und restriktiven
-Lizenzen. \todoo{Die Aufteilung erfolgt hierbei wie im Kapitel 1.3.3.7 zu Lizenzen näher erklärt wurde.}
+Um die \hyperref[H:1]{Hypothese H1} zu prüfen wurden der Datensatz in Projekte mit freizügigen und
+restriktiven
+Lizenzen. \todoo{Die Aufteilung erfolgt hierbei, wie im Kapitel 1.3.3.7 zu Lizenzen näher erklärt wurde.}
 In der Tabelle \ref{tab:lizenzen} findet sich eine Zusammenfassung aller Lizenzen der
-Projekte die erfasst worden sind. Wie man erkennt haben 91\% der Projekte eine freizügige Lizenz, wobei
-die MIT Lizenz mit 69\% die beliebteste aller Lizenzen ist. Um die Beliebtheit der Projekte zu
-vergleichen wurden die GitHub Sterne als Metrik verwendet.
-Aufgrund der stark ungleich großen Gruppen wurden anhand von Gruppen anhand von Ranking verglichen.
-Hierfür wurden die Projekte, wie in Abbildung \ref{abb:permissive_vs_restriktiv_BarChart} zu sehen
-ist, absteigend nach Anzahl der Sterne sortiert.
-Das erste Projekt mit einer restriktive Lizenz belegt hierbei den Platz 35. Projekte mit freizügige
-Lizenzen übertreffen die restriktiven sowohl in der Menge als auch in ihrer Beliebtheit.
-%
-%
-%
-% Daten von GitHub
-% In 2015 hat GitHub in einem Blogeintrag die Aufteilung der Lizenznutzung auf ihrer Platform veröffentlicht
-% \cite{OpenSourceLicense2015}. Wie man in Tabelle \ref{tab:GitHub_Blog_Lizenznutzung2015} sehen kann,
-% haben 64\% aller Projekte permissive Lizenzen und 24\% restriktive. 15\% der Projekte haben keine
-% Standardlizenz und werden von GitHub daher als \textit{other} kategorisiert.
-%
-%
-% \subsubsection*{Anmerkung:}
-% Die Tabelle \ref{tab:GitHub_Blog_Lizenznutzung2015} ergibt in der Summe über 100\%. Grund hierfür
-% könnte sein, dass einige Projekte Dual Lizenzen besitzen
-%
-% H1 Bestätigt sich.
-Somit bestätigt sich die \hyperref[H:1]{Hypothese H1}. Projekte mit freizügigen Lizenzen sind
-beliebter als Projekte mit restriktiven Lizenzen.
+Projekte die erfasst wurden. 91\% der Projekte haben eine freizügige Lizenz, wobei die MIT Lizenz mit 69\%
+die beliebteste aller Lizenzen ist.
+
+Um die Gruppen miteinander zu vergleichen wurde der Median der Anzahl der Sterne verwendet, da diese
+sehr stark verteilt ist. Der Median für permissive Lizenzen liegt bei 27.515 Sternen, für
+restriktive bei 21.595,5. Somit haben Projekte mit permissiven Lizenzen im Median 27,4\% mehr Sterne
+als Projekte mit restriktiven Lizenzen.
+
+Aufgrund der großen Mengenunterscheiden zwischen freizügigen und restriktiven Projekten wurde
+zusätzlich ein Ranking erstellt. Wie in Abbildung \ref{abb:permissive_vs_restriktiv_BarChart} zu sehen
+ist wurden hierfür die Projekte nach Sternen sortiert. Von 108 ausgewerteten Projekten liegt das erste
+mit restriktiver Lizenz auf Platz 35, das heißt die \todoo{Top} 31\% der Projekte sind alle 
+permissiv lizenziert. Projekte mit freizügigen Lizenzen übertreffen die restriktiven sowohl in der Menge 
+als auch in der Beliebtheit.
+ 
+
+
 
 
 % \bigskip
@@ -52,33 +46,29 @@ beliebter als Projekte mit restriktiven Lizenzen.
 % Insgesamt sind 93\% der Top 100 Projekte auf GitHub permissiv lizenziert.
 
 
-% NPM Downloads
-Ursprünglich sollten auch die NPM Downloads als Beliebtheitsmerkmalen verwendet und vergleichen
-werden. Allerdings handelt es sich bei restriktiven Projekten meist um Applikationen, dies hat zur
-Folge, dass diese Projekte nicht auf npm gelistet sind.  % 4 von 10 sind Applikationen
-
-
 
 % ------------------------------------------ Hypothese 2 ----------------------------------------- %
 \bigskip
 \noindent
-Um die zweite Hypothese zu prüfen wurden ähnlich vorgegangen, für diesen Vergleich wurden Anzahl der
-Contributor sowie Commits betrachtet. Vergleicht man die Anzahl der Contributor liegt das erste
-restriktive Projekt auf Platz 51. Ganz anders sieht es aus, wenn man die Commits vergleicht.
-Wie man in Abbildung \ref{abb:license_vs_commits} sehen kann befinden sich zwei Projekte mit
-restriktiven Lizenzen unter den Top 20, auf Platz 9 und 19.
+Um die zweite Hypothese zu prüfen wurden ebenfalls die Mediane verglichen, allerdings wurden hier
+Anzahl der Mitwirkenden sowie Commits der letzten 12 Monate betrachtet. Der Median wurde in diesem
+Fall gewählt, da sowohl die Anzahl Commits als die der Mitwirkenden starke Ausreißer haben.
 
-Die Vermutung das freizügige Lizenzen zu mehr technischem Erfolg führen wird daher nur zum Teil
-unterstützt. \todoo{Freizügige Lizenzen ziehen zwar tendenziell mehr Mitwirkende, allerding leisten
-    die Contributor von restriktiven Projekten vergleichsweise viel Arbeit.}
+Im Median haben restriktive Projekte 78 Mitwirkende und 74,5 Commits, permissive Projekte haben 274,5
+Mitwirkende und 182 Commits.
+In einen weiterem Ranking, sortiert nach Mitwirkenden befindet sich das erste Projekt mit
+restriktiver Lizenz auf Platz 51. Im Ranking der Anzahl der Commits erreicht,
+wie man in Abbildung \ref{abb:license_vs_commits} sehen kann, das erste restriktive Projekt Platz 9.
+
+Im Ranking der Anzahl der Commits befinden sich unter den ersten 20 Projekten zwei OSP mit restriktive
+Lizenzen.
 
 
-
-% Lizenzen der erfassten Projekte
+% Tabelle: Lizenzen der erfassten Projekte
 \input{pages/chapters/05_Datenanalyse/extras/Lizenzen_erfasste_Projekte}
 
 % Tabelle aus vom GitHub Blogpost & Top 100
-\input{pages/chapters/05_Datenanalyse/extras/table_Top100_und_GH_BlogTabelle}
+% \input{pages/chapters/05_Datenanalyse/extras/table_Top100_und_GH_BlogTabelle}
 
 % Abbildung: Lizenzen vs Lizenzen
 \begin{figure}[]
@@ -101,93 +91,79 @@ unterstützt. \todoo{Freizügige Lizenzen ziehen zwar tendenziell mehr Mitwirken
 % ---------------------------------------- Code of Conduct --------------------------------------- %
 \newpage %! newpage
 \section{Code of Conduct}\label{sec:CoC}
-Der Datensatz wurde hier erneut in zwei Gruppen geteilt, Projekte mit Code of Conduct und Projekte
-ohne. Verglichen wurden GitHub Sterne und Downloadzahlen mittels Median. Der Median wurde in diesem
-Fall gewählt, da sowohl Sterne als auch Downloads starke Ausreißer haben. Da nicht alle Projekte auf
-NPM gelistet sind, beispielsweise Applikationen, wurden diese bei der Berechnung des Medians der
-Downloadzahlen nicht berücksichtigt. So bildet sich der Median der Sterne aus 108  Datensätzen
-und der Median der Downloads aus 88 Datensätzen.
+Um \hyperref[H:4]{Hypothese H4} zu testen wird
+der Datensatz erneut in zwei Gruppen geteilt, Projekte mit Code of Conduct und Projekte
+ohne. Verglichen wurden Anzahl der Commits und Mitwirkenden mittels Median. 
 
-Wie man in Tabelle \ref{tab:relation_CoC_Popularity} zu erkennen ist haben 53\% der Projekte einen
-Code of Conduct.
-Projekte mit Code of Conduct haben 51\% mehr Downloads auf NPM und 55\% mehr Github Sterne.
-Da Projekte mit einem Code of Conduct beliebter sind, als die ohne bestätigt sich somit
-\hyperref[H:4]{Hypothese H4}
+Wie in Tabelle \ref{tab:relation_CoC_Popularity} zu erkennen ist, haben 53\% der Projekte einen
+Code of Conduct. Im Vergleich beider Gruppen haben Projekte mit Code of Conduct 717\% mehr
+Commits und 201\% mehr Mitwirkender, als Projekte ohne.
 
 
 \begin{table}[h]
     \begin{tabular}{l|c|c|}
         \cline{2-3}
-                                  & \multicolumn{1}{l|}{\textbf{Projekte mit Code of Conduct}} & \multicolumn{1}{l|}{\textbf{Projekte ohne Code of Conduct}} \\ \hline
-        \textbf{Anzahl}           & 57                                                         & 51                                                          \\ \hline
-        \textbf{Median Sterne}    & 34.581                                                     & 22.279                                                      \\ \hline
-        \textbf{Median Downloads} & 1.636.148,5                                                & 1.078.509,5                                                 \\ \cline{2-3}
+                                    & \multicolumn{1}{l|}{\textbf{Projekte mit Code of Conduct}} & \multicolumn{1}{l|}{\textbf{Projekte ohne Code of Conduct}} \\ \hline
+        \textbf{Anzahl}             & 57                                                         & 51                                                          \\ \hline
+        \textbf{Median Commits}     & 556                                                        & 68                                                          \\ \hline
+        \textbf{Median Mitwirkende} & 313                                                        & 104                                                         \\ \cline{2-3}
     \end{tabular}%
     \caption{Relation von Code of Conduct und Beliebtheit}
     \label{tab:relation_CoC_Popularity}
 \end{table}
 
 
-% \begin{figure}[h]
-%     \centering
-%     \includegraphics[scale=0.42]{figures/05/Stars_vs_CoC_asBarChart.png}
-%     \caption{Einfluss von Code of Conduct auf Sterne}
-%     \label{abb:CodeOfConduct_Stars}
-% \end{figure}
 
 
 
 % -------------------------------------- Contributing Guide -------------------------------------- %
+\newpage %!newpage
 \section{Contributing Guide}
 
-\todo{Bonus Formulierung: Die Projekte die ein CG haben befinden sich in den Top 50\%....}
-
 Wie im Kapitel \ref{sec:CoC} wurde auch hier der Datensatz in zwei Gruppen unterteilt. Projekte mit
-und ohne einen Contributing Guide (CG). Hier soll der Zusammenhang zwischen dem Vorhandensein eines
-CG und Anzahl der Contributor bzw. Commits \todoo{erforscht} werden.
+und ohne einen Contributing Guide (CG). Um \hyperref[H:5]{Hypothese H5} zu testen soll der Zusammenhang
+zwischen dem Vorhandensein eines CG und Anzahl der Mitwirkenden bzw. Commits erforscht werden.
 
-Hierbei beschränken sich die Anzahl der Commits auf die letzten 12 Monate, um eine vergleichbare
-Basis zu schaffen. Gleiches war bei den Contributor nicht umsetzbar, da die GitHub API keinen
-Endpoint hierfür hat, somit werden Contributor über den gesamten Zeitraum des Projektes verglichen.
+Anders als beim Code of Conduct, haben hier 86\% aller Projekte einen CG. Verglichen wurden erneut
+der Median der Anzahl der Mitwirkenden und Anzahl der Commits, Projekte mit einem CG haben 463\% mehr
+Commits und 412\% mehr Mitwirkende.
 
-Anders als beim Code of Conduct, haben hier 86\% aller Projekte einen (CG).
-In Abbildung \ref{abb:ContributingGuide_vs_Contributors} werden die Projekte nach Anzahl der Contributor
+Zusätzlich werden die Projekte nach Anzahl der Mitwirkenden (sieh Abbildung \ref{abb:ContributingGuide_vs_Contributors})
 sortiert, wie man erkennen kann haben die Projekte mit den meisten Mitwirkenden alle einen CG. Das
 erste Projekt ohne belegt hier Platz 54. Nach dem gleichen Schema wurden auch nach Anzahl der Commits
-sortiert, das erste Projekt ohne CG landet hier auf Platz 42.
-
-In beiden vergleichen platzieren sich Projekte mit CG weit vor Projekten ohne. Wie in \hyperref[H:5]
-{Hypothese H5} angenommen hat der Contributing Guide einen positiven Effekt auf den technischen Erfolg.
+sortiert, das erste Projekt ohne CG belegt Platz 42.
+In beiden vergleichen platzieren sich Projekte mit CG weit vor Projekten ohne.
 
 \begin{figure}[h]
     \centering
     \includegraphics[scale=0.42]{figures/05/Contributors_Projects_asBarChart.png}
-    \caption{Einfluss von Contributing Guide auf Contributor}
+    \caption{Einfluss von Contributing Guide auf Mitwirkende}
     \label{abb:ContributingGuide_vs_Contributors}
 \end{figure}
 
-\newpage %! new Page
-\section{Einfluss von Sponsoren auf den technischen Erfolg}
+
+
+% ------------------------------------------- Sponsoren ------------------------------------------ %
+\section{Einfluss von Sponsoren auf den technischen Erfolg}\label{sec:sponsoren_datenerhebung}
+
 
 Erneut wurde der Datensatz in zwei Gruppen geteilt, Projekte mit und ohne Sponsoren. Verglichen wurde
-der Median der Commits der letzten 12 Monate sowie die Anzahl an Contributor. In Tabelle \ref{}
+der Median der Commits der letzten 12 Monate sowie die Anzahl an Mitwirkenden 
+(Sieh Tabelle \ref{tab:Sponsors_vs_NonSponsors}).
+52\% der Projekte haben Sponsoren. Projekte mit Sponsoren haben 72\% mehr Commits und 86\% mehr Mitwirkende
+
 
 \begin{table}[h]
     \begin{tabular}{l|c|c|}
         \cline{2-3}
                                                       & \multicolumn{1}{l|}{\textbf{Projekte mit Sponsoren}} & \multicolumn{1}{l|}{\textbf{Projekte ohne Sponsoren}} \\ \hline
         \textbf{Anzahl der Projekte}                  & 56                                                   & 52                                                    \\ \hline
-        \textbf{Median Anz. Sterne}                   & 26.468                                               & 27.551                                                \\ \hline
-        \textbf{Median Anz. Downloads}                & 1.409.792                                            & 1.094.063                                             \\ \hline
+        %\textbf{Median Anz. Sterne}                   & 26.468                                               & 27.551                                                \\ \hline
+        %\textbf{Median Anz. Downloads}                & 1.409.792                                            & 1.094.063                                             \\ \hline
         \textbf{Median Commits der letzten 12 Monate} & 221                                                  & 128                                                   \\ \hline
-        \textbf{Median Anz. Contributor}              & 289                                                  & 155                                                   \\ \hline
+        \textbf{Median Anz. Mitwirkenden}             & 289                                                  & 155                                                   \\ \hline
     \end{tabular}%
     \caption{Relation von Sponsoren und Erfolg}
     \label{tab:Sponsors_vs_NonSponsors}
 \end{table}
 
-- Bisschen Tricky weil manche keinen Sponsor haben aber dafür von Unternehmen her aus kommen.\\
-- Hier könnte man die Hypothese ändern auf "Finaziell unterstützte Projekte sind erfolgreicher"
-dann schließt man nämlich auch die Unternehmen und Foundations mit ein und dann easy. Dann fasst man einfach
-Sponsor == 1 mit, BackedBy == 1, BackedBy == 2 zusammen und gute Nacht. Hier wird es evtl möglich sein
-wieder mit Median etc zu arbeiten, je nachdem wie spread die daten sind.

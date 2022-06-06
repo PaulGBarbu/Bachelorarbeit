@@ -1,27 +1,21 @@
 \chapter{Einleitung}
 
-\todo{Überleitung zur Fragestellung überarbeiten.}
 
-% TODO: Kind of like: In der BA wird Projekt allgemein verwendet für, Framework, Bibliothek, Software etc.
 % TODO: Disclaimer bezüglich so Sachen wie Entwickler:in ... cause you know. We live in 2022
-
-
-% ? Einschränken nur auf Packages. Grund: 
-%?    a) npm 
-%?    b) "used by" Kategorie auf GitHub  
-%?    c) kleinerer Umfang für BA
 
 
 Open Source ist heutzutage ein fester Bestandteil der Softwareindustrie.
 Von Frontend-Entwicklung über Datenbanken bis hin zu Machine Learning, überall kommen Open Source
 Bibliotheken, Frameworks und Programme zum Einsatz.
-Im Frontend werden verschiedene Frameworks bzw. Bibliotheken wie Angular oder React verwendet,
-auch im Fall von Datenbankmanagementsysteme gibt eine Vielzahl an Optionen
-bei der Auswahl von Datenbankmanagementsysteme steht einem eine Vielzahl von Optionen zur Auswahl
-wie PostgreSQL, MySQL oder MongoDB
-und im Bereich Machine Learning werde Frameworks wie TensorFlow, Keras oder SciKit-Learn genutzt.
 
-% TODO: Überleitung braucht noch feinschliff
+
+Im Frontend werden verschiedene Frameworks bzw. Bibliotheken wie Angular oder React verwendet,
+im Fall von Datenbankmanagementsysteme gibt es ebenfalls eine Vielzahl an Optionen
+wie PostgreSQL, MySQL oder MongoDB.
+Im Bereich Machine Learning werde Frameworks wie TensorFlow, Keras oder SciKit-Learn genutzt.
+
+
+
 % Überleitung 
 Doch worin unterscheiden sich die oben genannten von vielen weiteren erfolgreiche Open Source
 Projekte, von denen die nicht als erfolgreich definiert werden können.
@@ -47,12 +41,41 @@ Aspekte wie die interne Führung und Organisation der Projekte wird hierbei nich
 % ------------------------------------------------------------------------------------------------ %
 \section{Definition von Open Source}
 
-\todo{Hier kann ne ganze Seite hin....}
-Diese Arbeit folgt der gleichen Definition für Open Source wie von der
-\textit{Open Source Initiative}\footnote{https://opensource.org/osd} definiert wird. Entsprechend
-werden nur Projekte betrachtet die eine von der
-OSI genehmigten Lizenzen\footnote{https://opensource.org/licenses/category}
-nutzt.
+Diese Arbeit folgt der gleichen Definition für Open Source wie von der \textit{Open Source Initiative
+}\footnote{https://opensource.org/osd} definiert wird. Entsprechend werden nur Projekte betrachtet 
+die eine von der OSI genehmigten Lizenzen\footnote{https://opensource.org/licenses/category} nutzt.
+
+
+\todo{Lizenzen näher beschreiben, unterscheidung zwischen Restriktiv}
+
+\todoo{
+    Unterscheidung zwischen restriktiv und permissiven Lizenzen + semi restriktiv gilt hier als permissive!
+    Weil.... 
+}
+
+\bigskip
+
+\todoo{
+    Was macht permissive aus?
+    - Kann uneingeschränkt benutzt werden
+    - Kann ez verwendet werden, einfach Lizenz Text beilegen
+    - Source Code einer MIT Lib kann in Propreritärer Software verwendet werden usw.
+    - Beispiel: MIT, BSD, Apache
+    %
+    Was macht GPL aus?
+    - Kann nicht uneingeschränkt genutzt werden => one GPL Lib => Whole Programm needs to be Open Source now under gpl
+    - GPLv2 vs GPLv3
+    - Was hat es dann eigentlich mit AGPL und LGPL aufsich? irgendwas mit Cloud und Server shit
+    %
+    MPL
+    - Die Mitte zwischen GPL und MIT
+    So under the terms of the MPL, it allows the integration of MPL-licensed code into proprietary codebases,
+    but only on condition those components remain accessible  
+}
+
+% Quelle: https://en.wikipedia.org/wiki/Mozilla_Public_License
+% Sieh auch: https://www.mozilla.org/en-US/MPL/2.0/FAQ/   =>   Q11
+% https://www.youtube.com/watch?v=YlKtCDJquSw
 
 
 % ------------------------------------------------------------------------------------------------ %
@@ -66,7 +89,7 @@ Der Erfolg wird in der Literatur häufig in verschiedene Bereiche unterteilt.
 Im Artikel von Midha und Palvia wird zwischen \textit{Markterfolg} und \textit{technischem Erfolg}
 unterschieden.
 % Define Markterfolg
-Midha et al. definieren Markterfolg als
+Midha et al. definieren Markterfolg
 als Grad des Nutzerinteresses an einem Projekt, %? Direkt Zitat: Market Success of an OSS project, a measure of project popularity, is defined as the level of interest displayed in the project by its consumers
 welches sich in der Beliebtheit des Projektes widerspiegelt.
 % Define Technischer Erfolg
@@ -95,7 +118,7 @@ Markterfolg aus, während sich die Entwickleraktivität positiv den technischen 
 \todo{Warum genau diese Metriken? Sterne, Downloads etc.???}
 
 \todoo{- Kein Copy Paste von Autoren, weil die nicht GH verwendet haben (Nicht aktuell)
-- Beliebte vergleichsmetriken (I guess lol)}
+    - Beliebte vergleichsmetriken (I guess lol)}
 
 % Ziel dieser Arbeit
 In dieser Arbeit werden die Erfolgsfaktoren betrachtet, die zum Markt- bzw. technischen Erfolg
