@@ -1,22 +1,20 @@
 \newpage %! newpage
 \chapter{Ergebnisse der Datenerhebung}
 
-\todo{Kleine Einleitung + 108 Projekte erwähnen.}
-
-\todoo{In den folgenden unterkapitel... werden die Ergebnisse der 108 Projekte ...}
+Insgesamt wurden 108 Projekte erfasst und analysiert. 
+In den folgenden Unterkapiteln werden die Ergebnisse der Datenerhebung dargelegt. Die Unterkapitel 
+fassen jeweils die Hypothesen zusammen und betrachten die Daten aus dem entsprechenden Blickwinkel.
 
 % ------------------------------------------- Lizenzen ------------------------------------------- %
 \section{Lizenzen} \label{sec:Ergebnisse_Datenerhebung_Lizenzen}
 
-\todo{Verweis auf Kapitel 2.1 Lizenzen => Warum genau diese Aufteilung}
-
 \bigskip
 \noindent
 Um die \hyperref[H:1]{Hypothese H1} zu prüfen wurden der Datensatz in Projekte mit freizügigen und
-restriktiven
-Lizenzen. \todoo{Die Aufteilung erfolgt hierbei, wie im Kapitel 1.3.3.7 zu Lizenzen näher erklärt wurde.}
+restriktiven Lizenzen. Die Aufteilung erfolgt hierbei, wie bereits im Kapitel \ref{sec:definition_OpenSource}
+näher erklärt wurde.
 In der Tabelle \ref{tab:lizenzen} findet sich eine Zusammenfassung aller Lizenzen der
-Projekte die erfasst wurden. 91\% der Projekte haben eine freizügige Lizenz, wobei die MIT Lizenz mit 69\%
+Projekte, die erfasst wurden. 91\% der Projekte haben eine freizügige Lizenz, wobei die MIT Lizenz mit 69\%
 die beliebteste aller Lizenzen ist.
 
 Um die Gruppen miteinander zu vergleichen wurde der Median der Anzahl der Sterne verwendet, da diese
@@ -27,7 +25,7 @@ als Projekte mit restriktiven Lizenzen.
 Aufgrund der großen Mengenunterscheiden zwischen freizügigen und restriktiven Projekten wurde
 zusätzlich ein Ranking erstellt. Wie in Abbildung \ref{abb:permissive_vs_restriktiv_BarChart} zu sehen
 ist wurden hierfür die Projekte nach Sternen sortiert. Von 108 ausgewerteten Projekten liegt das erste
-mit restriktiver Lizenz auf Platz 35, das heißt die \todoo{Top} 31\% der Projekte sind alle 
+mit restriktiver Lizenz auf Platz 35, das heißt die Top 31\% der Projekte sind alle 
 permissiv lizenziert. Projekte mit freizügigen Lizenzen übertreffen die restriktiven sowohl in der Menge 
 als auch in der Beliebtheit.
  
@@ -50,15 +48,16 @@ als auch in der Beliebtheit.
 % ------------------------------------------ Hypothese 2 ----------------------------------------- %
 \bigskip
 \noindent
-Um die zweite Hypothese zu prüfen wurden ebenfalls die Mediane verglichen, allerdings wurden hier
+Um die zweite Hypothese zu prüfen, wurden ebenfalls die Mediane verglichen, allerdings wurden hier
 Anzahl der Mitwirkenden sowie Commits der letzten 12 Monate betrachtet. Der Median wurde in diesem
 Fall gewählt, da sowohl die Anzahl Commits als die der Mitwirkenden starke Ausreißer haben.
 
 Im Median haben restriktive Projekte 78 Mitwirkende und 74,5 Commits, permissive Projekte haben 274,5
 Mitwirkende und 182 Commits.
 In einen weiterem Ranking, sortiert nach Mitwirkenden befindet sich das erste Projekt mit
-restriktiver Lizenz auf Platz 51. Im Ranking der Anzahl der Commits erreicht,
-wie man in Abbildung \ref{abb:license_vs_commits} sehen kann, das erste restriktive Projekt Platz 9.
+restriktiver Lizenz auf Platz 51. Im Ranking nach Anzahl der Commits erreicht,
+wie in der Abbildung \ref{abb:license_vs_commits} zu erkennen ist das erste restriktive Projekt 
+den 9. Platz.
 
 Im Ranking der Anzahl der Commits befinden sich unter den ersten 20 Projekten zwei OSP mit restriktive
 Lizenzen.
@@ -97,7 +96,7 @@ ohne. Verglichen wurden Anzahl der Commits und Mitwirkenden mittels Median.
 
 Wie in Tabelle \ref{tab:relation_CoC_Popularity} zu erkennen ist, haben 53\% der Projekte einen
 Code of Conduct. Im Vergleich beider Gruppen haben Projekte mit Code of Conduct 717\% mehr
-Commits und 201\% mehr Mitwirkender, als Projekte ohne.
+Commits und 201\% mehr Mitwirkender als Projekte ohne.
 
 
 \begin{table}[h]
@@ -129,10 +128,10 @@ der Median der Anzahl der Mitwirkenden und Anzahl der Commits, Projekte mit eine
 Commits und 412\% mehr Mitwirkende.
 
 Zusätzlich werden die Projekte nach Anzahl der Mitwirkenden (sieh Abbildung \ref{abb:ContributingGuide_vs_Contributors})
-sortiert, wie man erkennen kann haben die Projekte mit den meisten Mitwirkenden alle einen CG. Das
+sortiert, wie zu erkennen ist haben die Projekte mit den meisten Mitwirkenden alle einen CG. Das
 erste Projekt ohne belegt hier Platz 54. Nach dem gleichen Schema wurden auch nach Anzahl der Commits
 sortiert, das erste Projekt ohne CG belegt Platz 42.
-In beiden vergleichen platzieren sich Projekte mit CG weit vor Projekten ohne.
+In beiden Vergleichen platzieren sich Projekte mit CG weit vor Projekten ohne.
 
 \begin{figure}[h]
     \centering
@@ -143,14 +142,21 @@ In beiden vergleichen platzieren sich Projekte mit CG weit vor Projekten ohne.
 
 
 
+% %~ ------------------------------- Technischer Erfolg => Markterfolg ------------------------------ %
+% \section{Einfluss des technischen Erfolgs auf den Markterfolg}
+
+% Um zu prüfen ob der technische Erfolg Einfluss den Markterfolg hat wurde die Korrelation zwischen
+% Anzahl der GitHub Sterne und Anzahl der Commits untersucht. 
+
+
 % ------------------------------------------- Sponsoren ------------------------------------------ %
 \section{Einfluss von Sponsoren auf den technischen Erfolg}\label{sec:sponsoren_datenerhebung}
 
 
 Erneut wurde der Datensatz in zwei Gruppen geteilt, Projekte mit und ohne Sponsoren. Verglichen wurde
 der Median der Commits der letzten 12 Monate sowie die Anzahl an Mitwirkenden 
-(Sieh Tabelle \ref{tab:Sponsors_vs_NonSponsors}).
-52\% der Projekte haben Sponsoren. Projekte mit Sponsoren haben 72\% mehr Commits und 86\% mehr Mitwirkende
+(sieh Tabelle \ref{tab:Sponsors_vs_NonSponsors}).
+52\% der Projekte haben Sponsoren. Projekte mit Sponsoren haben 72\% mehr Commits und 86\% mehr Mitwirkende.
 
 
 \begin{table}[h]

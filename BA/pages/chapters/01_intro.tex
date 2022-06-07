@@ -1,32 +1,31 @@
 \chapter{Einleitung}
 
-
-% TODO: Disclaimer bezüglich so Sachen wie Entwickler:in ... cause you know. We live in 2022
-
-
 Open Source ist heutzutage ein fester Bestandteil der Softwareindustrie.
 Von Frontend-Entwicklung über Datenbanken bis hin zu Machine Learning, überall kommen Open Source
 Bibliotheken, Frameworks und Programme zum Einsatz.
-
 
 Im Frontend werden verschiedene Frameworks bzw. Bibliotheken wie Angular oder React verwendet,
 im Fall von Datenbankmanagementsysteme gibt es ebenfalls eine Vielzahl an Optionen
 wie PostgreSQL, MySQL oder MongoDB.
 Im Bereich Machine Learning werde Frameworks wie TensorFlow, Keras oder SciKit-Learn genutzt.
 
-
-
+% Überleitung
+Doch was macht diese Projekte erfolgreich?
 % Überleitung 
-Doch worin unterscheiden sich die oben genannten von vielen weiteren erfolgreiche Open Source
-Projekte, von denen die nicht als erfolgreich definiert werden können.
+%Doch worin unterscheiden sich die oben genannten von vielen weiteren erfolgreichen, Open Source
+%Projekten, von denen die nicht als erfolgreich definiert werden können.
 % Fragestellung
-Mit dieser Bachelorarbeit soll die Frage beantwortet werden, \textit{welche Faktoren Einfluss auf
-    den Erfolg von Open Source Projekten, speziell in der JavaScript/TypeScript Umgebung haben.}
+Mit dieser Bachelorarbeit soll die Frage beantwortet werden, 
+\textit{welche Faktoren haben Einfluss auf den Erfolg von Open Source Projekten}, insbesondere in 
+der JavaScript / TypeScript Umgebung haben.
+In dieser Arbeit soll der Einfluss von \textbf{Lizenzen, Dokumentation, Code of Conduct, Contributing
+Guide, Beliebtheit und Vorhandensein von Sponsoren}, auf den Erfolg von Open Source Projekten 
+erforscht werden. 
 
 
 % Ziel der Arbeit
 Mittels einer Datenerhebung von ausgewählten Open Source Projekten sowie einer
-Umfrage soll herausgefunden werden, welche Faktoren zum Erfolg eines Open Source Projektes beitragen.
+Umfrage soll dies herausgefunden werde.
 % Abgrenzung
 Ein zentraler Punkt dieser Ausarbeitung sind die extrinsischen sowie intrinsischen Anreize, % Extrinsisch == Downloads, Intrinsisch == Qualität
 die Nutzer zur Auswahl eines Produktes motivieren \cite{midhaFactorsAffectingSuccess2012}. % Chapter 3.1 & 3.2
@@ -39,39 +38,46 @@ Aspekte wie die interne Führung und Organisation der Projekte wird hierbei nich
 % ------------------------------------------------------------------------------------------------ %
 %                                    Definition von Open Source                                    %
 % ------------------------------------------------------------------------------------------------ %
-\section{Definition von Open Source}
+\section{Definition von Open Source} \label{sec:definition_OpenSource}
 
-Diese Arbeit folgt der gleichen Definition für Open Source wie von der \textit{Open Source Initiative
-}\footnote{https://opensource.org/osd} definiert wird. Entsprechend werden nur Projekte betrachtet 
-die eine von der OSI genehmigten Lizenzen\footnote{https://opensource.org/licenses/category} nutzt.
+Diese Arbeit folgt der Definition für Open Source wie sie von der \textit{Open Source Initiative}
+(OSI) vorgegeben wird \cite{OpenSourceDefinition}. Entsprechend werden nur Projekte betrachtet die 
+von der OSI genehmigten sind. Des Weiteren wird im Laufe dieser Arbeit zwischen restriktiven und 
+permissiven Lizenzen unterschieden.
+
+% Permissive
+Eine permissive Lizenz ist eine sehr freizügige Lizenz, dieser erlaubt die Nutzung, Modifikation
+und Weiterverbreitung ohne weitere Einschränkungen. Permissive Lizenzen können in proprietärer
+Software verwendet werden. Beispiele für permissive Lizenzen sind MIT, BSD und Apache 
+\cite{OpenSourceDefinition}.
+
+% Restriktiv
+Restriktive Lizenzen erlauben ebenfalls die Nutzung, Modifikation und Weiterverbreitung der Software.
+Allerdings mit der Einschränkungen, dass Modifikationen und Weiterverbreitungen ebenfalls restriktiv 
+lizenziert werden müssen. Wird beispielsweise eine GPL lizenzierte Bibliothek in einem Software Projekt
+verwendet, muss die gesamte Software ebenfalls GPL lizenziert werden. Dies gilt allerdings nur dann
+wenn die Software auch verbreitet wird, also nicht für private und interne Zwecke. Restriktive 
+Bibliotheken und Frameworks können somit nicht in proprietärer Software eingesetzt werden.
+Beispiele für restriktive Lizenzen sind GPL, AGPL und LGPL \cite{OpenSourceDefinition}
 
 
-\todo{Lizenzen näher beschreiben, unterscheidung zwischen Restriktiv}
-
-\todoo{
-    Unterscheidung zwischen restriktiv und permissiven Lizenzen + semi restriktiv gilt hier als permissive!
-    Weil.... 
-}
-
-\bigskip
-
-\todoo{
-    Was macht permissive aus?
-    - Kann uneingeschränkt benutzt werden
-    - Kann ez verwendet werden, einfach Lizenz Text beilegen
-    - Source Code einer MIT Lib kann in Propreritärer Software verwendet werden usw.
-    - Beispiel: MIT, BSD, Apache
-    %
-    Was macht GPL aus?
-    - Kann nicht uneingeschränkt genutzt werden => one GPL Lib => Whole Programm needs to be Open Source now under gpl
-    - GPLv2 vs GPLv3
-    - Was hat es dann eigentlich mit AGPL und LGPL aufsich? irgendwas mit Cloud und Server shit
-    %
-    MPL
-    - Die Mitte zwischen GPL und MIT
-    So under the terms of the MPL, it allows the integration of MPL-licensed code into proprietary codebases,
-    but only on condition those components remain accessible  
-}
+% \xodoo{
+%     Was macht permissive aus?
+%     - Kann uneingeschränkt benutzt werden
+%     - Kann ez verwendet werden, einfach Lizenz Text beilegen
+%     - Source Code einer MIT Lib kann in Propreritärer Software verwendet werden usw.
+%     - Beispiel: MIT, BSD, Apache
+%     %
+%     Was macht GPL aus?
+%     - Kann nicht uneingeschränkt genutzt werden => one GPL Lib => Whole Programm needs to be Open Source now under gpl
+%     - GPLv2 vs GPLv3
+%     - Was hat es dann eigentlich mit AGPL und LGPL aufsich? irgendwas mit Cloud und Server shit
+%     %
+%     MPL
+%     - Die Mitte zwischen GPL und MIT
+%     So under the terms of the MPL, it allows the integration of MPL-licensed code into proprietary codebases,
+%     but only on condition those components remain accessible  
+% }
 
 % Quelle: https://en.wikipedia.org/wiki/Mozilla_Public_License
 % Sieh auch: https://www.mozilla.org/en-US/MPL/2.0/FAQ/   =>   Q11
@@ -81,6 +87,7 @@ die eine von der OSI genehmigten Lizenzen\footnote{https://opensource.org/licens
 % ------------------------------------------------------------------------------------------------ %
 %                                         Erfolg definieren                                        %
 % ------------------------------------------------------------------------------------------------ %
+\newpage
 \section{Erfolg definieren}
 
 
@@ -115,18 +122,15 @@ Markterfolg aus, während sich die Entwickleraktivität positiv den technischen 
     stewartImpactsLicenseChoice2006a}. % Defining Success in OSS (letzter Absatz)
 
 
-\todo{Warum genau diese Metriken? Sterne, Downloads etc.???}
-
-\todoo{- Kein Copy Paste von Autoren, weil die nicht GH verwendet haben (Nicht aktuell)
-    - Beliebte vergleichsmetriken (I guess lol)}
-
 % Ziel dieser Arbeit
 In dieser Arbeit werden die Erfolgsfaktoren betrachtet, die zum Markt- bzw. technischen Erfolg
 eines Projektes beitragen.
-Der Markterfolg wird anhand folgender Metriken gemessen:
-Downloads und Sterne auf GitHub.
-Der technische Erfolg wird anhand von Metriken wie:
-Anzahl der Commits und Anzahl der Mitwirkenden am Projekt gemessen.
+In Midha et al. wurde der Markterfolg mittels der Downloadzahlen gemessen \cite{midhaFactorsAffectingSuccess2012}. % Kapitel 4.2
+Diese Arbeit erweitert die Erfolgsmetrik zusätzlich, um GitHub Sterne, da sich diese Metrik ebenfalls gut
+eignet, um die Beliebtheit eines Projektes zu messen. Die Downloadzahlen werden hierbei von NPM bezogen.
+Für den technischen Erfolg verwenden Midha et al. die Anzahl der Commits \cite{midhaFactorsAffectingSuccess2012}. 
+Zusätzlich werden in dieser Arbeit noch die Anzahl der Mitwirkenden als technischen Erfolg gewertet.
+
 
 % \subsection{Markterfolg}
 

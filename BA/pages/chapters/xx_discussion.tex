@@ -1,11 +1,16 @@
 \chapter{Diskussion}
 
 
-\todoo{Ziel dieser Arbeit war es....}
+Das Ziel dieser Bachelorarbeit war es, zu untersuchen welche Faktoren Einfluss auf den Erfolg
+eines Open Source Projektes haben. Um die Hypothesen dieser Arbeit zu prüfen wurden 108 Projekte
+analysiert sowie 308 Studenten und adesso Mitarbeiter befragt.
+Anhand der Daten wurden sieben Hypothesen belegt und eine wurde verworfen.
+In den folgenden Unterkapiteln werden diese Ergebnisse diskutiert.
+
 
 
 % ---------------------------------------- Hypothese 1 & 2 --------------------------------------- %
-\section{Einfluss von permissiven Lizenzen auf den Erfolg}
+\section{Der Einfluss von permissiven Lizenzen auf den Erfolg}
 
 
 % --------------------- Hypothese 1 --------------------- %
@@ -13,19 +18,19 @@
 In Kapitel \ref{sec:Lizenzen} wurde die Hypothese aufgestellt, dass permissive Lizenzen einen positiven
 Effekt auf den Markterfolg haben.
 %~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
-Um diese Hypothesen zu Prüfen wurde eine Datenerhebung mit 108 Projekten durchgeführt. Als Metrik des
+Um diese Hypothesen zu prüfen wurde eine Datenerhebung mit 108 Projekten durchgeführt. Als Metrik des
 Markterfolges wurden GitHub Sterne verwendet.
 %~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
 Wie die Ergebnisse aus Kapitel \ref{sec:Ergebnisse_Datenerhebung_Lizenzen} zeigen, haben Projekte mit
-permissiven Lizenzen 27,4\% mehr Sterne zusätzlich sind die Top 32\% Projekte permissiv lizenziert.  
-Und das trotz expliziter suche nach restriktiven Projekten, wie in Kapitel \ref{sec:manuelle_datenerfassung}
-beschrieben. Bei der Manuellen Datenerfassung war es zusätzlich notwendig explizit nach restriktiven 
-Projekten zu suchen, um den Anteil von restriktiver Projekte zu erhöhen. Das zeigt zum einen, dass 
-permissive Lizenzen allgemein bevorzugt werden und permissiv lizenzierte Projekte auch allgemein 
+permissiven Lizenzen 27,4\% mehr Sterne zusätzlich sind die Top 32\% Projekte permissiv lizenziert.
+Und das trotz expliziter Suche nach restriktiven Projekten, wie in Kapitel \ref{sec:manuelle_datenerfassung}
+beschrieben. Bei der manuellen Datenerfassung war es zusätzlich notwendig explizit nach restriktiven
+Projekten zu suchen, um den Anteil dieser Projekte zu erhöhen. Das zeigt zum einen, dass
+permissive Lizenzen allgemein bevorzugt werden und permissiv lizenzierte Projekte auch allgemein
 erfolgreicher sind. Somit bestätigt sich \hyperref[H:1]{Hypothese H1}.
 %~ Beschränkungen
-Ursprünglich sollten auch die NPM Downloads als Beliebtheitsmerkmalen verwendet und vergleichen
-werden. Allerdings sind nur 4 der 10 restriktiven Projekte auf NPM.
+Ursprünglich sollten auch die NPM Downloads als Beliebtheitsmerkmalen verwendet und verglichen
+werden, allerdings sind nur 4 der 10 restriktiven Projekte auf NPM.
 
 
 % --------------------- Hypothese 2 --------------------- %
@@ -33,38 +38,35 @@ werden. Allerdings sind nur 4 der 10 restriktiven Projekte auf NPM.
 \noindent
 %~ 1. Um welche Hypothese geht es
 Des Weiteren wurde die Hypothese aufgestellt, das permissive Lizenzen einen positiven Einfluss auf den
-Technischen Erfolg haben.
+technischen Erfolg haben.
 %~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
-Zum Prüfen der Hypothese wurden wie in Hypothese 1 vorgegangen, allerdings wurden hier 
-Anzahl der Commits in den letzten 12 Monaten und Anzahl der Mitwirkenden
+Zum Prüfen der Hypothese wurden die Anzahl der Commits in den letzten 12 Monaten und Anzahl der Mitwirkenden
 verglichen.
 %~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
 Projekte mit permissiven Lizenzen haben im Median sowohl mehr Commits (252\%) als auch mehr Mitwirkende
-(144\%). Somit bestätigt sich die \hyperref[H:2]{Hypothese H2}, permissive Projekte sind technisch 
+(144\%). Somit bestätigt sich die \hyperref[H:2]{Hypothese H2}, permissive Projekte sind technisch
 erfolgreicher.
 
-
-\todo{Sieh .tex}
 
 \bigskip
 \noindent
 % Limitations 2.0
-Dieser Arbeit hat sich nur mit Projekten beschäftigt, die hauptsächlich in JavaScript/Typescript
+Dieser Arbeit hat sich nur mit den Projekten beschäftigt, die hauptsächlich in JavaScript/Typescript
 programmiert sind. Das JS/TS Umfeld ist hierbei dominiert von permissiven Lizenzen, dies hat zur
-Folge gehabt, das von den 108 Projekten nur 10 Projekte restriktiv Lizenziert sind. Diese
-Ungleichverteilung erschwert Aussagen bezüglich Lizenzen.
+Folge gehabt, das von den 108 Projekten nur 10 Projekte restriktiv lizenziert sind. Diese
+Ungleichverteilung erschwert generalisierbare Aussagen bezüglich der Lizenzen.
 
 % TODO: Weiteres wäre: 
-      % - Commits zählen nur auf Main und GH-Page branch. 
-      % - Die genannten Punkte decken representieren natürlich nicht in Fülle Markt und technischen Erfolg sondern
-      % sind nur versuche diese anzunähren
+% - Commits zählen nur auf Main und GH-Page branch. 
+% - Die genannten Punkte decken representieren natürlich nicht in Fülle Markt und technischen Erfolg sondern
+% sind nur versuche diese anzunähren
 
 \bigskip
 \noindent
 %~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
-Die Ergebnisse bestätigen die Studie von Subramaniam et al. in dem Punkt, dass permissive Lizenzen 
-einen positiven Effekt auf den Erfolg von Projekten haben \cite{subramaniamDeterminantsOpenSource2009}. 
-Über den Effekt von restriktiven Lizenzen lassen sich hier keine starken Aussagen treffen, aufgrund 
+Die Ergebnisse bestätigen die Erkenntnisse von Subramaniam et al. in dem Punkt, dass permissive Lizenzen
+einen positiven Effekt auf den Erfolg von Projekten haben \cite{subramaniamDeterminantsOpenSource2009}.
+Über den Effekt von restriktiven Lizenzen lassen sich hier keine äquivalenten Aussagen treffen, aufgrund
 kleiner Datenmengen mit restriktiven Lizenzen.
 
 % Subramaniam et al. 
@@ -100,37 +102,41 @@ kleiner Datenmengen mit restriktiven Lizenzen.
 
 % ------------------------------------------ Hypothese 3 ----------------------------------------- %
 %\newpage %! new page
-\section{Der Einfluss einer guten Dokumentation auf den Markterfolg} 
-% TODO: Kann der Titel eigentlich sowas sein wie? 
+\section{Der Einfluss einer guten Dokumentation auf den Markterfolg}
+
 
 %~ 1. Um welche Hypothese geht es
-Im Kapitel \ref{sec:Documentation} wurde die Hypothese aufgestellt, dass gute Dokumentationen mehr 
-Nutzer anziehen würden und somit zu einem höheren Markterfolg führen würde. 
+Im Kapitel \ref{sec:Documentation} wurde die Hypothese aufgestellt, dass gute Dokumentationen mehr
+Nutzer anziehen und somit zu einem höheren Markterfolg führen würde.
 %~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
-Um diese Hypothese zu prüfen wurde eine Umfrage durchgeführt. Die Umfrage hatte 308 Teilnehmer. 
+Um diese Hypothese zu prüfen wurde eine Umfrage durchgeführt. Die Umfrage hatte 308 Teilnehmer.
 %~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
-Die Teilnehmenden sollten auf einer Likert Skala Aussagen zustimmen oder ablehnen, hier hatte das 
-Thema Dokumentation die höchste Zustimmung verglichen mit den anderen Themengebieten der Umfrage, 
-dies zeigt ein allgemein hohes Interesse am Thema Dokumentation. Diese Aussage wird vom Fakt 
-untermauert, das wie in Kapitel \ref{sec:umfrage_last_question} gezeigt wird, die Dokumentation 
-das wichtigste Kriterium, bei der Auswahl von OSS ist. Des Weiteren gaben 81\% der befragten an, 
+Die Teilnehmenden sollten auf einer Likert Skala Aussagen zustimmen oder ablehnen, hier hatte das
+Thema Dokumentation die höchste Zustimmung verglichen mit den anderen Themengebieten der Umfrage,
+dies zeigt ein allgemein hohes Interesse an der Dokumentation. Diese Aussage wird von der Tatsache
+untermauert, das wie in Kapitel \ref{sec:umfrage_last_question} gezeigt wird, die Dokumentation
+das wichtigste Kriterium, bei der Auswahl von OSS ist. Des Weiteren gaben 81\% der Befragten an,
 aufgrund schlechter Dokumentation schon mal zu einem alternativen Projekt gewechselt zu haben.
 % Hypothese ist Proven.
-Das zeigt die Wichtigkeit einer guten Dokumentation und bestätigt somit die 
+Das zeigt die Wichtigkeit einer guten Dokumentation und bestätigt somit die
 \hyperref[H:3]{Hypothese H3}.
 
 
-%~ Beschränkungen
-Die Freitext Felder haben gezeigt das die Kriterien die es zum bewerten gab nicht vollständig waren. 
-Vor allem Aktualität und Vollständigkeit sind weitere wichtige Eigenschaften für Dokumentationen.
-Für weitere Forschung wäre daher sinnvoll die Kriterien die es zu bewerten gilt zu erweitern.
-Dies würde auch dazu führen das man die Wichtigkeit dieser Kriterien vergleichbarer macht.
+%~ Beschränkungen & more
+Die Freitextfelder haben gezeigt das die Kriterien der geschlossenen Fragen, die es zu bewerten 
+galt nicht vollständig ware. Vor allem Aktualität und Vollständigkeit sind weitere wichtige 
+Eigenschaften der Dokumentationen, die die Befragten angaben.
+Für weitere Forschung wäre daher sinnvoll alle als wichtig bewerteten Kriterien, zu untersuchen.
+Ein weiterer Aspekt der in Bezug auf die Dokumentation von den Befragten häufig erwähnt wurde,
+war die UI/UX. Auch diese Kriterien könnten für weitere Untersuchungen relevant sein.
 
 %~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
-In einer Umfrage der Open Source Survey aus 2017 stellte sich heraus, dass unvollständige bzw. 
+In einer Umfrage der Open Source Survey aus 2017 stellte sich heraus, dass unvollständige bzw.
 verirrende Dokumentation als größtes Problem in Open Source gelten \cite{GitHubOpenSourceSurvey2017}.
-Diese Arbeit bestätigt diese Ergebnisse, und erweitert diese. Neben Komplexität und Unvollständigkeit
-sind die wichtigste Punkte einer Guten Dokumentation, Code Beispiele und Aktualität.
+Diese Arbeit bestätigt diese Ergebnisse, und erweitert sie. Neben der Komplexität und Unvollständigkeit
+sind die wichtigste Punkte einer guten Dokumentation, Code Beispiele und Aktualität.
+
+
 
 
 % Die Ergebnisse der Umfrage bezüglich Code Beispiele decken mit den Aussagen aus Dagenais et al. 
@@ -143,56 +149,54 @@ sind die wichtigste Punkte einer Guten Dokumentation, Code Beispiele und Aktuali
 \section{Der Einfluss vom Code of Conduct und Contributing Guide auf den technischen Erfolg}
 
 %~ 1. Um welche Hypothese geht es
-Im Kapitel \ref{sec:community} wurden zwei Hypothesen aufgestellt, basierend auf den Open Source 
-Guide von GitHub aufgestellt \cite{GitHubBuildingWelcomingCommunities2022}.
+Im Kapitel \ref{sec:community} wurden Hypothesen H4 und H5 aufgestellt, basierend auf den Open Source
+Guide von GitHub \cite{GitHubBuildingWelcomingCommunities2022}.
 Die \hyperref[H:4]{Hypothese H4} beschäftigt sich mit dem Effekt des \textit{Code of Conducts} auf
 den technischen Erfolg. \hyperref[H:5]{Hypothese H5} hingegen beschäftigt sich mit dem Effekt des
 \textit{Contributing Guides} auf den technischen Erfolg.
 %~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
-Zum prüfen beider Hypothesen wurden die Daten aus der Datenerhebung verwendet.
+Zum Prüfen beider Hypothesen wurden die Daten aus der GitHub Datenerhebung verwendet.
 %~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
-Das Code of Conduct haben 53\% der 108 analysierten Projekte. Einen Contributing Guide 86\%.
-
-Gemessen wurde der technische Erfolg anhand Commits und und Anzahl der Mitwirkenden. Projekte mit 
+Ein Code of Conduct haben 53\% der 108 analysierten Projekte, einen Contributing Guide 86\%.
+Gemessen wurde der technische Erfolg anhand der Commits und Anzahl der Mitwirkenden. Projekte mit
 einem Code of Conduct haben deutlich mehr Commits (717\%) und Mitwirkende (201\%).
-Projekte mit einem Contributing Guide haben 463\% mehr Commits und 412\% mehr Mitwirkende als Projekte 
+Projekte mit einem Contributing Guide haben 463\% mehr Commits und 412\% mehr Mitwirkende als Projekte
 ohne.
 % Hypothese belegt.
-Damit sind beide Hypothese eindeutig belegt.
+Damit sind beide Hypothesen belegt.
 
 %~ Begründung für die Daten
-Eine plausible Erklärung für den starken unterschied, kann damit begründet werden, dass es sich für 
-kleine Projekte nicht lohnt eine Code of Conduct einzuführen, da die Größe der Teams zu klein ist.
-
+Eine mögliche Erklärung für die Größe der Effekte, kann damit begründet werden, dass es sich für
+kleine Projekte nicht lohnt, eine Code of Conduct einzuführen, da die Größe der Teams zu klein ist.
 Im Fall des Contributing Guides, könnte die ungleiche Verteilung in den Daten die Ursache sein.
 
 %~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
-Es zeigt sich allerdings deutlich, dass die Empfehlungen von GitHub auch durchgesetzt werden, vor allem
-in großen Projekten. 
+Es zeigt sich allerdings deutlich, dass die Empfehlungen von GitHub auch durchgesetzt werden, 
+vor allem in großen Projekten.
 
 
 
 % ------------------------------------------ Hypothese 6 ----------------------------------------- %
-\section{Technischer Erfolg führt zu Markterfolg}
+% \section{Technischer Erfolg führt zu Markterfolg}
 
-\red{Ich glaub diese Hypothese schmeiß ich wieder aus da ich die nicht ordentlich belegen/wiederlegen kann}
+% \red{Ich glaub diese Hypothese schmeiß ich wieder aus da ich die nicht ordentlich belegen/wiederlegen kann}
 
-%//% %~ 1. Um welche Hypothese geht es
-%// Im Kapitel \ref{sec:community} wurde die Hypothese aufgestellt, dass technischer Erfolg positiven 
-%// Einfluss auf den Markterfolg hat.
-%// %~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
-%// Die Hypothese wurde mittels Umfrage geprüft.
-%// %~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
-%// %~ Begründung für die Daten
-%// %~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
-
-
+% %~ 1. Um welche Hypothese geht es
+% Im Kapitel \ref{sec:community} wurde die Hypothese aufgestellt, dass technischer Erfolg positiven
+% Einfluss auf den Markterfolg hat.
+% %~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
+% Die Hypothese wurde mittels Umfrage geprüft.
+% %~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
+% %~ Begründung für die Daten
+% %~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
 
 
-% ---------------------------------------- Hypothese 7 & 8 --------------------------------------- %
 
 
-\section{Einfluss der Sponsoren auf den Erfolg}
+% ---------------------------------------- Hypothese 6 & 7 --------------------------------------- %
+
+
+\section{Der Einfluss der Sponsoren auf den Erfolg}
 
 %~ 1. Um welche Hypothese geht es
 Im Kapitel \ref{sec:sponsors} wurde die Hypothese aufgestellt, dass Sponsoren einen positiven Einfluss
@@ -200,79 +204,86 @@ bei der Wahl von OSS hätten.
 %~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
 Die Hypothese wurde mittels Umfrage getestet.
 %~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
-Wie in Kapitel \ref{sec:umfrage_sponsoren} und \ref{sec:sponsoren_datenerhebung} bereits gezeigt, 
-spielen Sponsoren für die Nutzer von OSS fast gar keine Rolle.
+Wie in Kapitel \ref{sec:Beliebtheit} bereits gezeigt wurde, achten die Nutzer sehr wenig auf das
+Vorhandensein von Sponsoren.
+In Kapitel \ref{sec:umfrage_sponsoren} ist ein möglicher Grund dafür erkennbar.
+Gesponserte Projekte werden weder bevorzugt noch als qualitativ
+hochwertiger betrachtet, das heißt Nutzer haben wenig Anlass um auf Sponsoren zu achten.
+\hyperref[H:6]{Hypothese 6} wurde somit verworfen.
 
-Somit wird \hyperref[H:6]{Hypothese 6} nicht unterstützt.
-
-
-%// %~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
-% Die \hyperref[H:7]{Hypothese H7}, Sponsoren hätten einen positiven Einfluss bei der Auswahl von OSS
-% wird nicht unterstützt. In Kapitel \ref{sec:Beliebtheit} \todoo{zeigt sich das die Anzahl der Sponsoren
-%       garnicht beachtet werden}
-
-
+\bigskip
+\noindent
 %~ 1. Um welche Hypothese geht es
 Bezüglich Sponsoren wurde zusätzlich noch die Hypothese aufgestellt, dass Sponsoren sich positiv auf
-den technischen Erfolg auswirken würden. 
+den technischen Erfolg auswirken würden.
 %~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
-Diese Hypothese wurde mittels der Datenerhebung geprüft.
+Diese Hypothese wurde mittels der GitHub Datenerhebung geprüft.
 %~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
-Wie sich herausstellt haben Projekte mit Sponsoren 72\% mehr Commits und 86\% mehr Mitwirkende.
-%~ Limitations für die Daten
-% Manche Projekte haben keine Sponsoren sondern Unternehmen.
+Wie in Kapitel \ref{sec:sponsoren_datenerhebung} dargelegt, haben Projekte mit Sponsoren 72\% mehr
+Commits und 86\% mehr Mitwirkende als Projekte ohne Sponsoren.
+Entsprechend wird die \hyperref[H:7]{Hypothese 7} belegt.
 
-%~ Bezug zur Literatur, bestätigt/widerlegt Erkenntnisse aus der Literatur (Außer bei Explorativen)
-%TODO: Kein Bezug zur Literatur
 
-%%% Disclaimer
-%\subsubsection*{Anmerkung}
-% Man muss allerdings anmerken, dass einige Projekte von Unternehmen entwickelt werden. Diese finanzieren
-% ihre Projekte meist selbst und sind somit nicht abhängig von Sponsoren.
-% React beispielsweise kommt aus dem Hause Facebook, während VueJS unabhängig ist und auf Sponsoren angewiesen ist.
-% In diesem Kontext zählen Projekte von Unternehmen auch als gesponsert.
-% Es sind aber auch nur 10 Projekte von Unternehmen, also fällt das auch nicht so sehr ins Gewicht tatsächlich.
+%~ Diskussion
+Zwar hat die Umfrage gezeigt, dass die Nutzer nicht auf die Sponsoren achten, allerdings achten sie
+auf die Aspekte des technischen Erfolgs, welcher wiederum durch die Anwesenheit der Sponsoren 
+unterstützt wird. 
+Die Beziehung zwischen all diesen Faktoren sollte in künftigen Studien untersucht werden, die genaue 
+Effektstärke der Sponsoren im Projekt aufzuklären.
 
 
 
+% ------------------------------------------ Hypothese 8 ----------------------------------------- %
+\section{Der Einfluss von Beliebtheit auf den Markterfolg}
+
+%~ 1. Um welche Hypothese geht es
+In Kapitel \ref{sec:beliebtheit_erfolgsfaktor} wurde die Hypothese aufgestellt, dass Beliebtheit zu
+mehr Markterfolg führt.
+%~ 2. Mit welchen Mittel wurde diese Hypothese geprüft
+Die Hypothese wurde als Teil der Umfrage getestet.
+%~ 3. Welche Daten belegen/widerlegen die Hypothese + Interpretation
+Die Beliebtheit ist laut Umfrage das zweit wichtigste Kriterium bei der Wahl von OSS.
+Insgesamt gaben 46\% der Befragten an, aufgrund der geringer Popularität eines Projekts es nicht
+genutzt zu haben.
+Es wurde erwartet, das die Nutzer die Beliebtheit höher gewichten würden.
+Dennoch führt die geringe Popularität bei fast der Hälfte der Befragten dazu ein Projekt nicht 
+zu verwenden. Angesichts diesen hohen Anteils gilt die \hyperref[H:8]{Hypothese H8} als belegt.
+
+%~ Diskussion
+Dass die Nutzer die Beliebtheit als nur zweitwichtigstes Kriterium eingestuft haben kann vor allem
+durch höhere Gewichtung der Dokumentation in einem Projekt erklärt werden.
+Weitere Forschung könnte die Unterkategorien der Beliebtheit umfangreicher analysieren, um genauer
+feststellen zu können welche Aspekte der Beliebtheit für die Nutzer größere Rollen spielen.
 
 
-% ------------------------------------------ Hypothese 9 ----------------------------------------- %
-\section{Zu Hypothese 9}
-Die \hyperref[H:9]{Hypothese H9}, Beliebte Projekte werden von Nutzern bei der Wahl von OSS bevorzugt.
-Wird nur schwach/Nicht unterstützt? (54\% Nein etc....)
 
-In Kapitel \ref{sec:Beliebtheit} sieht man das fast die hälfte schon auf Beliebtheit achte, aber halt
-erstens nur die hälfte und zweites kommt es auf die Vergleichsmetrik an. Mehr als die hälfte zumindest
-achtet auf Downloads.... (Schwach unterstützte Hypothese? Garnicht? idk)
+\section{Weitere Beschränkungen der Arbeit}
+Zu den wesentlichen Limitationen der Untersuchung zählt die mangelnde Überprüfung der Beziehung der
+einzelnen Erfolgskriterien zueinander. Es wurde nicht aufgeklärt ob es mögliche Überlappungen zwischen
+den jeweiligen Variablen gibt. Des Weiteren wurden nur Projekte in zwei Programmiersprachen (JS/TS) 
+zur Analyse verwendet. Aus diesem Grund wäre es für die weitere Forschung betrachtenswert auch 
+Projekte in anderen Programmiersprachen zu untersuchen und mit Erkenntnissen dieser Arbeit zu vergleichen.
 
-
-
-
-% TODO: Nach allen Hypothesen, eine zusammenfassung, 4 von 9 sind bestätigt etc...  und eine teil bestätigt.....
-
-% TODO: Bezug auf LIteratur, anders oder gleich...
-
-% TODO: Ausblick, ...
+% \newpage
+% --------------------------------------------------------------------
 
 
 
+% %! Allgemeine Limitation
+% Gleiches war bei den Contributor nicht umsetzbar, da die GitHub API keinen
+% Endpoint hierfür hat, somit werden Contributor über den gesamten Zeitraum des Projektes verglichen. (Commits nur der letzten 12 Monate)
 
-%! Allgemeine Limitation
-Gleiches war bei den Contributor nicht umsetzbar, da die GitHub API keinen
-Endpoint hierfür hat, somit werden Contributor über den gesamten Zeitraum des Projektes verglichen. (Commits nur der letzten 12 Monate)
 
-
-\begin{itemize}
-      \item Umfrage hatte nur den Umfang von 308 Teilnehmern und kann deshalbt nicht generalisiert werden... 
-      \item Die Daten aus dem \textit{Crawler} sind nur ein Snapshot der aktuellen Lage, sprich man kann
-            nur sagen. Ja es gibt eine Korrelation zwischen z.B. Sponsoren und User Interest, aber nicht was was hervorruft.
-            Hat das Projekt Sponsoren weil es viele Nutzer hat \textit{oder} hat das Projekt viele Nutzer weil es Sponsoren hat?
-            Dafür bräuchte man eine Datenerhebung over time.
-            Diese ist allerdings im kleinen Zeitfenster einer Bachelorarbeit nicht machbar.
-            \cite{midhaFactorsAffectingSuccess2012} hat beispielsweise in einem Zeitfenster von 3 Jahren die
-            Datenerhebung gemacht. % Abstract
-\end{itemize}
+% \begin{itemize}
+%       \item Umfrage hatte nur den Umfang von 308 Teilnehmern und kann deshalbt nicht generalisiert werden...
+%       \item Die Daten aus dem \textit{Crawler} sind nur ein Snapshot der aktuellen Lage, sprich man kann
+%             nur sagen. Ja es gibt eine Korrelation zwischen z.B. Sponsoren und User Interest, aber nicht was was hervorruft.
+%             Hat das Projekt Sponsoren weil es viele Nutzer hat \textit{oder} hat das Projekt viele Nutzer weil es Sponsoren hat?
+%             Dafür bräuchte man eine Datenerhebung over time.
+%             Diese ist allerdings im kleinen Zeitfenster einer Bachelorarbeit nicht machbar.
+%             \cite{midhaFactorsAffectingSuccess2012} hat beispielsweise in einem Zeitfenster von 3 Jahren die
+%             Datenerhebung gemacht. % Abstract
+% \end{itemize}
 
 
 % \subsection{Disclaimer}
