@@ -3,13 +3,32 @@
 
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
-% \begin{table}[]
-%         \begin{tabular}{lll}
-%                 \textbf{Merge}           &  & Ein Merge beschreibt den Vorgang, bei dem zwei Dateien miteinander verglichen und zusammengefügt werden.                                                                                 \\
-%                 \textbf{Branch}          &  & Ein Branch ist eine Abzweigung des original Verzeichnisses                                                                                                                               \\
-%                 \textbf{Pull Request}    &  & Ein Pull Request auf GitHub ist eine Methode, um Team Mitglieder über ein Update auf einem Branch zu informieren. Akzeptierte Pull Requests führen zu einem Merge in ein anderen Branch. \\
-%                 \textbf{(GitHub) Issues} &  & GitHub Issues sind eine Methode, um Feedback, Aufgaben und Bugs zu verwalten.                                                                                                            \\
-%                 \textbf{Repository}      &  & Das GitHub Repository enthält alle Dateien des Projektes.                                                                                                                                \\
-%                 \textbf{Commit}          &  & Vereinfacht dargestellt sind Commits Speicherpunkte in einem Repository
-%         \end{tabular}%
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+% \begin{table}[h]
+
+%     \begin{tabular}{lll}
+%         \textbf{Merge}           & \vspace*{12pt} & Ein Merge beschreibt den Vorgang, bei dem zwei Dateien miteinander verglichen und zusammengefügt werden.                                                                                                                             \\
+%         \textbf{Branch}          & \vspace*{12pt} & Ein Branch ist eine Abzweigung des original Verzeichnisses                                                                                                                                                                           \\
+%         \textbf{Pull Request}    & \vspace*{12pt} & \begin{tabular}[c]{@{}l@{}}Ein Pull Request auf GitHub ist eine Methode, um Team Mitglieder über ein Update auf einem \\ Branch zu informieren.  Akzeptierte Pull Requests führen zu einem Merge in ein anderen Branch.\end{tabular} \\
+%         \textbf{(GitHub) Issues} & \vspace*{12pt} & GitHub Issues sind eine Methode, um Feedback, Aufgaben und Bugs zu verwalten.                                                                                                                                                        \\
+%         \textbf{Repository}      & \vspace*{12pt} & Das GitHub Repository enthält alle Dateien des Projektes.                                                                                                                                                                            \\
+%         \textbf{Commit}          & \vspace*{12pt} & Vereinfacht dargestellt sind Commits Speicherpunkte in einem Repository
+%     \end{tabular}%
+
 % \end{table}
+
+
+
+\begin{table}[h]
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{lll}
+            \textbf{\begin{tabular}[c]{@{}l@{}}Merge\\ \!\end{tabular}}             & \vspace*{15pt} & \begin{tabular}[c]{@{}l@{}}Ein Merge beschreibt den Vorgang, bei dem zwei Dateien miteinander verglichen\\ und zusammengefügt werden.\end{tabular}                                                                                     \\
+            \textbf{Branch}                                                         & \vspace*{15pt} & Ein Branch ist eine Abzweigung des original Verzeichnisses                                                                                                                                                                             \\
+            \textbf{\begin{tabular}[c]{@{}l@{}}Pull Request\\ \!\\ \!\end{tabular}} & \vspace*{15pt} & \begin{tabular}[c]{@{}l@{}}Ein Pull Request auf GitHub ist eine Methode, um Team Mitglieder über ein Update auf\\ einem Branch zu informieren.  Akzeptierte Pull Requests führen zu einem Merge in ein \\ anderen Branch.\end{tabular} \\
+            \textbf{(GitHub) Issues}                                                & \vspace*{15pt} & GitHub Issues sind eine Methode, um Feedback, Aufgaben und Bugs zu verwalten.                                                                                                                                                          \\
+            \textbf{Repository}                                                     & \vspace*{15pt} & Das GitHub Repository enthält alle Dateien des Projektes.                                                                                                                                                                              \\
+            \textbf{Commit}                                                         & \vspace*{15pt} & Vereinfacht dargestellt sind Commits Speicherpunkte in einem Repository
+        \end{tabular}%
+    }
+\end{table}

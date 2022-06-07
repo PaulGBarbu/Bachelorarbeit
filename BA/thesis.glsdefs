@@ -1,0 +1,28 @@
+\glsdefs@newdocentry{Merge}%
+{%
+name={Merge},%
+sort={Merge},%
+type={main},%
+first={Merge},%
+firstplural={Merges},%
+text={Merge},%
+plural={Merges},%
+description={Ein Merge beschreibt den Vorgang, bei dem zwei Dateien miteinander verglichen und zusammengefügt werden.},%
+descriptionplural={Ein Merge beschreibt den Vorgang, bei dem zwei Dateien miteinander verglichen und zusammengefügt werden.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+

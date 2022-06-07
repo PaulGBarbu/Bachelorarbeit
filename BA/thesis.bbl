@@ -1,0 +1,162 @@
+\begin{thebibliography}{W3T22}
+
+\bibitem[Ban13]{bangerthWhatMakesComputational2013}
+W.~Bangerth und T.~Heister.
+\newblock What Makes Computational Open Source Software Libraries Successful?
+\newblock \emph{Computational Science \& Discovery}, 6(1):015010, Nov. 2013.
+
+\bibitem[Bra]{Branches}
+About Branches.
+\newblock
+  https://ghdocs-prod.azurewebsites.net/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches.
+\newblock Zuletzt aufgerufen am 07.06.2022.
+
+\bibitem[Cry]{Cryptpad_org}
+Cryptpad.org.
+\newblock \url{https://cryptpad.org/}.
+\newblock Zuletzt aufgerufen am 05.06.2022.
+
+\bibitem[Dag10]{dagenaisDeveloperDocumentation}
+B.~Dagenais und M.~P. Robillard.
+\newblock Creating and Evolving Developer Documentation: Understanding the
+  Decisions of Open Source Contributors.
+\newblock In \emph{Proceedings of the Eighteenth {{ACM SIGSOFT}} International
+  Symposium on {{Foundations}} of Software Engineering}, {{FSE}} '10, S.
+  127--136. {Association for Computing Machinery}, {New York, NY, USA}, Nov.
+  2010.
+
+\bibitem[Del03]{deloneDeLoneMcLeanModel2003}
+W.~H. Delone und {Ephraim R. McLean}.
+\newblock The {{DeLone}} and {{McLean}} Model of Information Systems Success:
+  {{A}} Ten-Year Update.
+\newblock \emph{Journal of Management Information Systems}, 19(4):9--30, 2003.
+
+\bibitem[GHa]{GHapiDocsCommits}
+Why Are My Contributions Not Showing up on My Profile?
+\newblock
+  \url{https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/why-are-my-contributions-not-showing-up-on-my-profile#commit-was-not-made-in-the-default-or-gh-pages-branch}.
+\newblock Zuletzt aufgerufen am 18.05.2022.
+
+\bibitem[Gita]{GitHubBuildingWelcomingCommunities2022}
+Building {{Welcoming Communities}}.
+\newblock \url{https://opensource.guide/building-community/}.
+\newblock Zuletzt aufgerufen am 02.04.2022.
+
+\bibitem[Gitb]{GitGitglossaryDocumentation}
+Git - Gitglossary {{Documentation}}.
+\newblock https://git-scm.com/docs/gitglossary.
+\newblock Zuletzt aufgerufen am 07.06.2022.
+
+\bibitem[Gitc]{GitHubStartingAProject2022}
+Starting an Open Source Project.
+\newblock \url{https://opensource.guide/starting-a-project/}.
+\newblock Zuletzt aufgerufen am 07.04.2022.
+
+\bibitem[Gitd]{GitHubYourCodeOfConduct2022}
+Your Code of Conduct.
+\newblock \url{https://opensource.guide/code-of-conduct/}.
+\newblock Zuletzt aufgerufen am 07.04.2022.
+
+\bibitem[Git17]{GitHubOpenSourceSurvey2017}
+Open {{Source Survey}}.
+\newblock \url{https://opensourcesurvey.org/2017/}, 2017.
+\newblock Zuletzt aufgerufen am 03.04.2022.
+
+\bibitem[Ler02]{lernerSimpleEconomicsOpen2002}
+J.~Lerner und J.~Tirole.
+\newblock Some {{Simple Economics}} of {{Open Source}}.
+\newblock \emph{The Journal of Industrial Economics}, 50(2):197--234, 2002.
+
+\bibitem[Lik32]{likertScale}
+R.~Likert.
+\newblock A technique for the measurement of attitudes.
+\newblock \emph{Archives of psychology}, 1932.
+
+\bibitem[Mar15]{marganSuccessOpenSource2015}
+D.~Margan und S.~Čandrlić.
+\newblock The success of open source software: A review.
+\newblock In \emph{2015 38th International Convention on Information and
+  Communication Technology, Electronics and Microelectronics (MIPRO)}, S.
+  1463--1468. 2015.
+
+\bibitem[Mid12]{midhaFactorsAffectingSuccess2012}
+V.~Midha und P.~Palvia.
+\newblock Factors Affecting the Success of {{Open Source Software}}.
+\newblock \emph{Journal of Systems and Software}, 85(4):895--905, Apr. 2012.
+
+\bibitem[Net]{NetworkEffectDefinition}
+Understanding the {{Network Effect}}.
+\newblock \url{https://www.investopedia.com/terms/n/network-effect.asp}.
+\newblock Zuletzt aufgerufen am 23.04.2022.
+
+\bibitem[Ope07]{OpenSourceDefinition}
+The {{Open Source Definition}} | {{Open Source Initiative}}.
+\newblock \url{https://opensource.org/osd}, M\^^b{a}rz 2007.
+\newblock Zuletzt aufgerufen am 15.03.2022.
+
+\bibitem[Ope15]{OpenSourceLicense2015}
+Open Source License Usage on {{GitHub}}.Com.
+\newblock
+  \url{https://github.blog/2015-03-09-open-source-license-usage-on-github-com/},
+  M\^^b{a}rz 2015.
+\newblock Zuletzt aufgerufen am 30.05.2022.
+
+\bibitem[Ope22]{OpenSourceJourney2022}
+Open Source Journey for Global Companies 2018-2021.
+\newblock
+  \url{https://www.statista.com/statistics/1245975/worldwide-open-source-process-organizations/},
+  Jan. 2022.
+
+\bibitem[Pul]{PullRequests}
+About Pull Requests.
+\newblock
+  https://ghdocs-prod.azurewebsites.net/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests.
+\newblock Zuletzt aufgerufen am 07.06.2022.
+
+\bibitem[Sco18]{scottEightRulesGood2018}
+A.~Scott.
+\newblock The Eight Rules of Good Documentation.
+\newblock
+  https://www.oreilly.com/content/the-eight-rules-of-good-documentation/, Apr.
+  2018.
+\newblock Zuletzt aufgerufen am 06.06.2022.
+
+\bibitem[Sta]{StackOverflowSurvey2021}
+Stack {{Overflow Developer Survey}} 2021.
+\newblock
+  \url{https://insights.stackoverflow.com/survey/2021/?utm\_source=social-share\&utm\_medium=social\&utm\_campaign=dev-survey-2021}.
+\newblock Zuletzt aufgerufen am 20.03.2022.
+
+\bibitem[Ste06]{stewartImpactsLicenseChoice2006a}
+K.~J. Stewart, A.~P. Ammeter und L.~M. Maruping.
+\newblock Impacts of License Choice and Organizational Sponsorship on User
+  Interest and Development Activity in Open Source Software Projects.
+\newblock \emph{Information Systems Research}, 17(2):126--144, 2006.
+
+\bibitem[Sub09]{subramaniamDeterminantsOpenSource2009}
+C.~Subramaniam, R.~Sen und M.~L. Nelson.
+\newblock Determinants of Open Source Software Project Success: {{A}}
+  Longitudinal Study.
+\newblock \emph{Decision Support Systems}, 46(2):576--585, Jan. 2009.
+
+\bibitem[Top]{TopGitHubProjects}
+Top {{GitHub Projects}} by {{Stars}}.
+\newblock
+  \url{https://github.com/search?l=\&o=desc\&q=stars\%3A\%3E100+stars\%3A\%3E1\&s=stars\&type=Repositories}.
+
+\bibitem[Tur21]{OpenSourceFoundingProblem_Overflow2021}
+J.~Turner.
+\newblock Open Source Has a Funding Problem.
+\newblock
+  \url{https://stackoverflow.blog/2021/01/07/open-source-has-a-funding-problem/},
+  Jan. 2021.
+\newblock Zuletzt aufgerufen am 22.04.2022.
+
+\bibitem[W3T22]{W3Techs_WebServer}
+Usage {{Statistics}} and {{Market Share}} of {{Web Servers}}, {{February}}
+  2022.
+\newblock \url{https://w3techs.com/technologies/overview/web\_server}, Febr.
+  2022.
+\newblock Zuletzt aufgerufen am 11.02.2022.
+
+\end{thebibliography}

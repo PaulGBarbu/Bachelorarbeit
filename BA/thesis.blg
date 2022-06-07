@@ -1,0 +1,87 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: pages/title.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: pages/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: pages/toc.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: pages/chapters/01_intro.aux
+Reallocating 'name_of_file' (item size: 1) to 60 items.
+A level-1 auxiliary file: pages/chapters/02_success_factors/02_00_success_factors.aux
+Reallocating 'name_of_file' (item size: 1) to 55 items.
+A level-1 auxiliary file: pages/chapters/04_Datenerfassung/04_datenerfassung.aux
+Reallocating 'name_of_file' (item size: 1) to 51 items.
+A level-1 auxiliary file: pages/chapters/05_Datenanalyse/05_datenanalyse.aux
+Reallocating 'name_of_file' (item size: 1) to 44 items.
+A level-1 auxiliary file: pages/chapters/06_umfrage/06_00_umfrage.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: pages/chapters/xx_discussion.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: pages/chapters/07_Fazit.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: natger.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: pages/anhang.aux
+Database file #1: thesis.bib
+Warning--to sort, need author or key in OpenSourceDefinition
+Warning--to sort, need author or key in GitHubOpenSourceSurvey2017
+Warning--to sort, need author or key in GitHubBuildingWelcomingCommunities2022
+Warning--to sort, need author or key in GitHubYourCodeOfConduct2022
+Warning--to sort, need author or key in GitHubStartingAProject2022
+Warning--to sort, need author or key in GHapiDocsCommits
+Warning--to sort, need author or key in Cryptpad_org
+Warning--to sort, need author or key in OpenSourceJourney2022
+Warning--to sort, need author or key in StackOverflowSurvey2021
+Warning--to sort, need author or key in TopGitHubProjects
+Warning--to sort, need author or key in W3Techs_WebServer
+Warning--to sort, need author or key in NetworkEffectDefinition
+Warning--to sort, need author or key in OpenSourceLicense2015
+Warning--to sort, need author or key in PullRequests
+Warning--to sort, need author or key in GitGitglossaryDocumentation
+Warning--to sort, need author or key in Branches
+You've used 27 entries,
+            2811 wiz_defined-function locations,
+            781 strings with 10872 characters,
+and the built_in function-call counts, 9633 in all, are:
+= -- 829
+> -- 143
+< -- 13
++ -- 50
+- -- 42
+* -- 581
+:= -- 1083
+add.period$ -- 83
+call.type$ -- 27
+change.case$ -- 122
+chr.to.int$ -- 24
+cite$ -- 59
+duplicate$ -- 792
+empty$ -- 926
+format.name$ -- 72
+if$ -- 2058
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 179
+newline$ -- 138
+num.names$ -- 22
+pop$ -- 435
+preamble$ -- 1
+purify$ -- 156
+quote$ -- 0
+skip$ -- 312
+stack$ -- 0
+substring$ -- 444
+swap$ -- 445
+text.length$ -- 13
+text.prefix$ -- 11
+top$ -- 0
+type$ -- 216
+warning$ -- 16
+while$ -- 38
+width$ -- 28
+write$ -- 271
+(There were 16 warnings)
