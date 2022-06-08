@@ -48,4 +48,6 @@
 \contentsline {subsection}{\numberline {A.2.2}Beliebtheit}{37}{subsection.A.2.2}%
 \contentsline {subsection}{\numberline {A.2.3}Sponsoren}{37}{subsection.A.2.3}%
 \contentsline {subsection}{\numberline {A.2.4}Devlopment}{38}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {A.2.5}Freitextfeld: Gute Dokumentation}{38}{subsection.A.2.5}%
+\contentsline {subsection}{\numberline {A.2.6}Freitextfeld: Schlechte Dokumentation}{40}{subsection.A.2.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

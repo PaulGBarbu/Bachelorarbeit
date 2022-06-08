@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.26)  7 JUN 2022 22:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.26)  7 JUN 2022 23:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1209,7 +1209,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 ) [6] (pages/chapters/02_success_factors/02_05_sponsors.tex
-<figures/02/VueSponsoren.JPG, id=256, 556.479pt x 554.67226pt>
+<figures/02/VueSponsoren.JPG, id=262, 556.479pt x 554.67226pt>
 File: figures/02/VueSponsoren.JPG Graphic file (type jpg)
 <use figures/02/VueSponsoren.JPG>
 Package pdftex.def Info: figures/02/VueSponsoren.JPG  used on input line 32.
@@ -1242,7 +1242,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 
 
 ]
-<figures/04/WebInterface.png, id=282, 1586.92876pt x 738.76pt>
+<figures/04/WebInterface.png, id=288, 1586.92876pt x 738.76pt>
 File: figures/04/WebInterface.png Graphic file (type png)
 <use figures/04/WebInterface.png>
 Package pdftex.def Info: figures/04/WebInterface.png  used on input line 56.
@@ -1254,7 +1254,7 @@ LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 1
  (C:\Users\barbu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
 File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
 ) [11] [12]
-<figures/04/DatenerfassungArchitektur.png, id=322, 3929.68124pt x 1018.80624pt>
+<figures/04/DatenerfassungArchitektur.png, id=328, 3929.68124pt x 1018.80624pt>
 File: figures/04/DatenerfassungArchitektur.png Graphic file (type png)
 <use figures/04/DatenerfassungArchitektur.png>
 Package pdftex.def Info: figures/04/DatenerfassungArchitektur.png  used on input line 232.
@@ -1269,7 +1269,7 @@ chapter 4.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 73.
 
-<figures/05/permissive_vs_restrictive_asBarChart.png, id=333, 1188.8415pt x 312.9291pt>
+<figures/05/permissive_vs_restrictive_asBarChart.png, id=339, 1188.8415pt x 312.9291pt>
 File: figures/05/permissive_vs_restrictive_asBarChart.png Graphic file (type png)
 <use figures/05/permissive_vs_restrictive_asBarChart.png>
 Package pdftex.def Info: figures/05/permissive_vs_restrictive_asBarChart.png  used on input line 75.
@@ -1278,7 +1278,7 @@ Package pdftex.def Info: figures/05/permissive_vs_restrictive_asBarChart.png  us
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-<figures/05/license_vs_last12MonthsCommits_asBarChart.png, id=334, 1182.5781pt x 312.9291pt>
+<figures/05/license_vs_last12MonthsCommits_asBarChart.png, id=340, 1182.5781pt x 312.9291pt>
 File: figures/05/license_vs_last12MonthsCommits_asBarChart.png Graphic file (type png)
 <use figures/05/license_vs_last12MonthsCommits_asBarChart.png>
 Package pdftex.def Info: figures/05/license_vs_last12MonthsCommits_asBarChart.png  used on input line 83.
@@ -1290,7 +1290,7 @@ Package pdftex.def Info: figures/05/license_vs_last12MonthsCommits_asBarChart.pn
 
 
 ] [15 <./figures/05/permissive_vs_restrictive_asBarChart.png> <./figures/05/license_vs_last12MonthsCommits_asBarChart.png>]
-<figures/05/Contributors_Projects_asBarChart.png, id=350, 1176.0738pt x 312.9291pt>
+<figures/05/Contributors_Projects_asBarChart.png, id=356, 1176.0738pt x 312.9291pt>
 File: figures/05/Contributors_Projects_asBarChart.png Graphic file (type png)
 <use figures/05/Contributors_Projects_asBarChart.png>
 Package pdftex.def Info: figures/05/Contributors_Projects_asBarChart.png  used on input line 138.
@@ -1307,12 +1307,12 @@ chapter 5.
 
 
 ] [18]
-<figures/05/GuteDoku_BarChart.png, id=375, 8737.64375pt x 4075.225pt>
+<figures/05/GuteDoku_BarChart.png, id=381, 8737.64375pt x 4075.225pt>
 File: figures/05/GuteDoku_BarChart.png Graphic file (type png)
 <use figures/05/GuteDoku_BarChart.png>
 Package pdftex.def Info: figures/05/GuteDoku_BarChart.png  used on input line 138.
 (pdftex.def)             Requested size: 436.90779pt x 203.77318pt.
-<figures/05/SchlechteDoku_BarChart.png, id=376, 8662.3625pt x 3924.6625pt>
+<figures/05/SchlechteDoku_BarChart.png, id=382, 8662.3625pt x 3924.6625pt>
 File: figures/05/SchlechteDoku_BarChart.png Graphic file (type png)
 <use figures/05/SchlechteDoku_BarChart.png>
 Package pdftex.def Info: figures/05/SchlechteDoku_BarChart.png  used on input line 145.
@@ -1352,6 +1352,11 @@ chapter 7.
 ] (thesis.bbl
 chapter without number
 
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+\T1/zi4/m/n/10.95 with -[] pull -[] requests / proposing -[] changes -[] to -[] your -[] work -[] with -[] pull -[] requests / about -[] branches$[]\T1/pplx/m/n/10.95 (+20) .
+ []
+
+
 Underfull \hbox (badness 1466) in paragraph at lines 35--39
 []\T1/pplx/m/n/10.95 (+20) Why Are My Con-tri-bu-ti-ons Not Sho-wing up on My Pro-fi-le?  []$\T1/zi4/m/n/10.95 https : / / docs . github .
  []
@@ -1374,7 +1379,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--39
 
 
 
-]) [28] (thesis.ind)
+]
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+[]\T1/pplx/m/n/10.95 (+20) About Pull Re-quests.  []$\T1/zi4/m/n/10.95 https : / / ghdocs -[] prod . azurewebsites . net / en / pull -[] requests /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
+\T1/zi4/m/n/10.95 collaborating -[] with -[] pull -[] requests / proposing -[] changes -[] to -[] your -[] work -[] with -[] pull -[] requests /
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 117--120
+[]\T1/pplx/m/n/10.95 (+20) React Tu-to-ri-al.  []$\T1/zi4/m/n/10.95 https : / / reactjs . org / tutorial / tutorial . html$[]\T1/pplx/m/n/10.95 (+20) .  Zu-letzt auf-ge-ru-fen am
+ []
+
+) [28] (thesis.ind)
 \openout2 = `pages/anhang.aux'.
 
  (pages/anhang.tex
@@ -1418,7 +1438,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 273.
 
 [35]
-<figures/anhang/Frage_2.JPG, id=532, 609.477pt x 453.49425pt>
+<figures/anhang/Frage_2.JPG, id=547, 609.477pt x 453.49425pt>
 File: figures/anhang/Frage_2.JPG Graphic file (type jpg)
 <use figures/anhang/Frage_2.JPG>
 Package pdftex.def Info: figures/anhang/Frage_2.JPG  used on input line 329.
@@ -1436,7 +1456,22 @@ Package pdftex.def Info: figures/anhang/Frage_2.JPG  used on input line 329.
 
 
 
- <./figures/anhang/Frage_2.JPG>] [37]) [38]
+ <./figures/anhang/Frage_2.JPG>] [37] [38]
+Underfull \hbox (badness 7012) in paragraph at lines 491--492
+[]\T1/pplx/m/n/9 (+20) Kurz, auf den Punkt, such-bar. Op-ti-mal-bei-spiel:
+ []
+
+
+Overfull \hbox (0.26842pt too wide) in paragraph at lines 491--492
+\T1/pplx/m/n/9 (-20) https://poi.apache.org/components/spreadsheet/quick-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
+[]\T1/pplx/m/n/9 (+20) Vollständigkeit (Be-schrei-bung al-ler Funk-tio-
+ []
+
+[39] [40]) [41]
 
 Package caption Warning: Unused \captionsetup[sub] on input line 56.
 See the caption package documentation for explanation.
@@ -1446,17 +1481,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32892 strings out of 478659
- 663647 string characters out of 2845920
- 1132801 words of memory out of 3000000
- 49516 multiletter control sequences out of 15000+600000
- 513365 words of font info for 507 fonts, out of 8000000 for 9000
+ 33024 strings out of 478659
+ 664787 string characters out of 2845920
+ 1133801 words of memory out of 3000000
+ 49522 multiletter control sequences out of 15000+600000
+ 519973 words of font info for 597 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,20n,120p,10670b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,20n,120p,10670b,873s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}{C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/barbu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (45 pages, 3139988 bytes).
+Output written on thesis.pdf (48 pages, 3160363 bytes).
 PDF statistics:
- 776 PDF objects out of 1000 (max. 8388607)
- 190 named destinations out of 1000 (max. 500000)
- 153015 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 810 PDF objects out of 1000 (max. 8388607)
+ 196 named destinations out of 1000 (max. 500000)
+ 153031 words of extra memory for PDF output out of 154059 (max. 10000000)
 

@@ -8,7 +8,7 @@ W.~Bangerth und T.~Heister.
 \bibitem[Bra]{Branches}
 About Branches.
 \newblock
-  https://ghdocs-prod.azurewebsites.net/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches.
+  \url{https://ghdocs-prod.azurewebsites.net/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches}.
 \newblock Zuletzt aufgerufen am 07.06.2022.
 
 \bibitem[Cry]{Cryptpad_org}
@@ -44,7 +44,7 @@ Building {{Welcoming Communities}}.
 
 \bibitem[Gitb]{GitGitglossaryDocumentation}
 Git - Gitglossary {{Documentation}}.
-\newblock https://git-scm.com/docs/gitglossary.
+\newblock \url{https://git-scm.com/docs/gitglossary}.
 \newblock Zuletzt aufgerufen am 07.06.2022.
 
 \bibitem[Gitc]{GitHubStartingAProject2022}
@@ -110,15 +110,20 @@ Open Source Journey for Global Companies 2018-2021.
 \bibitem[Pul]{PullRequests}
 About Pull Requests.
 \newblock
-  https://ghdocs-prod.azurewebsites.net/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests.
+  \url{https://ghdocs-prod.azurewebsites.net/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests}.
+\newblock Zuletzt aufgerufen am 07.06.2022.
+
+\bibitem[Rea]{ReactTutorial}
+React Tutorial.
+\newblock \url{https://reactjs.org/tutorial/tutorial.html}.
 \newblock Zuletzt aufgerufen am 07.06.2022.
 
 \bibitem[Sco18]{scottEightRulesGood2018}
 A.~Scott.
 \newblock The Eight Rules of Good Documentation.
 \newblock
-  https://www.oreilly.com/content/the-eight-rules-of-good-documentation/, Apr.
-  2018.
+  \url{https://www.oreilly.com/content/the-eight-rules-of-good-documentation/},
+  Apr. 2018.
 \newblock Zuletzt aufgerufen am 06.06.2022.
 
 \bibitem[Sta]{StackOverflowSurvey2021}
